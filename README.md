@@ -29,23 +29,19 @@ How the project achieves this
 <table>
     <tr>
         <td><a href="media/images/1_time_line_sketch.png" target="_blank">
-            <img src="media/images/1_time_line_sketch.png" alt="HTML5" width="55"></a></td>
-        <td><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" width="40" alt="CSS3" width="40"></a></td>
-        <td><a href="https://www.gitpod.io/about/" target="_blank">
-            <img src="https://avatars.githubusercontent.com/u/37021919?s=200&v=4" alt="Gitpod" width="50" style="float: right;"></a></td>
-        <td><a href="https://en.wikipedia.org/wiki/Git" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1920px-Git-logo.svg.png" alt="Git" width="62"></a></td>
-        <td><a href="https://en.wikipedia.org/wiki/GitHub" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" alt="GitHub" width="45"></a></td>
-        <td><a href="https://stackoverflow.com/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1920px-Stack_Overflow_logo.svg.png" alt="stackoverflow" width="95"></a></td>
-        <td><a href="https://www.w3schools.com/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="50"></a></td>
+            <img src="media/images/1_time_line_sketch.png" alt="Computer History Timeline Image Created with Balsamiq" width="55"></a></td>
+        <td><a href="media/images/2_Tech_event_1.png" target="_blank">
+            <img src="media/images/2_Tech_event_1.png" width="40" alt="Tech Event 1 Created Using Balsamiq" width="40"></a></td>
+        <td><a href="media/images/3_Tech_Event_2.png" target="_blank">
+            <img src="media/images/3_Tech_Event_2.png" alt="Tech Event 2" width="50" style="float: right;"></a></td>
+        <td><a href="media/images/4_Tech_Event_3.png" target="_blank">
+            <img src="media/images/4_Tech_Event_3.png" alt="Tech Event 3" width="62"></a></td>
+        <td><a href="media/images/5_User_Survey_Form.png" target="_blank">
+            <img src="media/images/5_User_Survey_Form.png" alt="User Survey Form" width="45"></a></td>
     </tr>
     <tr>
-        <td><center>HTML5</center></td>
-        <td><center>CSS3</center></td>
+        <td><center>Computer History Timeline Image Created with Balsamiq</center></td>
+        <td><center>Tech Event 1 Created Using Balsamiq</center></td>
         <td><center>Gitpod</center></td>
         <td><center>Git</center></td>
         <td><center>GitHub</center></td>

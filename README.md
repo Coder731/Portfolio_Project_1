@@ -160,6 +160,25 @@ Live Link:
 
 - [Using Span w3 Schools reference](https://www.w3schools.com/tags/tag_span.asp)
 
+    ##### Content / home page
+    ###### Content / home page / head element:
+    - [X-UA-Compatible Tag, older Microsoft Browser support](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
+    - [Defining document compatibility](https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))
+                
+    ###### Content / home page / body element
+
+    ##### Content / home page
+        
+    ###### Content / References page / head element
+
+    ###### Content / References page / body element
+    - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
+
+    #####  Content / style.css file
+    - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
+    - [CSS Syntax](https://www.w3schools.com/Css/css_syntax.asp)
+            
+
 ### Media
 
 - photos

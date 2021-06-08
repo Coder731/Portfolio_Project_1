@@ -7,17 +7,33 @@ Developing a website on the conventional desktop computer using HTML5 and CSS3.
 [Insert Picture of Final Project Simplest Version On Time Under Budget](insert website)
 
 ## Features
-1. There are 5 webpages on the site.
 
-2. The website features a <form> element. This is a survey of how the user found the content and overall impression of the website.
+The parts of the project
+
+Value of feature to user
+
+who website is for:
+    - People who have an interest in the history of computers.
+
+What they want to achieve
+    - To get a quick overview of some of the main points of computer history, with some detail on interesting technologies.
+
+How the project achieves this
+    - This website uses CSS Style Sheets to present information on computer history in a way that is intuitive and creates a positive user experience.
+
+### Existing features
+
+- There are 5 webpages on the site.
+
+- The website features a <form> element. This is a survey of how the user found the content and overall impression of the website.
 
 (Use love-running as template)
 
-3. Button
+- Button
 
-4. Matrix Color Scheme
 
-### Existing features
+
+- Matrix Color Scheme
 
 - __Navigation Bar__
 

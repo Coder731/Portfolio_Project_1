@@ -66,7 +66,7 @@ How the project achieves this
         <td><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" width="40" alt="CSS3" width="40"></a></td>
         <td><a href="https://www.gitpod.io/about/" target="_blank">
-            <img src="https://favicons.statusgator.com/gitpod.png" alt="Gitpod" width="41" style="float: right;"></a></td>
+            <img src="https://avatars.githubusercontent.com/u/37021919?s=200&v=4" alt="Gitpod" width="41" style="float: right;"></a></td>
         <td><a href="https://en.wikipedia.org/wiki/Git" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1920px-Git-logo.svg.png" alt="Git" width="62"></a></td>
         <td><a href="https://en.wikipedia.org/wiki/GitHub" target="_blank">

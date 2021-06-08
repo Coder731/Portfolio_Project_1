@@ -29,15 +29,15 @@ How the project achieves this
 <table>
     <tr>
         <td><a href="media/images/1_time_line_sketch.png" target="_blank">
-            <img src="media/images/1_time_line_sketch.png" alt="Computer History Timeline Image Created with Balsamiq" width="55"></a></td>
+            <img src="media/images/1_time_line_sketch.png" alt="Computer History Timeline Image Created with Balsamiq" width="100"></a></td>
         <td><a href="media/images/2_Tech_event_1.png" target="_blank">
-            <img src="media/images/2_Tech_event_1.png" width="40" alt="Tech Event 1 Created Using Balsamiq" width="40"></a></td>
+            <img src="media/images/2_Tech_event_1.png" width="100" alt="Tech Event 1 Created Using Balsamiq" width="40"></a></td>
         <td><a href="media/images/3_Tech_Event_2.png" target="_blank">
-            <img src="media/images/3_Tech_Event_2.png" alt="Tech Event 2" width="50" style="float: right;"></a></td>
+            <img src="media/images/3_Tech_Event_2.png" alt="Tech Event 2" width="100" style="float: right;"></a></td>
         <td><a href="media/images/4_Tech_Event_3.png" target="_blank">
-            <img src="media/images/4_Tech_Event_3.png" alt="Tech Event 3" width="62"></a></td>
+            <img src="media/images/4_Tech_Event_3.png" alt="Tech Event 3" width="100"></a></td>
         <td><a href="media/images/5_User_Survey_Form.png" target="_blank">
-            <img src="media/images/5_User_Survey_Form.png" alt="User Survey Form" width="45"></a></td>
+            <img src="media/images/5_User_Survey_Form.png" alt="User Survey Form" width="100"></a></td>
     </tr>
     <tr>
         <td><center>Computer History Timeline Image Created with Balsamiq</center></td>

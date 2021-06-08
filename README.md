@@ -44,6 +44,49 @@ How the project achieves this
 
 ![Footer]()
 
+
+<span>
+    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" width="40"><h3>CSS3</h3>
+</span>
+
+<span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" width="60"><h3>HTML5</h3></a><a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" width="40"></span>
+
+<span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" width="56"></a></span>
+<span><a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" width="40"></span>
+
+<div>asdf</div><div>asdf</div>
+
+<span>asdf1</span><span>asdf2</span>
+
+#### Table  of Technologies Used
+<table>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" width="55"></a></td>
+        <td><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" width="40" alt="CSS3" width="40"></a></td>
+        <td><a href="https://www.gitpod.io/about/" target="_blank">
+            <img src="https://favicons.statusgator.com/gitpod.png" alt="Gitpod" width="41" style="float: right;"></a></td>
+        <td><a href="https://en.wikipedia.org/wiki/Git" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1920px-Git-logo.svg.png" alt="Git" width="62"></a></td>
+        <td><a href="https://en.wikipedia.org/wiki/GitHub" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" alt="GitHub" width="45"></a></td>
+        <td><a href="https://stackoverflow.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1920px-Stack_Overflow_logo.svg.png" alt="stackoverflow" width="95"></a></td>
+        <td><a href="https://www.w3schools.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="50"></a></td>
+    </tr>
+    <tr>
+        <td><center>HTML5</center></td>
+        <td><center>CSS3</center></td>
+        <td><center>Gitpod</center></td>
+        <td><center>Git</center></td>
+        <td><center>GitHub</center></td>
+        <td><center>Stack Overflow</center></td>
+        <td><center>w3 Schools</center></td>
+    </tr>
+</table>
+
 ### Features Left to Implement
 
 - Next Featured
@@ -77,10 +120,30 @@ Live Link:
 
 
 ### Content
+- Here are reference sources used in the project.
 
-[Template used for this Readme](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_nav.png)
+    #### Content / Readme
+- [Template used for this Readme](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_nav.png)
 
-[CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
+- [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
+
+- [love-running repository](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/01-getting-set-up/01-getting-set-up)
+
+- [git-pod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+- Used CodeInstitute lessons on the Editor as a template to showcase technologies used in this project in this Readme file. [Creating a Webpage that showcases technologies used in a Project](https://github.com/Code-Institute-Solutions/Editor)
+
+    ##### Content / Readme / Image Alignment
+
+- [Putting two images on the same line by skipping line break](https://stackoverflow.com/questions/49633290/how-to-stack-images-horizontally-in-readme-md)
+
+- [Display a Table in Readme](https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md)
+
+- [Markdown text alignment using the center tag](https://stackoverflow.com/questions/14051715/markdown-native-text-alignment)
+
+- [Markdown inline style for image alignment](https://stackoverflow.com/questions/255170/markdown-and-image-alignment)
+
+- [Using Span w3 Schools reference](https://www.w3schools.com/tags/tag_span.asp)
 
 ### Media
 

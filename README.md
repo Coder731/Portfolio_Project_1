@@ -28,7 +28,7 @@ How the project achieves this
     #### Table  of Wireframe Rough Plan Sketch made in using Balsamiq
 <table>
     <tr>
-        <td><a href="media/images/1_time_line_sketch.png" target="_blank" width="50%">
+        <td><a href="media/images/1_time_line_sketch.png" target="_blank">
             <img src="media/images/1_time_line_sketch.png" alt="HTML5" width="55"></a></td>
         <td><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" width="40" alt="CSS3" width="40"></a></td>

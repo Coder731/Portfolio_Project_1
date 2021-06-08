@@ -44,20 +44,6 @@ How the project achieves this
 
 ![Footer]()
 
-
-<span>
-    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" width="40"><h3>CSS3</h3>
-</span>
-
-<span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" width="60"><h3>HTML5</h3></a><a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" width="40"></span>
-
-<span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" width="56"></a></span>
-<span><a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" width="40"></span>
-
-<div>asdf</div><div>asdf</div>
-
-<span>asdf1</span><span>asdf2</span>
-
 #### Table  of Technologies Used
 <table>
     <tr>

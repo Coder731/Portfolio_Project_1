@@ -184,6 +184,10 @@ Live Link:
     - Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
     - First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
+    ###### Using the "before" selector in CSS
+    - [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">w3 Schools article](https://www.w3schools.com/cssref/sel_before.asp)
+    ###### Using the "after" selector in CSS
+    - [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">w3 Schools article](https://www.w3schools.com/cssref/sel_after.asp)
 
 ### Media
 

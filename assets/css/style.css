@@ -9,10 +9,17 @@
     box-sizing: border-box;
 }
 
-/* button */
-#button {
+/* All of body */
+body {
     font-family: 'Roboto', sans-serif;
     display: grid;
     color: var(--color-brite);
     background: var(--color-bkgrd);
+}
+
+/* button */
+
+#button {
+    color: var(--color-brite);
+    font-size: 2rem;
 }

@@ -198,6 +198,13 @@ Live Link:
     - Third source  for asterisk selector.  [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
     ###### Using CSS Grid
     - [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
+    ###### Using rem units
+    - In CSS, the size unit rem stands for root element. [Using rem versus em size units in CSS](https://stackoverflow.com/questions/13941275/how-does-rem-differ-from-em-in-css)
+    ###### Cursor Pointer
+    - Using a CSS declaration with cursor property set to a value of pointer, to display pointing hand in CSS. [Cursor property set to value of pointer](https://www.w3schools.com/csSref/pr_class_cursor.asp)
+        - [Practice page for cusor set to pointer in CSS](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
+    ###### Anatomy of a CSS Rule
+    - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
 ### Media
 
 - photos

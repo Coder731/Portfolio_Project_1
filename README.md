@@ -180,9 +180,10 @@ Live Link:
     #####  Content / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
     - [CSS Syntax](https://www.w3schools.com/Css/css_syntax.asp)
-    - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://youtu.be/6xNcXwC6ikQ?t=60)
+    - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
-            
+    - First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
+    - Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
 
 ### Media
 

@@ -221,6 +221,11 @@ Live Link:
     - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
     ###### TinyPNG for Image Compression
     - [TinyPNG image compression tool](https://tinypng.com/)
+    ###### GitHub Header and Message
+    - How to add a line break when doing a git commit from the command line. [How to commit with a header and a message in git](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)
+    ###### Viewing GitHub Commits
+    - [How to view git commits on GitHub Repositories](https://stackoverflow.com/questions/65373797/where-can-i-see-the-commit-history-on-the-github-website)
+    - [Image (from stackoverflow link above) highlighting where to access git commits](https://i.stack.imgur.com/HjDQX.png)
 ### Media
 
 - photos

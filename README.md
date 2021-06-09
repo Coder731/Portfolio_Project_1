@@ -90,7 +90,7 @@ How the project achieves this
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1920px-Stack_Overflow_logo.svg.png" alt="stackoverflow" width="95"></a></td>
         <td><a href="https://www.w3schools.com/" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="50"></a></td>
-        <td><a href="https://developer.mozilla.org/en-US/" target="_blank">
+        <td><a href="https://en.wikipedia.org/wiki/MDN_Web_Docs" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1024px-MDN_Web_Docs.svg.png" alt="MDN Web Docs" width="120"></a></td>
     </tr>
     <tr>
@@ -180,6 +180,8 @@ Live Link:
     #####  Content / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
     - [CSS Syntax](https://www.w3schools.com/Css/css_syntax.asp)
+    - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://youtu.be/6xNcXwC6ikQ?t=60)
+    - Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
             
 
 ### Media

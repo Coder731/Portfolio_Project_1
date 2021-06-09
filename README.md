@@ -149,7 +149,7 @@ Live Link:
 
 - [git-pod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-- Used CodeInstitute lessons on the Editor as a template to showcase technologies used in this project in this Readme file. [Creating a Webpage that showcases technologies used in a Project](https://github.com/Code-Institute-Solutions/Editor)
+- CodeInstitute lessons on the Editor were used as a template for how to showcase technologies.  The technologies used in this project, are shown in this Readme file. [Creating a Webpage that showcases technologies used in a Project](https://github.com/Code-Institute-Solutions/Editor)
 
     ##### Content / Readme / Image Alignment
 
@@ -196,7 +196,8 @@ Live Link:
     - First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)
     - Second source for asterisk selector. [CSS asterisk * selector](https://stackoverflow.com/questions/1204275/what-does-an-asterisk-do-in-a-css-selector)
     - Third source  for asterisk selector.  [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
-
+    ###### Using CSS Grid
+    - [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
 ### Media
 
 - photos

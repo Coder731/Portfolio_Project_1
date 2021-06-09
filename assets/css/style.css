@@ -1,10 +1,18 @@
 /* Declare colors using CSS variables and :root CSS pseudo-class */
-:root [
+:root {
     --color-brite: #3af568;
     --color-bkgrd: #2b2527;
-]
+}
+
+/* Box sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 /* button */
 #button {
     font-family: 'Roboto', sans-serif;
+    display: grid;
+    color: var(--color-brite);
+    background: var(--color-bkgrd);
 }

@@ -90,6 +90,8 @@ How the project achieves this
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1920px-Stack_Overflow_logo.svg.png" alt="stackoverflow" width="95"></a></td>
         <td><a href="https://www.w3schools.com/" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="50"></a></td>
+        <td><a href="https://developer.mozilla.org/en-US/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1024px-MDN_Web_Docs.svg.png" alt="MDN Web Docs" width="50"></a></td>
     </tr>
     <tr>
         <td><center>HTML5</center></td>
@@ -98,6 +100,7 @@ How the project achieves this
         <td><center>Git</center></td>
         <td><center>GitHub</center></td>
         <td><center>Stack Overflow</center></td>
+        <td><center>w3 Schools</center></td>
         <td><center>w3 Schools</center></td>
     </tr>
 </table>

@@ -1,8 +1,10 @@
-/* Unused as yet */
-
-h2 {
-    margin-left: 50px;
-}
+/* Declare colors using CSS variables and :root CSS pseudo-class */
+:root [
+    --color-brite: #3af568;
+    --color-bkgrd: #2b2527;
+]
 
 /* button */
-
+#button {
+    font-family: 'Roboto', sans-serif;
+}

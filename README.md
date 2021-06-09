@@ -161,7 +161,7 @@ Live Link:
 
 - [Markdown inline style for image alignment](https://stackoverflow.com/questions/255170/markdown-and-image-alignment)
 
-- [Using Span w3 Schools reference](https://www.w3schools.com/tags/tag_span.asp)
+- [Using Span, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools reference](https://www.w3schools.com/tags/tag_span.asp)
 
     ##### Content / home page
     ###### Content / home page / head element:
@@ -179,15 +179,23 @@ Live Link:
 
     #####  Content / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
-    - [CSS Syntax](https://www.w3schools.com/Css/css_syntax.asp)
+    - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
     - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
+    ###### Using CSS Box sizing
     - First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
+    - [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
+
     ###### Using the "before" selector in CSS
-    - [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">w3 Schools article](https://www.w3schools.com/cssref/sel_before.asp)
+    - [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/cssref/sel_before.asp)
     ###### Using the "after" selector in CSS
-    - [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">w3 Schools article](https://www.w3schools.com/cssref/sel_after.asp)
+    - [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/cssref/sel_after.asp)
+    ###### Using Asterisk selector in CSS
+    The CSS Asterisk selector * selects all HTML elements.
+    - First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)
+    - Second source for asterisk selector. [CSS asterisk * selector](https://stackoverflow.com/questions/1204275/what-does-an-asterisk-do-in-a-css-selector)
+    - Third source  for asterisk selector.  [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
 
 ### Media
 

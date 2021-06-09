@@ -188,9 +188,11 @@ Live Link:
     - [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
 
     ###### Using the "before" selector in CSS
-    - [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/cssref/sel_before.asp)
+    - Source 1 for CSS before selector. [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/cssref/sel_before.asp)
+    - Source 2 for CSS before selector. [CSS ::before selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
     ###### Using the "after" selector in CSS
-    - [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/cssref/sel_after.asp)
+    - Source 1 for CSS after selector. [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/cssref/sel_after.asp)
+    - Source 2 for CSS after selector. [CSS ::after selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
     ###### Using Asterisk selector in CSS
     The CSS Asterisk selector * selects all HTML elements.
     - First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)

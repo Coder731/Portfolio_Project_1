@@ -185,7 +185,9 @@ Live Link:
     ###### Using CSS Box sizing
     - First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
-    - [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
+    - Third source using box sizing in CSS. [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
+    - Fourth source using box sizing in CSS. [CSS Box Sizing Property, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp)
+    
 
     ###### Using the "before" selector in CSS
     - Source 1 for CSS before selector. [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/cssref/sel_before.asp)

@@ -113,6 +113,18 @@ How the project achieves this
 
 - Details of testing.
 
+### Usability Testing
+- Consistency testing
+A unified theme was needed to communicate that the website was about computer history.  So, the color scheme of green and black used in the 1999 Movie "The Matrix" was used.
+- Visibility Testing
+For contrast, bright green on black rated well.
+
+As a secondary color combination, white and light blue were too low contrast.
+So, blue color was deepened.
+
+- Accessibility Standards
+AAA requires a contrast ratio of 7:1.
+
 ### Validator Testing and
 
 - HTML
@@ -134,8 +146,6 @@ Live Link:
 
 
 ## Credits
-
-
 
 ### Content
 - Here are reference sources used in the project.
@@ -163,18 +173,11 @@ Live Link:
 
 - [Using Span, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools reference](https://www.w3schools.com/tags/tag_span.asp)
 
-    ##### Content / home page
-    ###### Content / home page / head element:
+    ###### Content / head element:
     - [X-UA-Compatible Tag, older Microsoft Browser support](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
     - [Defining document compatibility](https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))
                 
-    ###### Content / home page / body element
-
-    ##### Content / home page
-        
-    ###### Content / References page / head element
-
-    ###### Content / References page / body element
+    ###### Content / body element
     - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
 
     #####  Content / style.css file
@@ -182,6 +185,7 @@ Live Link:
     - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
     - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
+    
     ###### Using CSS Box sizing
     - First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
@@ -226,6 +230,12 @@ Live Link:
     ###### Viewing GitHub Commits
     - [How to view git commits on GitHub Repositories](https://stackoverflow.com/questions/65373797/where-can-i-see-the-commit-history-on-the-github-website)
     - [Image (from stackoverflow link above) highlighting where to access git commits](https://i.stack.imgur.com/HjDQX.png)
+    ###### Colors
+    - Tool for selecting multiple colors for website. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+    - [Color design theory](https://blog.hubspot.com/marketing/color-theory-design)
+    - Color wheel calculator tool for picking website. [Sessions College](https://www.sessions.edu/color-calculator-results/?colors=2b2527,22f0e2,1d99ff,32d16c,3af568,ffffff)
+    - Tool for checking Accessibility of Color combination chosen for website. [Accessibility of color combination Tool](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&secondary.color=2b2527&primary.text.color=1d99ff&secondary.text.color=3af568)
+
 ### Media
 
 - photos

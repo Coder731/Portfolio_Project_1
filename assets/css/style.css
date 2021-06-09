@@ -22,4 +22,6 @@ body {
 #button {
     color: var(--color-brite);
     font-size: 2rem;
+    cursor: pointer;
+    display: inline-block;
 }

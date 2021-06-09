@@ -91,7 +91,7 @@ How the project achieves this
         <td><a href="https://www.w3schools.com/" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="50"></a></td>
         <td><a href="https://developer.mozilla.org/en-US/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1024px-MDN_Web_Docs.svg.png" alt="MDN Web Docs" width="80"></a></td>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1024px-MDN_Web_Docs.svg.png" alt="MDN Web Docs" width="120"></a></td>
     </tr>
     <tr>
         <td><center>HTML5</center></td>

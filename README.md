@@ -89,7 +89,7 @@ How the project achieves this
         <td><a href="https://stackoverflow.com/" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1920px-Stack_Overflow_logo.svg.png" alt="stackoverflow" width="95"></a></td>
         <td><a href="https://www.w3schools.com/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="50"></a></td>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="50"></a></td>
         <td><a href="https://en.wikipedia.org/wiki/MDN_Web_Docs" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1024px-MDN_Web_Docs.svg.png" alt="MDN Web Docs" width="120"></a></td>
     </tr>
@@ -100,7 +100,7 @@ How the project achieves this
         <td><center>Git</center></td>
         <td><center>GitHub</center></td>
         <td><center>Stack Overflow</center></td>
-        <td><center>w3 Schools</center></td>
+        <td><center>W3Schools</center></td>
         <td><center>MDN Web Docs</center></td>
     </tr>
 </table>
@@ -161,7 +161,7 @@ Live Link:
 
 - [Markdown inline style for image alignment](https://stackoverflow.com/questions/255170/markdown-and-image-alignment)
 
-- [Using Span, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools reference](https://www.w3schools.com/tags/tag_span.asp)
+- [Using Span, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools reference](https://www.w3schools.com/tags/tag_span.asp)
 
     ##### Content / home page
     ###### Content / home page / head element:
@@ -179,29 +179,29 @@ Live Link:
 
     #####  Content / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
-    - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
+    - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
     - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
     ###### Using CSS Box sizing
     - First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
-    - Third source using box sizing in CSS. [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
-    - Fourth source using box sizing in CSS. [CSS Box Sizing Property, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp)
+    - Third source using box sizing in CSS. [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
+    - Fourth source using box sizing in CSS. [CSS Box Sizing Property, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp)
     
 
     ###### Using the "before" selector in CSS
-    - Source 1 for CSS before selector. [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/cssref/sel_before.asp)
+    - Source 1 for CSS before selector. [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_before.asp)
     - Source 2 for CSS before selector. [CSS ::before selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
     ###### Using the "after" selector in CSS
-    - Source 1 for CSS after selector. [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15"> w3 Schools article](https://www.w3schools.com/cssref/sel_after.asp)
+    - Source 1 for CSS after selector. [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_after.asp)
     - Source 2 for CSS after selector. [CSS ::after selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
     ###### Using Asterisk selector in CSS
     The CSS Asterisk selector * selects all HTML elements.
     - First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)
     - Second source for asterisk selector. [CSS asterisk * selector](https://stackoverflow.com/questions/1204275/what-does-an-asterisk-do-in-a-css-selector)
-    - Third source  for asterisk selector.  [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
+    - Third source  for asterisk selector.  [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
     ###### Using CSS Grid
-    - [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
+    - [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
     ###### Using rem units
     - In CSS, the size unit rem stands for root element. [Using rem versus em size units in CSS](https://stackoverflow.com/questions/13941275/how-does-rem-differ-from-em-in-css)
     ###### Cursor Pointer
@@ -210,15 +210,17 @@ Live Link:
     ###### Anatomy of a CSS Rule
     - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
     ###### Color HEX
-    - [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
+    - [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
     ###### Matrix Color Scheme
     - Matrix colors used as a theme for website. [Green and Black Colors taken from this image](https://www.mobygames.com/images/shots/l/369148-the-matrix-online-windows-screenshot-every-time-an-area-loads.jpg)
     ###### How to use Google Fonts
-    - [Using Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="w3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
+    - [How to use Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
     ###### CSS Color Wheel
     - [Adobe color-wheel](https://color.adobe.com/create/color-wheel)
     ###### Roboto Google Fonts
     - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
+    ###### TinyPNG for Image Compression
+    - [TinyPNG image compression tool](https://tinypng.com/)
 ### Media
 
 - photos

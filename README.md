@@ -235,6 +235,7 @@ Live Link:
     - [Color design theory](https://blog.hubspot.com/marketing/color-theory-design)
     - Color wheel calculator tool for picking website. [Sessions College](https://www.sessions.edu/color-calculator-results/?colors=2b2527,22f0e2,1d99ff,32d16c,3af568,ffffff)
     - Tool for checking Accessibility of Color combination chosen for website. [Accessibility of color combination Tool](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&secondary.color=2b2527&primary.text.color=1d99ff&secondary.text.color=3af568)
+    - Used this site to check if font/background combinations are above 7:1 contrast ratio.[Web Accessibility In Mind WebAIM](https://webaim.org/resources/contrastchecker/)
 
 ### Media
 

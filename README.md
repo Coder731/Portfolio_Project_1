@@ -128,7 +128,7 @@ As a secondary color combination, white and light blue were too low contrast.
 So, blue color was deepened.
 
 ## Color Scheme
-- Matrix Green on Black has a contrast ratio of 10.33:1, which exceeds the 7:1 ratio specification for [Results of color accessibility check](assets/images/006_color_contrast_check_matrix.png)
+- Matrix Green on Black has a contrast ratio of 10.33:1, which exceeds the 7:1 ratio specification for <img src="assets/images/006_color_contrast_check_matrix.png" alt="W3Schools" width="150">[Results of color accessibility check](assets/images/006_color_contrast_check_matrix.png)
 ### Validator Testing and
 
 - HTML

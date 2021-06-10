@@ -124,7 +124,7 @@ So, blue color was deepened.
 
 - Accessibility Standards
 AAA requires a contrast ratio of 7:1.
-
+[WCAG 2.1 Part 1.4.6 Contrast(Enhanced) - Level AAA](https://www.w3.org/WAI/WCAG21/quickref/)
 ### Validator Testing and
 
 - HTML
@@ -247,3 +247,4 @@ Live Link:
 
 # Extra
 ## Color Scheme
+- Matrix Green on Black has a contrast ratio of 10.33:1, which exceeds the 7:1 ratio specification for [Results of color accessibility check](assets/images/006_color_contrast_check_matrix.png)

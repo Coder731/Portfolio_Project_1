@@ -130,9 +130,11 @@ So, blue color was deepened.
 ## Color Scheme
 - Matrix Green on Black has a contrast ratio of 10.33:1, which exceeds the 7:1 ratio specification for [W3C Web Accessibility Initiative (WAI).](https://www.w3.org/WAI/)
 
-![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 10.33:1 for green font on black background](assets/images/6_color_contrast_check_matrix.png) ![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 8.59:1 for Blue on White](assets/images/7_blue_white_color_combination.jpg)
-#### Figure above (left) shows results of color accessibility check for high contrast green font on black background color combination
-#### Figure above (right) shows results of color accessibility check for high contrast blue font on white background color combination
+![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 10.33:1 for green font on black background](assets/images/6_color_contrast_check_matrix.png) 
+#### Figure above shows results of color accessibility check for high contrast green font on black background color combination
+
+![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 8.59:1 for Blue on White](assets/images/7_blue_white_color_combination.jpg)
+#### Figure above shows results of color accessibility check for high contrast blue font on white background color combination
 
 ![Green black Blue and white colors on Adobe Color wheel](assets/images/8_green_black_blue_white_colors.jpg)
 #### Figure above shows green, black, blue and white colors on Adobe Color wheel

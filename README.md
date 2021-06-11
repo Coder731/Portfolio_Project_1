@@ -128,7 +128,7 @@ As a secondary color combination, white and light blue were too low contrast.
 So, blue color was deepened.
 
 ## Color Scheme
-- Matrix Green on Black has a contrast ratio of 10.33:1, which exceeds the 7:1 ratio specification for [W3C Web Accessibility Initiative (WAI).](https://www.w3.org/WAI/)<br><a href="assets/images/6_color_contrast_check_matrix.png" target="_blank"><img src="assets/images/6_color_contrast_check_matrix.png" alt="Screenshot from WebAIM website showing contrast ratio results of 10.33:1 for green font on black background" width="500"><br><h4 align="center">[Results of color accessibility check](assets/images/6_color_contrast_check_matrix.png)</h4></a>
+- Matrix Green on Black has a contrast ratio of 10.33:1, which exceeds the 7:1 ratio specification for [W3C Web Accessibility Initiative (WAI).](https://www.w3.org/WAI/)<br><a href="assets/images/6_color_contrast_check_matrix.png" target="_blank"><img src="assets/images/6_color_contrast_check_matrix.png" alt="Screenshot from WebAIM website showing contrast ratio results of 10.33:1 for green font on black background" width="500"><br><h4>[Results of color accessibility check](assets/images/6_color_contrast_check_matrix.png)</h4></a>
 
 
 
@@ -247,6 +247,7 @@ Live Link:
     ###### General notes
     - No CSS in README with GitHub. [GitHub does not allow for CSS to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
     - How to align images in Readme using HTML. [Center images in README](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-on-github/62383408#62383408)
+    - [GitHub Repository on how to do an image in a README_using Markdown](https://github.com/alandtsang/README)
 ### Media
 
 - photos

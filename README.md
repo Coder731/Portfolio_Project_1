@@ -135,6 +135,8 @@ So, blue color was deepened.
 
 ![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 8.59:1 for Blue on White](assets/images/7_blue_white_color_combination.jpg)
 
+![Green black Blue and white colors on Adobe Color wheel](assets/images/8_green_black_blue_white_colors.jpg)
+
 
 
 ### Validator Testing and

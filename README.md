@@ -245,7 +245,7 @@ Live Link:
     - Used this site to check if font/background combinations are above 7:1 contrast ratio.[Web Accessibility In Mind WebAIM](https://webaim.org/resources/contrastchecker/)
     - [Add inline style to h2 element to center content](https://stackoverflow.com/questions/41439730/how-to-center-a-h2)
     ###### General notes
-    - No CSS in README with GitHub. [GitHub does not allow for CSS_to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
+    - No CSS in README with GitHub. [GitHub does not allow for CSS to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
 ### Media
 
 - photos

@@ -201,13 +201,11 @@ Live Link:
     - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
     - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
-    
     ###### Using CSS Box sizing
     - First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
     - Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
     - Third source using box sizing in CSS. [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
     - Fourth source using box sizing in CSS. [CSS Box Sizing Property, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp)
- 
     ###### Using the "before" selector in CSS
     - Source 1 for CSS before selector. [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_before.asp)
     - Source 2 for CSS before selector. [CSS ::before selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
@@ -228,6 +226,7 @@ Live Link:
         - [Practice page for cusor set to pointer in CSS](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
     ###### Anatomy of a CSS Rule
     - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
+    ##### Content / Readme
     ###### Color HEX
     - [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
     ###### Matrix Color Scheme

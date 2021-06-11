@@ -128,7 +128,7 @@ As a secondary color combination, white and light blue were too low contrast.
 So, blue color was deepened.
 
 ## Color Scheme
-- Matrix Green on Black has a contrast ratio of 10.33:1, which exceeds the 7:1 ratio specification for [W3C Web Accessibility Initiative (WAI).](https://www.w3.org/WAI/)<br><a href="assets/images/6_color_contrast_check_matrix.png" target="_blank"><img src="assets/images/6_color_contrast_check_matrix.png" alt="Screenshot from WebAIM website showing contrast ratio results of 10.33:1 for green font on black background" width="500"><br><h4 style="text-align: center;">[Results of color accessibility check](assets/images/6_color_contrast_check_matrix.png)</h4></a>
+- Matrix Green on Black has a contrast ratio of 10.33:1, which exceeds the 7:1 ratio specification for [W3C Web Accessibility Initiative (WAI).](https://www.w3.org/WAI/)<br><a href="assets/images/6_color_contrast_check_matrix.png" target="_blank"><img src="assets/images/6_color_contrast_check_matrix.png" alt="Screenshot from WebAIM website showing contrast ratio results of 10.33:1 for green font on black background" width="500"><br><h4>[Results of color accessibility check](assets/images/6_color_contrast_check_matrix.png)</h4></a>
 
 
 
@@ -243,7 +243,7 @@ Live Link:
     - Color wheel calculator tool for picking website. [Sessions College](https://www.sessions.edu/color-calculator-results/?colors=2b2527,22f0e2,1d99ff,32d16c,3af568,ffffff)
     - Tool for checking Accessibility of Color combination chosen for website. [Accessibility of color combination Tool](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&secondary.color=2b2527&primary.text.color=1d99ff&secondary.text.color=3af568)
     - Used this site to check if font/background combinations are above 7:1 contrast ratio.[Web Accessibility In Mind WebAIM](https://webaim.org/resources/contrastchecker/)
-    - Used this to center heading element in image caption in Testing Part of README. [Add inline style to h2 element to center content](https://stackoverflow.com/questions/41439730/how-to-center-a-h2)
+    - [Add inline style to h2 element to center content](https://stackoverflow.com/questions/41439730/how-to-center-a-h2)
 ### Media
 
 - photos

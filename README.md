@@ -248,6 +248,7 @@ Live Link:
     - No CSS in README with GitHub. [GitHub does not allow for CSS to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
     - How to align images in Readme using HTML. [Center images in README](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-on-github/62383408#62383408)
     - [GitHub Repository on how to do an image in a README_using Markdown](https://github.com/alandtsang/README)
+    - [Anatomy of the html tag](https://clearlydecoded.com/anatomy-of-html-tag)
 ### Media
 
 - photos

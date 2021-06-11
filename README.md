@@ -133,6 +133,8 @@ So, blue color was deepened.
 ![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 10.33:1 for green font on black background](assets/images/6_color_contrast_check_matrix.png)
 <h4>Figure above shows results of color accessibility check</h4>
 
+![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 8.59:1 for Blue on White](assets/images/7_blue_white_combination.jpg)
+
 
 
 ### Validator Testing and

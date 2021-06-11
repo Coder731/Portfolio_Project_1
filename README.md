@@ -246,6 +246,7 @@ Live Link:
     - [Add inline style to h2 element to center content](https://stackoverflow.com/questions/41439730/how-to-center-a-h2)
     ###### General notes
     - No CSS in README with GitHub. [GitHub does not allow for CSS to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
+    - How to align images in Readme using HTML. [Center images in README](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-on-github/62383408#62383408)
 ### Media
 
 - photos

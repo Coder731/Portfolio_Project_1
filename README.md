@@ -256,6 +256,9 @@ Live Link:
     - How to align images in Readme using HTML. [Center images in README](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-on-github/62383408#62383408)
     - [GitHub Repository on how to do an image in a README_using Markdown](https://github.com/alandtsang/README)
     - [Anatomy of the html tag](https://clearlydecoded.com/anatomy-of-html-tag)
+    ###### Image Compressors
+    - Default image compressor. [TinyPNG](https://tinypng.com/)
+    - Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)
 ### Media
 
 - photos

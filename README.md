@@ -140,12 +140,16 @@ So, blue color was deepened.
 #### Figure above shows green, black, blue and white colors on Adobe Color wheel
 
 ![Color code for green used in Matrix color theme](assets/images/9_hex_to_rgb_hash3af568.JPG)
+#### Figure above shows green used in Matrix color theme
 
 ![Color code for black used in Matrix color theme](assets/images/10_hex_to_rgb_hash2b2527.JPG)
+#### Figure above shows black used in Matrix color theme
 
 ![Color code for blue used in project](assets/images/11_hex_to_rgb_hash0000FF.jpg)
+#### Figure above shows blue used in Matrix color theme
 
 ![Color code for white used in project](assets/images/12_hex_to_rgb_hashFFFFFF.jpg)
+#### Figure above shows white used in Matrix color theme
 
 ### Validator Testing
 

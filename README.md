@@ -143,9 +143,9 @@ So, blue color was deepened.
 
 ![Color code for black used in Matrix color theme](assets/images/10_hex_to_rgb_hash2b2527.jpg)
 
-![Color code for blue used in project](assets/images/11_hex_to_rgb_hash0000FF)
+![Color code for blue used in project](assets/images/11_hex_to_rgb_hash0000FF.jpg)
 
-![Color code for white used in project](assets/images/12_hex_to_rgb_hashFFFFFF)
+![Color code for white used in project](assets/images/12_hex_to_rgb_hashFFFFFF.jpg)
 
 ### Validator Testing
 

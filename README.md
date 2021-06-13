@@ -41,10 +41,10 @@ How the project achieves this
     </tr>
     <tr>
         <td><center>Computer History Timeline Image Created with Balsamiq</center></td>
-        <td><center>Tech Event 1 Created Using Balsamiq</center></td>
-        <td><center>Tech Event 2 Created Using Balsamiq</center></td>
-        <td><center>Tech Event 3 Created Using Balsamiq</center></td>
-        <td><center>User Survey Form Image Created Using Balsamiq</center></td>
+        <td><center>Tech Event 1</center></td>
+        <td><center>Tech Event 2</center></td>
+        <td><center>Tech Event 3</center></td>
+        <td><center>User Survey Form Image</center></td>
     </tr>
 </table>
 

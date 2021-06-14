@@ -258,6 +258,8 @@ Live Link:
     ###### Viewing GitHub Commits
     - [How to view git commits on GitHub Repositories](https://stackoverflow.com/questions/65373797/where-can-i-see-the-commit-history-on-the-github-website)
     - [Image (from stackoverflow link above) highlighting where to access git commits](https://i.stack.imgur.com/HjDQX.png)
+    ###### Comparing Git Commits
+    - [Git: How to compare two different versions of a file](https://alvinalexander.com/photos/git-compare-two-different-versions-of-a-file/)
     ###### Colors - Tool for selecting multiple colors for website. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
     - [Color design theory](https://blog.hubspot.com/marketing/color-theory-design)
     - Color wheel calculator tool for picking website. [Sessions College](https://www.sessions.edu/color-calculator-results/?colors=2b2527,22f0e2,1d99ff,32d16c,3af568,ffffff)

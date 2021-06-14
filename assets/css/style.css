@@ -20,8 +20,10 @@ body {
 /* button */
 
 #button {
+    text-decoration: none;
     color: var(--color-brite);
-    font-size: 2rem;
+    font-size: 1.4rem;
     cursor: pointer;
     display: inline-block;
+    border: var(--color-brite) 2px solid;
 }

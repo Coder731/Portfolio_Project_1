@@ -246,8 +246,10 @@ Live Link:
     - [How to use Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
     ###### CSS Color Wheel
     - [Adobe color-wheel](https://color.adobe.com/create/color-wheel)
-    ###### Roboto Google Fonts
+    ###### Roboto Google Font
     - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
+    ###### Open Sans Google Font
+    - [Open Sans Google font code](https://fonts.google.com/specimen/Open+Sans?query=Open+sans)
     ###### TinyPNG for Image Compression
     - [TinyPNG image compression tool](https://tinypng.com/)
     ###### GitHub Header and Message

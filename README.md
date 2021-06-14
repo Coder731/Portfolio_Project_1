@@ -250,8 +250,7 @@ Live Link:
     ###### Viewing GitHub Commits
     - [How to view git commits on GitHub Repositories](https://stackoverflow.com/questions/65373797/where-can-i-see-the-commit-history-on-the-github-website)
     - [Image (from stackoverflow link above) highlighting where to access git commits](https://i.stack.imgur.com/HjDQX.png)
-    ###### Colors
-    - Tool for selecting multiple colors for website. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+    ###### Colors - Tool for selecting multiple colors for website. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
     - [Color design theory](https://blog.hubspot.com/marketing/color-theory-design)
     - Color wheel calculator tool for picking website. [Sessions College](https://www.sessions.edu/color-calculator-results/?colors=2b2527,22f0e2,1d99ff,32d16c,3af568,ffffff)
     - Tool for checking Accessibility of Color combination chosen for website. [Accessibility of color combination Tool](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&secondary.color=2b2527&primary.text.color=1d99ff&secondary.text.color=3af568)
@@ -272,4 +271,18 @@ Live Link:
 
 - photos
 - images
-    - [The Matrix](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SmUcZE7l8Du70D59UMg1_wHaGo%26pid%3DApi&f=1)
+    - images online
+        - [The Matrix](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SmUcZE7l8Du70D59UMg1_wHaGo%26pid%3DApi&f=1)
+    - images in assets>images
+        - 1_time_line_sketch.png
+        - 2_Tech_event_1.png
+        - 3_Tech_Event_2.png
+        - 4_Tech_Event_3.png
+        - 5_User_Survey_Form.png
+        - 6_color_contrast_check_matrix.png
+        - 7_blue_white_color_combination.jpg
+        - 8_green_black_blue_white_colors.jpg
+        - 9_hex_to rgb_hash3af568.JPG
+        - 10_hex_to_rgb_hash2b2527.JPG
+        - 11_hex_to_rgb_hash0000FF.jpg
+        - 12_hex_to_rgb_hasFFFFFF.jpg

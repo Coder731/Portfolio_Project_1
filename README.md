@@ -232,6 +232,7 @@ Live Link:
     - [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
     ###### Using rem units
     - In CSS, the size unit rem stands for root element. [Using rem versus em size units in CSS](https://stackoverflow.com/questions/13941275/how-does-rem-differ-from-em-in-css)
+    - [Rem in CSS: Understanding and Using rem Units](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
     ###### Cursor Pointer
     - Using a CSS declaration with cursor property set to a value of pointer, to display pointing hand in CSS. [Cursor property set to value of pointer](https://www.w3schools.com/csSref/pr_class_cursor.asp)
         - [Practice page for cusor set to pointer in CSS](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)

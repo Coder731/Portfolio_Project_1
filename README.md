@@ -167,7 +167,13 @@ High Contrast
 
 CSS
 - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
+### Fixed Bugs
+Bug:
+- Home button on Navigation bar on Home page was not being styled by CSS.
+Cause:
+- The button id deleted from anchor for home page in Navigation bar in error.
+Fix:
+- The button id reinstated to anchor for home page in Navigation bar.
 ### Unfixed Bugs
 
 #### Images 9 and 10 are named with capitalised .JPG endings.

@@ -297,11 +297,9 @@ Live Link:
 ### Non-content support material credits
 
     ##### Content / Git
-    ###### GitHub Header and Message
-    - How to add a line break when doing a git commit from the command line. [How to commit with a header and a message in git](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)
-    ###### Git: Methods of adding git commit messages
+    ###### Git: Methods of adding Header and Message to git commit messages
     - How to use console VIM editor in Integrated Development Environment to add git commit messages with line breaks. [Learning How to Git: Creating a (Longer) Commit Message](https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a)
-    - How to add a line break to a git commit message from the terminal, using "here document". [Add line break to 'git commit -m' from the command line](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)
+    - How to add a line break to a git commit message from the terminal, using "here document". [How to commit with a header and a message in git from the command line](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)
         - Here document is a file literal or input stream literal.  It behaves as a separate file. It originates in Unix shell and is found in Bash. [Here document](https://en.wikipedia.org/wiki/Here_document)
             - EOF stands for End Of File. [EOF](https://acronyms.thefreedictionary.com/EOF)
     ###### Git: How to open editor from terminal, why not to punctuate commit messages

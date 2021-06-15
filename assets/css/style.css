@@ -29,8 +29,10 @@ body {
     border: var(--color-brite) 0.1em solid;
     border-radius: 0.7em;
     padding: 0.04em 0.4em;
-    /* light */
+    /* light around button text */
     text-shadow: 
         0 0 0.09em var(--color-white),
         0 0 1em var(--color-brite);
+    /* light outside button */
+    box-shadow: 0 0 1em 0 var(--color-brite);
 }

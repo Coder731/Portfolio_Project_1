@@ -202,7 +202,8 @@ Live Link:
 - [Markdown inline style for image alignment](https://stackoverflow.com/questions/255170/markdown-and-image-alignment)
 
 - [Using Span, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools reference](https://www.w3schools.com/tags/tag_span.asp)
-    ###### Content / head element:
+    ##### Content / HTML on Home Page
+    ###### Content / head element
     - [X-UA-Compatible Tag, older Microsoft Browser support](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
     - [Defining document compatibility](https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))
     ###### Content / body element
@@ -241,7 +242,8 @@ Live Link:
         - [Practice page for cusor set to pointer in CSS](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
     ###### Anatomy of a CSS Rule
     - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
-    
+
+    ##### Content / style.css file / Color
     ###### Color HEX
     - [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
     ###### Matrix Color Scheme

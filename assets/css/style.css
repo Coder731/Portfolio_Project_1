@@ -35,6 +35,19 @@ body {
         0 0 1em var(--color-brite);
     /* light outside button */
     box-shadow: 0 0 1em 0 var(--color-brite);
-    /* reflection effect under button */
+     position: relative;
+}
 
+/* Button pseudo-class before */
+#button::before {
+    /* reflection effect under button */
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-brite);
+    transform: perspective(10em) rotateX(72deg);
+    filter: blur(0.4em);
 }

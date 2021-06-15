@@ -108,6 +108,7 @@ How the project achieves this
 ### Features Left to Implement
 
 - Next Featured
+- Tried to make a reflection like shine effect occur above the buttons on the navigation bar as well as below.  However, can only use a single before pseudo-class on a single element.
 
 ## Testing
 
@@ -132,6 +133,7 @@ So, blue color was deepened.
 High Contrast
 ## Browser Compatibility
 - Box-shadow inset parameter not used, as only partially supported on Internet Explorer 9.
+- Browser Compatibility: inset not used as shorthand for positioning top right bottom left as no support for functionality in Edge, Internet Explorer, Opera Android or Samsung Internet. 
 - Browser Compatibility: hsl CSS property, alpha parameter: Internet Explorer Browser does not support alpha parameter in hsl hue staturation lightness property in CSS Stylesheets.
 
 ## Color Scheme
@@ -235,6 +237,24 @@ Live Link:
     ###### Using the "after" selector in CSS
     - Source 1 for CSS after selector. [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_after.asp)
     - Source 2 for CSS after selector. [CSS ::after selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
+    ###### Can only target a single HTML element with a single id selector
+    - Short answer? No because the browser will only render the first one. [Can a HTML element have multiple unique ID attributes? [duplicate]](https://stackoverflow.com/questions/16936132/can-a-html-element-have-multiple-unique-id-attributes)
+    ###### Can only target a single HTML element with a single before pseudo-element 
+    - In CSS2.1, an element can only have at most one of any kind of pseudo-element at any time. (This means an element can have both a :before and an :after pseudo-element — it just cannot have more than one of each kind.) [Can I have multiple :before pseudo-elements for the same element?](https://stackoverflow.com/questions/11998593/can-i-have-multiple-before-pseudo-elements-for-the-same-element)
+    ###### CSS position Property
+    - [CSS position Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/pr_class_position.asp)
+    - Although there is support in new inset property, this was avoided for Browser Compatibility. [(No) CSS shorthand for positioning](https://stackoverflow.com/questions/10855276/css-shorthand-for-positioning)
+    - New inset property, which acts like shorthand. Not used for Browser Compatibility. [inset](https://developer.mozilla.org/en-US/docs/Web/CSS/inset#browser_compatibility)
+    ###### CSS transform
+    - If perspective() is one of multiple function values, it must be listed first. [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+        - The perspective() CSS function defines a transformation that sets the distance between the user and the z=0 plane [perspective()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/perspective())
+        - [CSS Transform: Rotating a 3D object with perspective based on mouse position](https://www.armandocanals.com/posts/CSS-transform-rotating-a-3D-object-perspective-based-on-mouse-position.html)
+        - The rotate CSS function [rotate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate())
+        - The rotateX CSS function defines a transformation that rotates an element around the horizontal axis.[rotateX()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateX())
+    ###### CSS filter Property
+    - CSS Syntax for filter Property includes setting value to blur [CSS filter Property](https://www.w3schools.com/CSSref/css3_pr_filter.asp)
+    ###### CSS blur()function
+    - The blurCSS function applies a Gaussian blur to the input image. [blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur())
     ###### Using Asterisk selector in CSS
     The CSS Asterisk selector * selects all HTML elements.
     - First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)

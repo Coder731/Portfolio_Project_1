@@ -226,6 +226,9 @@ Live Link:
     - Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
     - Third source using box sizing in CSS. [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
     - Fourth source using box sizing in CSS. [CSS Box Sizing Property, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp)
+    ###### Pseudo-elements in CSS
+    - CSS Pseudo-elements [Before and After pseudo elements explained - part one: how they work](https://www.youtube.com/watch?v=zGiirUiWslI&list=PL4-IK0AVhVjPBX_HelwDlNsTiyr2YGSBw&ab_channel=KevinPowell)
+    - [CSS Pseudo-elements](https://www.w3schools.com/CSS/css_pseudo_elements.asp)
     ###### Using the "before" selector in CSS
     - Source 1 for CSS before selector. [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_before.asp)
     - Source 2 for CSS before selector. [CSS ::before selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)

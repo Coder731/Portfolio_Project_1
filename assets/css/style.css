@@ -35,4 +35,6 @@ body {
         0 0 1em var(--color-brite);
     /* light outside button */
     box-shadow: 0 0 1em 0 var(--color-brite);
+    /* reflection effect under button */
+
 }

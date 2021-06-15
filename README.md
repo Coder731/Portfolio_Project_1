@@ -250,6 +250,13 @@ Live Link:
     - Matrix colors used as a theme for website. [Green and Black Colors taken from this image](https://www.mobygames.com/images/shots/l/369148-the-matrix-online-windows-screenshot-every-time-an-area-loads.jpg)
     ###### CSS Color Wheel
     - [Adobe color-wheel](https://color.adobe.com/create/color-wheel)
+    ###### Colors - Tool for selecting multiple colors for website. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+    - [Color design theory](https://blog.hubspot.com/marketing/color-theory-design)
+    - Color wheel calculator tool for picking website. [Sessions College](https://www.sessions.edu/color-calculator-results/?colors=2b2527,22f0e2,1d99ff,32d16c,3af568,ffffff)
+    - Tool for checking Accessibility of Color combination chosen for website. [Accessibility of color combination Tool](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&secondary.color=2b2527&primary.text.color=1d99ff&secondary.text.color=3af568)
+    - Used this site to check if font/background combinations are above 7:1 contrast ratio.[Web Accessibility In Mind WebAIM](https://webaim.org/resources/contrastchecker/)
+    - [Add inline style to h2 element to center content](https://stackoverflow.com/questions/41439730/how-to-center-a-h2)
+
     ###### CSS text shadow
     - How to use text shadow in CSS Stylesheets. CSS Syntax uses horizontal shadow, vertical shadow, blur radius, and color parameters. [CSS text-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
     ###### How to use Google Fonts
@@ -257,21 +264,14 @@ Live Link:
     - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
     ###### Open Sans Google Font
     - [Open Sans Google font code](https://fonts.google.com/specimen/Open+Sans?query=Open+sans)
-    ###### TinyPNG for Image Compression
-    - [TinyPNG image compression tool](https://tinypng.com/)
 
-    ###### Colors - Tool for selecting multiple colors for website. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
-    - [Color design theory](https://blog.hubspot.com/marketing/color-theory-design)
-    - Color wheel calculator tool for picking website. [Sessions College](https://www.sessions.edu/color-calculator-results/?colors=2b2527,22f0e2,1d99ff,32d16c,3af568,ffffff)
-    - Tool for checking Accessibility of Color combination chosen for website. [Accessibility of color combination Tool](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&secondary.color=2b2527&primary.text.color=1d99ff&secondary.text.color=3af568)
-    - Used this site to check if font/background combinations are above 7:1 contrast ratio.[Web Accessibility In Mind WebAIM](https://webaim.org/resources/contrastchecker/)
-    - [Add inline style to h2 element to center content](https://stackoverflow.com/questions/41439730/how-to-center-a-h2)
     ###### General notes
     - No CSS in README with GitHub. [GitHub does not allow for CSS to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
     - How to align images in Readme using HTML. [Center images in README](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-on-github/62383408#62383408)
     - [GitHub Repository on how to do an image in a README_using Markdown](https://github.com/alandtsang/README)
     - [Anatomy of the html tag](https://clearlydecoded.com/anatomy-of-html-tag)
     - Resource for Markdown. [R_Markdown](https://rmarkdown.rstudio.com/)
+
     ###### Image Compressors
     - Default image compressor. [TinyPNG](https://tinypng.com/)
     - Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)

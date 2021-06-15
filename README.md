@@ -115,14 +115,14 @@ How the project achieves this
 - Details of testing.
 
 ### Usability Testing
-- Consistency testing
+#### Consistency testing
 A unified theme was needed to communicate that the website was about computer history.  So, the color scheme of green and black used in the 1999 Movie "The Matrix" was used.
 
-- Accessibility Standards
+#### Accessibility Standards
 AAA requires a contrast ratio of 7:1.
 [WCAG 2.1 Part 1.4.6 Contrast(Enhanced) - Level AAA](https://www.w3.org/WAI/WCAG21/quickref/)
 
-- Visibility Testing
+#### Visibility Testing
 For contrast, bright green on black rated well.
 
 As a secondary color combination, white and light blue were too low contrast.

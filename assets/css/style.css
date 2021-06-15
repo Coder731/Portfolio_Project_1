@@ -2,6 +2,7 @@
 :root {
     --color-brite: #3af568;
     --color-bkgrd: #2b2527;
+    --color-white: #ffffff;
 }
 
 /* Box sizing */
@@ -9,7 +10,7 @@
     box-sizing: border-box;
 }
 
-/* All of body */
+/* Targets entire body */
 body {
     font-family: 'Roboto', sans-serif;
     display: grid;
@@ -26,5 +27,10 @@ body {
     cursor: pointer;
     display: inline-block;
     border: var(--color-brite) 0.1em solid;
+    border-radius: 0.7em;
     padding: 0.04em 0.4em;
+    /* light */
+    text-shadow: 
+        0 0 0.09em var(--color-white),
+        0 0 1em var(--color-brite);
 }

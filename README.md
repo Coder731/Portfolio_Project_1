@@ -257,8 +257,15 @@ Live Link:
     - Used this site to check if font/background combinations are above 7:1 contrast ratio.[Web Accessibility In Mind WebAIM](https://webaim.org/resources/contrastchecker/)
     - [Add inline style to h2 element to center content](https://stackoverflow.com/questions/41439730/how-to-center-a-h2)
 
+    ###### CSS HSL Colors
+    - [CSS HSL Colors <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_colors_hsl.asp)
+    -  Browser Compatibility: hsl CSS_property, alpha parameter: Internet Explorer Browser does not support alpha parameter in hsl hue staturation lightness property in CSS Stylesheets [hsl()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl())
+    - [CSS hsl() Function <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/func_hsl.asp)
+    - [Colors HSL <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hsl.asp)
+
     ###### CSS text shadow
     - How to use text shadow in CSS Stylesheets. CSS Syntax uses horizontal shadow, vertical shadow, blur radius, and color parameters. [CSS text-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
+
     ###### How to use Google Fonts
     - [How to use Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
     - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
@@ -272,11 +279,13 @@ Live Link:
     - [Anatomy of the html tag](https://clearlydecoded.com/anatomy-of-html-tag)
     - Resource for Markdown. [R_Markdown](https://rmarkdown.rstudio.com/)
 
+    ###### Images side by side in markdown
+    - [Stack two images horizontally in R_Markdown](https://community.rstudio.com/t/how-to-stack-two-images-horizontally-in-r-markdown/18941)
+
     ###### Image Compressors
     - Default image compressor. [TinyPNG](https://tinypng.com/)
     - Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)
-    ###### Images side by side in markdown
-    - [Stack two images horizontally in R_Markdown](https://community.rstudio.com/t/how-to-stack-two-images-horizontally-in-r-markdown/18941)
+
 ### Media
 
 - photos

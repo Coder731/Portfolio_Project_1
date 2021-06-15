@@ -207,6 +207,7 @@ Live Link:
     - [Defining document compatibility](https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))
     ###### Content / body element
     - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
+
     #####  Content / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
     - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
@@ -240,7 +241,7 @@ Live Link:
         - [Practice page for cusor set to pointer in CSS](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
     ###### Anatomy of a CSS Rule
     - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
-    ##### Content / Readme
+    
     ###### Color HEX
     - [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
     ###### Matrix Color Scheme

@@ -266,6 +266,12 @@ Live Link:
     ###### CSS text shadow
     - How to use text shadow in CSS Stylesheets. CSS Syntax uses horizontal shadow, vertical shadow, blur radius, and color parameters. [CSS text-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
 
+    ###### CSS box shadow
+    - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+    - [CSS box-shadow Property](https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp)
+    - [CSS Box Shadow](https://www.w3schools.com/css/css3_shadows_box.asp)
+    - [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
+
     ###### How to use Google Fonts
     - [How to use Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
     - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)

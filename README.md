@@ -228,6 +228,8 @@ Live Link:
     - First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)
     - Second source for asterisk selector. [CSS asterisk * selector](https://stackoverflow.com/questions/1204275/what-does-an-asterisk-do-in-a-css-selector)
     - Third source  for asterisk selector.  [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
+    ###### Using CSS padding property
+    - [CSS padding Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/pr_padding.asp)
     ###### Using CSS Grid
     - [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
     ###### Using rem units

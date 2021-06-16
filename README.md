@@ -188,12 +188,6 @@ Cause:
 Fix:
 - Add bulletless class selector rule to CSS stylesheet with list-style property set to a value of none.
 - Add bulletless class to list items on home page.
-### Unfixed Bugs
-#### Home page Bugs
-##### Navigation bar Bugs
-Bug: Partial width Navigation bar
-Before the addition of unordered list and list item tags:
-- Navigation bar was not stetching fully horizontally across screen.
 
 Bug: Vertical Navigation bar
 Since the addition of unordered list and list item tags to Navigation bar on home page:
@@ -201,7 +195,16 @@ Since the addition of unordered list and list item tags to Navigation bar on hom
 Attempts:
 - Tried setting text align to center in CSS to override user agent stylesheet setting text align to webkit match parent in Browser.  However, when new setting was applied, this did not change the display.
 Potential Solutions:
-- Use card, instead of Unordered List.  Detail to be added. 
+- Use card, instead of Unordered List.  Detail to be added.
+Fix:
+- Use inline-block value for display property in CSS rule targeting list item element in CSS Stylesheet
+
+### Unfixed Bugs
+#### Home page Bugs
+##### Navigation bar Bugs
+Bug: Partial width Navigation bar
+Before the addition of unordered list and list item tags:
+- Navigation bar was not stetching fully horizontally across screen.
 
 #### Images 9 and 10 are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.

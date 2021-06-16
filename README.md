@@ -179,17 +179,22 @@ Cause:
 - The button id deleted from anchor for home page in Navigation bar in error.
 Fix:
 - The button id reinstated to anchor for home page in Navigation bar.
+
+Bug:
+Since the addition of unordered list and list item tags to Navigation bar on home page:
+- Navigation bar is displaying vertically not horizontally
+- Bullets are present to the left of buttons
+Cause:
+- Unordered list and list item tags.
+Fix:
+- Add bulletless class selector rule to CSS stylesheet with list-style property set to a value of none.
+- Add bulletless class to list items on home page.
 ### Unfixed Bugs
 #### Home page bugs
 ##### Navigation bar Bugs
 Bug:
 Before the addition of unordered list and list item tags:
 - Navigation bar was not stetching fully horizontally across screen.
-
-Bug:
-Since the addition of unordered list and list item tags to Navigation bar on home page:
-- Navigation bar is displaying vertically not horizontally
-- Bullets are present to the left of buttons
 
 #### Images 9 and 10 are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.

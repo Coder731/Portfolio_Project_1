@@ -375,19 +375,6 @@ Live Link:
 - images
     - images online
         - [The Matrix](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SmUcZE7l8Du70D59UMg1_wHaGo%26pid%3DApi&f=1)
-    - images in assets>images
-        - 1_time_line_sketch.png
-        - 2_Tech_event_1.png
-        - 3_Tech_Event_2.png
-        - 4_Tech_Event_3.png
-        - 5_User_Survey_Form.png
-        - 6_color_contrast_check_matrix.png
-        - 7_blue_white_color_combination.jpg
-        - 8_green_black_blue_white_colors.jpg
-        - 9_hex_to rgb_hash3af568.JPG
-        - 10_hex_to_rgb_hash2b2527.JPG
-        - 11_hex_to_rgb_hash0000FF.jpg
-        - 12_hex_to_rgb_hasFFFFFF.jpg
 
 ### Non-content support material credits
 

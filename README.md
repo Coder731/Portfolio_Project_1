@@ -217,7 +217,7 @@ Live Link:
 
 ## Credits
 
-### Content
+### Credits / Content
 - Here are reference sources used in the project.
 
     #### Content / Readme

@@ -141,6 +141,7 @@ CSS
 ## User Experience
 ### Accessibility
 High Contrast
+
 ## Browser Compatibility
 - Box-shadow inset parameter not used, as only partially supported on Internet Explorer 9.
 - Browser Compatibility: inset not used as shorthand for positioning top right bottom left as no support for functionality in Edge, Internet Explorer, Opera Android or Samsung Internet. 

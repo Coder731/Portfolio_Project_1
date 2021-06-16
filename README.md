@@ -236,7 +236,7 @@ Live Link:
     - Fourth source using box sizing in CSS. [CSS Box Sizing Property, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp)
     ###### Pseudo-elements in CSS
     - CSS Pseudo-elements [Before and After pseudo elements explained - part one: how they work](https://www.youtube.com/watch?v=zGiirUiWslI&list=PL4-IK0AVhVjPBX_HelwDlNsTiyr2YGSBw&ab_channel=KevinPowell)
-    - [CSS Pseudo-elements](https://www.w3schools.com/CSS/css_pseudo_elements.asp)
+    - [CSS Pseudo-elements <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSS/css_pseudo_elements.asp)
     ###### Using the "before" selector in CSS
     - Source 1 for CSS before selector. [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_before.asp)
     - Source 2 for CSS before selector. [CSS ::before selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
@@ -251,6 +251,8 @@ Live Link:
     - [CSS position Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/pr_class_position.asp)
     - Although there is support in new inset property, this was avoided for Browser Compatibility. [(No) CSS shorthand for positioning](https://stackoverflow.com/questions/10855276/css-shorthand-for-positioning)
     - New inset property, which acts like shorthand. Not used for Browser Compatibility. [inset](https://developer.mozilla.org/en-US/docs/Web/CSS/inset#browser_compatibility)
+    ###### CSS left property
+    - The left CSS property pertains to the horizontal position of an element. [left](https://developer.mozilla.org/en-US/docs/Web/CSS/left)
     ###### CSS transform
     - If perspective() is one of multiple function values, it must be listed first. [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
         - The perspective() CSS function defines a transformation that sets the distance between the user and the z=0 plane [perspective()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/perspective())
@@ -258,14 +260,16 @@ Live Link:
         - The rotate CSS function [rotate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate())
         - The rotateX CSS function defines a transformation that rotates an element around the horizontal axis.[rotateX()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateX())
     ###### CSS filter Property
-    - CSS Syntax for filter Property includes setting value to blur [CSS filter Property](https://www.w3schools.com/CSSref/css3_pr_filter.asp)
+    - CSS Syntax for filter Property includes setting value to blur [CSS filter Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/css3_pr_filter.asp)
     ###### CSS blur()function
     - The blurCSS function applies a Gaussian blur to the input image. [blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur())
+    ###### CSS hover Selector
+    - [CSS hover Selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_hover.asp)
     ###### Using Asterisk selector in CSS
     The CSS Asterisk selector * selects all HTML elements.
     - First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)
     - Second source for asterisk selector. [CSS asterisk * selector](https://stackoverflow.com/questions/1204275/what-does-an-asterisk-do-in-a-css-selector)
-    - Third source  for asterisk selector.  [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
+    - Third source for asterisk selector. [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
     ###### Using CSS padding property
     - [CSS padding Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/pr_padding.asp)
     ###### Using CSS Grid
@@ -274,8 +278,8 @@ Live Link:
     - In CSS, the size unit rem stands for root element. [Using rem versus em size units in CSS](https://stackoverflow.com/questions/13941275/how-does-rem-differ-from-em-in-css)
     - [Rem in CSS: Understanding and Using rem Units](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
     ###### Cursor Pointer
-    - Using a CSS declaration with cursor property set to a value of pointer, to display pointing hand in CSS. [Cursor property set to value of pointer](https://www.w3schools.com/csSref/pr_class_cursor.asp)
-        - [Practice page for cusor set to pointer in CSS](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
+    - Using a CSS declaration with cursor property set to a value of pointer, to display pointing hand in CSS. [Cursor property set to value of pointer <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/pr_class_cursor.asp)
+        - [Practice page for cusor set to pointer in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
     ###### Anatomy of a CSS Rule
     - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
 

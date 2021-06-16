@@ -35,10 +35,10 @@ body {
         0 0 1em var(--color-brite);
     /* light outside button */
     box-shadow: 0 0 1em 0 var(--color-brite);
-     position: relative;
+    position: relative;
 }
 
-/* Button pseudo-class before */
+/* button pseudo-class before */
 #button::before {
     /* reflection effect under button */
     content: '';
@@ -50,4 +50,13 @@ body {
     background: var(--color-brite);
     transform: perspective(10em) rotateX(72deg);
     filter: blur(0.4em);
+}
+
+/* change when mouse hover over button */
+#button:hover {
+    /* so that text edges are clearly defined on mouse over: */
+    text-shadow: none;
+    /* invert button colors on mouse over: */
+    background: var(--color-brite);
+    color: var(--color-bkgrd);
 }

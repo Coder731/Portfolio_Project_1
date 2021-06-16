@@ -180,6 +180,17 @@ Cause:
 Fix:
 - The button id reinstated to anchor for home page in Navigation bar.
 ### Unfixed Bugs
+#### Home page bugs
+##### Navigation bar Bugs
+Bug:
+Before the addition of unordered list and list item tags:
+- Navigation bar was not stetching fully horizontally across screen.
+
+Bug:
+Since the addition of unordered list and list item tags to Navigation bar on home page:
+- Navigation bar is displaying vertically not horizontally
+- Bullets are present to the left of buttons
+
 
 #### Images 9 and 10 are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.

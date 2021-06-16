@@ -216,6 +216,33 @@ Live Link:
         - 11_hex_to_rgb_hash0000FF.jpg
         - 12_hex_to_rgb_hasFFFFFF.jpg
 
+## Reference Sources
+
+### Reference Sources / Non-content support material
+
+##### Content / Git
+###### Git: Methods of adding Header and Message to git commit messages
+- How to use console VIM editor in Integrated Development Environment to add git commit messages with line breaks. [Learning How to Git: Creating a (Longer) Commit Message](https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a)
+- How to add a line break to a git commit message from the terminal, using "here document". [How to commit with a header and a message in git from the command line](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)
+    - Here document is a file literal or input stream literal.  It behaves as a separate file. It originates in Unix shell and is found in Bash. [Here document](https://en.wikipedia.org/wiki/Here_document)
+        - EOF stands for End Of File. [EOF](https://acronyms.thefreedictionary.com/EOF)
+###### Git: How to open editor from terminal, why not to punctuate commit messages
+- How to open default editor from terminal in Integrated Development Environment to write a git commit message. Also, reasons not to use punctuation marks. [How to Write Good Commit Messages in GitHub?
+](https://www.geeksforgeeks.org/how-to-write-good-commit-messages-in-github/)
+- Reason not to use commas in git commit messages. Also, if exporting git commit messages to csv, how to switch to semicolon delimitors instead of commas. This allows export of commit messages with commas, without messages splitting into different cells at each comma.  [How to escape commas inside commit title/subject in Git logs?](https://stackoverflow.com/questions/58907495/how-to-escape-commas-inside-commit-title-subject-in-git-logs)
+###### Viewing GitHub Commits
+- [How to view git commits on GitHub Repositories](https://stackoverflow.com/questions/65373797/where-can-i-see-the-commit-history-on-the-github-website)
+- [Image (from stackoverflow link above) highlighting where to access git commits](https://i.stack.imgur.com/HjDQX.png)
+###### Comparing Git Commits
+- [Git: How to compare two different versions of a file](https://alvinalexander.com/photos/git-compare-two-different-versions-of-a-file/)
+###### IDE Integrated Development Environment
+- What does the abbreviation IDE stand for? [What Is an IDE? | Codecademy](https://www.codecademy.com/articles/what-is-an-ide)
+
+##### Content / Vim
+###### Set word wrap at End of Line
+- How to set Vim to word wrap at the end of a line, for use in terminal to write commit messages. [Automatic word wrapping](https://vim.fandom.com/wiki/Automatic_word_wrapping)
+- Hard wrap recommended at 72 characters for git commits using Vim. [How to wrap git commit comments?](https://stackoverflow.com/questions/2119942/how-to-wrap-git-commit-comments)
+
 ## Credits
 
 ### Credits / Content
@@ -384,27 +411,3 @@ Live Link:
     - images online
         - [The Matrix](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SmUcZE7l8Du70D59UMg1_wHaGo%26pid%3DApi&f=1)
 
-### Credits / Non-content support material credits
-
-##### Content / Git
-###### Git: Methods of adding Header and Message to git commit messages
-- How to use console VIM editor in Integrated Development Environment to add git commit messages with line breaks. [Learning How to Git: Creating a (Longer) Commit Message](https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a)
-- How to add a line break to a git commit message from the terminal, using "here document". [How to commit with a header and a message in git from the command line](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)
-    - Here document is a file literal or input stream literal.  It behaves as a separate file. It originates in Unix shell and is found in Bash. [Here document](https://en.wikipedia.org/wiki/Here_document)
-        - EOF stands for End Of File. [EOF](https://acronyms.thefreedictionary.com/EOF)
-###### Git: How to open editor from terminal, why not to punctuate commit messages
-- How to open default editor from terminal in Integrated Development Environment to write a git commit message. Also, reasons not to use punctuation marks. [How to Write Good Commit Messages in GitHub?
-](https://www.geeksforgeeks.org/how-to-write-good-commit-messages-in-github/)
-- Reason not to use commas in git commit messages. Also, if exporting git commit messages to csv, how to switch to semicolon delimitors instead of commas. This allows export of commit messages with commas, without messages splitting into different cells at each comma.  [How to escape commas inside commit title/subject in Git logs?](https://stackoverflow.com/questions/58907495/how-to-escape-commas-inside-commit-title-subject-in-git-logs)
-###### Viewing GitHub Commits
-- [How to view git commits on GitHub Repositories](https://stackoverflow.com/questions/65373797/where-can-i-see-the-commit-history-on-the-github-website)
-- [Image (from stackoverflow link above) highlighting where to access git commits](https://i.stack.imgur.com/HjDQX.png)
-###### Comparing Git Commits
-- [Git: How to compare two different versions of a file](https://alvinalexander.com/photos/git-compare-two-different-versions-of-a-file/)
-###### IDE Integrated Development Environment
-- What does the abbreviation IDE stand for? [What Is an IDE? | Codecademy](https://www.codecademy.com/articles/what-is-an-ide)
-
-##### Content / Vim
-###### Set word wrap at End of Line
-- How to set Vim to word wrap at the end of a line, for use in terminal to write commit messages. [Automatic word wrapping](https://vim.fandom.com/wiki/Automatic_word_wrapping)
-- Hard wrap recommended at 72 characters for git commits using Vim. [How to wrap git commit comments?](https://stackoverflow.com/questions/2119942/how-to-wrap-git-commit-comments)

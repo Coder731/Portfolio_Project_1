@@ -32,7 +32,6 @@ body {
     cursor: pointer;
     display: inline-block;
     border: var(--color-brite) 0.1em solid;
-    border-radius: 0.7em;
     padding: 0.04em 0.4em;
     position: relative;
 }

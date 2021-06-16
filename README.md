@@ -217,6 +217,7 @@ Live Link:
         - 12_hex_to_rgb_hasFFFFFF.jpg
 
 ## Reference Sources
+- Here are reference sources used in the project.
 
 ### Reference Sources / Non-content support material
 
@@ -243,12 +244,10 @@ Live Link:
 - How to set Vim to word wrap at the end of a line, for use in terminal to write commit messages. [Automatic word wrapping](https://vim.fandom.com/wiki/Automatic_word_wrapping)
 - Hard wrap recommended at 72 characters for git commits using Vim. [How to wrap git commit comments?](https://stackoverflow.com/questions/2119942/how-to-wrap-git-commit-comments)
 
-## Credits
 
-### Credits / Content
-- Here are reference sources used in the project.
+## Templates Referenced
 
-    #### Content / Readme
+    #### Templates Referenced / Readme
 - [Template used for this Readme](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_nav.png)
 
 - [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
@@ -258,6 +257,10 @@ Live Link:
 - [git-pod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 - CodeInstitute lessons on the Editor were used as a template for how to showcase technologies.  The technologies used in this project, are shown in this Readme file. [Creating a Webpage that showcases technologies used in a Project](https://github.com/Code-Institute-Solutions/Editor)
+
+## Credits
+
+### Credits / Content
 
     ##### Content / Readme / Image Alignment
 - [Putting two images on the same line by skipping line break](https://stackoverflow.com/questions/49633290/how-to-stack-images-horizontally-in-readme-md)

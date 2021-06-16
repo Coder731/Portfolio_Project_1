@@ -107,26 +107,26 @@ How the project achieves this
 
 ### Features Left to Implement
 
-- Next Featured
 - Tried to make a reflection like shine effect occur above the buttons on the navigation bar as well as below.  However, can only use a single before pseudo-class on a single element.
+- Make buttons rotate, giving the illusion of shifting perspective when user moves mouse.
 
 ## Testing
 
 - Details of testing.
 
-### Usability Testing
-#### Consistency testing
-A unified theme was needed to communicate that the website was about computer history.  So, the color scheme of green and black used in the 1999 Movie "The Matrix" was used.
+    ### Usability Testing
+    #### Consistency testing
+    A unified theme was needed to communicate that the website was about computer history.  So, the color scheme of green and black used in the 1999 Movie "The Matrix" was used.
 
-#### Accessibility Standards
-AAA requires a contrast ratio of 7:1.
-[WCAG 2.1 Part 1.4.6 Contrast(Enhanced) - Level AAA](https://www.w3.org/WAI/WCAG21/quickref/)
+    #### Accessibility Standards
+    AAA requires a contrast ratio of 7:1.
+    [WCAG 2.1 Part 1.4.6 Contrast(Enhanced) - Level AAA](https://www.w3.org/WAI/WCAG21/quickref/)
 
-#### Visibility Testing
-For contrast, bright green on black rated well.
+    #### Visibility Testing
+    For contrast, bright green on black rated well.
 
-As a secondary color combination, white and light blue were too low contrast.
-So, blue color was deepened.
+    As a secondary color combination, white and light blue were too low contrast.
+    So, blue color was deepened.
 
 ## User Experience
 ### Accessibility
@@ -303,9 +303,9 @@ Live Link:
     - How to use text shadow in CSS Stylesheets. CSS Syntax uses horizontal shadow, vertical shadow, blur radius, and color parameters. [CSS text-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
 
     ###### CSS box shadow
-    - Browser Compatibility: Only Partial Support in Internet Explorer 9 for Box shadow inset parameter. [box-shadow <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
-    - [CSS box-shadow Property](https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp)
-    - [CSS Box Shadow](https://www.w3schools.com/css/css3_shadows_box.asp)
+    - Browser Compatibility: Only Partial Support in Internet Explorer 9 for Box shadow inset parameter. [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+    - [CSS box-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp)
+    - [CSS Box Shadow <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css3_shadows_box.asp)
     - [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
 
     ###### How to use Google Fonts

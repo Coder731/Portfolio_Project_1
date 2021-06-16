@@ -244,6 +244,11 @@ Live Link:
 - How to set Vim to word wrap at the end of a line, for use in terminal to write commit messages. [Automatic word wrapping](https://vim.fandom.com/wiki/Automatic_word_wrapping)
 - Hard wrap recommended at 72 characters for git commits using Vim. [How to wrap git commit comments?](https://stackoverflow.com/questions/2119942/how-to-wrap-git-commit-comments)
 
+## Technologies Used
+
+###### Image Compressors
+- Default image compressor. [TinyPNG](https://tinypng.com/)
+- Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)
 
 ## Templates Referenced
 
@@ -403,9 +408,7 @@ Live Link:
     ###### Images side by side in markdown
     - [Stack two images horizontally in R_Markdown](https://community.rstudio.com/t/how-to-stack-two-images-horizontally-in-r-markdown/18941)
 
-    ###### Image Compressors
-    - Default image compressor. [TinyPNG](https://tinypng.com/)
-    - Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)
+
 
 ### Credits / Media
 

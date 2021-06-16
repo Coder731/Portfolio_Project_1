@@ -44,3 +44,8 @@ body {
     background: var(--color-brite);
     color: var(--color-bkgrd);
 }
+
+/* bulletless class rule for unordered list on home page */
+.bulletless {
+    list-style: none;
+}

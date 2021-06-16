@@ -173,16 +173,15 @@ High Contrast
 
 ## Bugs
 ### Fixed Bugs
-Bug:
+Bug: Unstyled Home Button
 - Home button on Navigation bar on Home page was not being styled by CSS.
 Cause:
 - The button id deleted from anchor for home page in Navigation bar in error.
 Fix:
 - The button id reinstated to anchor for home page in Navigation bar.
 
-Bug:
+Bug: Bulleted Navigation bar
 Since the addition of unordered list and list item tags to Navigation bar on home page:
-- Navigation bar is displaying vertically not horizontally
 - Bullets are present to the left of buttons
 Cause:
 - Unordered list and list item tags.
@@ -192,9 +191,13 @@ Fix:
 ### Unfixed Bugs
 #### Home page bugs
 ##### Navigation bar Bugs
-Bug:
+Bug: Partial width Navigation bar
 Before the addition of unordered list and list item tags:
 - Navigation bar was not stetching fully horizontally across screen.
+
+Bug: Vertical Navigation bar
+Since the addition of unordered list and list item tags to Navigation bar on home page:
+- Navigation bar is displaying vertically not horizontally
 
 #### Images 9 and 10 are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.

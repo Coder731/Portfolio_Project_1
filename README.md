@@ -247,6 +247,13 @@ Live Link:
 
 - How to use links in README [Link to Pages](https://docs.readme.com/docs/linking-to-pages)
 
+    ##### Content / All HTML Pages
+    Use unordered list element with list item elements for each anchor element to make navigation bar stretch across page.
+    - [how to make navigation bar stretch across the page (HTML)](https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html)
+    - [How To Make Navigation Bar Stretch Across The Page](https://www.aurigait.com/blog/how-to-make-navigation-bar-stretch-across-the-page/)
+    - [CSS Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/CSS/css_list.asp)
+    - [HTML Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/HTML/html_lists.asp)
+
     ##### Content / HTML on Home Page
     ###### Content / head element
     - [X-UA-Compatible Tag, older Microsoft Browser support](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)

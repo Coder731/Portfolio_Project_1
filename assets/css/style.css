@@ -49,10 +49,3 @@ body {
 .bulletless {
     list-style: none;
 }
-
-/* Attempt to fix Navigation bar bug:
-   Add list element selector to override user agent stylesheet in Browser
-   in case this is causing Navigation bar to display vertically */
-body > nav > ul > li .bulletless, a, .button {
-    text-align: center;
-}

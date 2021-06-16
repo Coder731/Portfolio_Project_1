@@ -257,7 +257,9 @@ Live Link:
     ###### Content / body element
     - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
 
-    #####  Reference Sources  / style.css file
+    ##### Reference Sources / HTML / CSS
+
+    ##### Reference Sources / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
     - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
     - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)

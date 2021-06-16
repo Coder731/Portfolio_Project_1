@@ -395,7 +395,7 @@ Live Link:
 
 ## Templates Referenced
 
-    #### Templates Referenced / Readme
+#### Templates Referenced / Readme
 - [Template used for this Readme](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_nav.png)
 
 - [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)

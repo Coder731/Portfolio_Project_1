@@ -23,7 +23,10 @@ body {
 #button {
     text-decoration: none;
     color: var(--color-brite);
-    font-size: 1.4rem;
+    /* optimise accessibility using large bold font */
+    font-size: 2rem;
+    font-weight:900;
+    
     cursor: pointer;
     display: inline-block;
     border: var(--color-brite) 0.1em solid;

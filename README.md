@@ -109,6 +109,8 @@ How the project achieves this
 
 - Tried to make a reflection like shine effect occur above the buttons on the navigation bar as well as below.  However, can only use a single before pseudo-class on a single element.
 - Make buttons rotate, giving the illusion of shifting perspective when user moves mouse.
+- Add light switch to switch from Matrix theme green font on black background to blue font on white background.
+- Add audio to website, with image of an amplifier, switch, and sign asking if user wants to turn the sound on.
 
 ## Testing
 
@@ -265,6 +267,7 @@ Live Link:
     - The blurCSS function applies a Gaussian blur to the input image. [blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur())
     ###### CSS hover Selector
     - [CSS hover Selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_hover.asp)
+
     ###### Using Asterisk selector in CSS
     The CSS Asterisk selector * selects all HTML elements.
     - First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)
@@ -311,7 +314,12 @@ Live Link:
     - [CSS box-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp)
     - [CSS Box Shadow <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css3_shadows_box.asp)
     - [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
-
+    
+    ##### Fonts
+    ###### CSS Font Size
+    - [CSS Font Size <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_font_size.asp)
+    ###### Google Fonts
+    - Using Google fonts in a few of my pages and hit a wall when trying to use variations of a font.  Importing three faces, Normal, Bold, ExtraBold via the link tag.  How to use the variants of the font in my CSS. Answer: They use regular CSS.  Just use regular font family property. Now decide what "weight" the font should have by adding font weight property (values in parentheses) as needed for semi-bold, for bold (700), for extra bold (800). [Specifying Style and Weight for Google Fonts](https://stackoverflow.com/questions/7256065/specifying-style-and-weight-for-google-fonts#7256119)
     ###### How to use Google Fonts
     - [How to use Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
     - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)

@@ -42,20 +42,6 @@ body {
     position: relative;
 }
 
-/* button pseudo-class before */
-.button::before {
-    /* reflection effect under button */
-    content: '';
-    position: absolute;
-    top: 90%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--color-brite);
-    transform: perspective(10em) rotateX(72deg);
-    filter: blur(0.4em);
-}
-
 /* change when mouse hover over button */
 .button:hover {
     /* so that text edges are clearly defined on mouse over: */

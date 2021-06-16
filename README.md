@@ -258,7 +258,8 @@ Live Link:
     - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
 
     ##### Reference Sources / HTML / CSS
-
+    - [How to Remove, Replace or Style List Bullets with Pure CSS](https://www.w3docs.com/snippets/css/how-to-remove-replace-or-style-list-bullets-with-css.html)
+    
     ##### Reference Sources / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
     - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)

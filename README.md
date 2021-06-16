@@ -369,7 +369,7 @@ Live Link:
     - Default image compressor. [TinyPNG](https://tinypng.com/)
     - Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)
 
-### Media
+### Credits / Media
 
 - photos
 - images

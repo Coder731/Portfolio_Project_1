@@ -362,6 +362,26 @@ Live Link:
 - [CSS Box Shadow <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css3_shadows_box.asp)
 - [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
 
+##### Fonts
+###### CSS Font Size
+- [CSS Font Size <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_font_size.asp)
+###### Google Fonts
+- Using Google fonts in a few of my pages and hit a wall when trying to use variations of a font.  Importing three faces, Normal, Bold, ExtraBold via the link tag.  How to use the variants of the font in my CSS. Answer: They use regular CSS.  Just use regular font family property. Now decide what "weight" the font should have by adding font weight property (values in parentheses) as needed for semi-bold, for bold (700), for extra bold (800). [Specifying Style and Weight for Google Fonts](https://stackoverflow.com/questions/7256065/specifying-style-and-weight-for-google-fonts#7256119)
+###### How to use Google Fonts
+- How to use Google Fonts [CSS Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
+- [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
+###### Open Sans Google Font
+- [Open Sans Google font code](https://fonts.google.com/specimen/Open+Sans?query=Open+sans)
+
+##### General notes
+- No CSS in README with GitHub. [GitHub does not allow for CSS to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
+- How to align images in Readme using HTML. [Center images in README](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-on-github/62383408#62383408)
+- [GitHub Repository on how to do an image in a README_using Markdown](https://github.com/alandtsang/README)
+- [Anatomy of the html tag](https://clearlydecoded.com/anatomy-of-html-tag)
+- Resource for Markdown. [R_Markdown](https://rmarkdown.rstudio.com/)
+
+###### Images side by side in markdown
+- [Stack two images horizontally in R_Markdown](https://community.rstudio.com/t/how-to-stack-two-images-horizontally-in-r-markdown/18941)
 ## Technologies Used
 
 ###### Image Compressors
@@ -384,30 +404,6 @@ Live Link:
 ## Credits
 
 ### Credits / Content
-
-
-##### Fonts
-###### CSS Font Size
-- [CSS Font Size <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_font_size.asp)
-###### Google Fonts
-- Using Google fonts in a few of my pages and hit a wall when trying to use variations of a font.  Importing three faces, Normal, Bold, ExtraBold via the link tag.  How to use the variants of the font in my CSS. Answer: They use regular CSS.  Just use regular font family property. Now decide what "weight" the font should have by adding font weight property (values in parentheses) as needed for semi-bold, for bold (700), for extra bold (800). [Specifying Style and Weight for Google Fonts](https://stackoverflow.com/questions/7256065/specifying-style-and-weight-for-google-fonts#7256119)
-###### How to use Google Fonts
-- How to use Google Fonts [CSS Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
-- [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
-###### Open Sans Google Font
-- [Open Sans Google font code](https://fonts.google.com/specimen/Open+Sans?query=Open+sans)
-
-##### General notes
-- No CSS in README with GitHub. [GitHub does not allow for CSS to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
-- How to align images in Readme using HTML. [Center images in README](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-on-github/62383408#62383408)
-- [GitHub Repository on how to do an image in a README_using Markdown](https://github.com/alandtsang/README)
-- [Anatomy of the html tag](https://clearlydecoded.com/anatomy-of-html-tag)
-- Resource for Markdown. [R_Markdown](https://rmarkdown.rstudio.com/)
-
-###### Images side by side in markdown
-- [Stack two images horizontally in R_Markdown](https://community.rstudio.com/t/how-to-stack-two-images-horizontally-in-r-markdown/18941)
-
-
 
 ### Credits / Media
 

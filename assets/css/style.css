@@ -20,8 +20,10 @@ body {
 
 /* button */
 
-#button {
+.button {
+    /* turn off underline beneath button link */
     text-decoration: none;
+    /* make button text green */
     color: var(--color-brite);
     /* optimise accessibility using large bold font */
     font-size: 2rem;
@@ -34,15 +36,14 @@ body {
     padding: 0.04em 0.4em;
     /* light around button text */
     text-shadow: 
-        0 0 0.09em var(--color-white),
-        0 0 1em var(--color-brite);
+        0 0 0.1em var(--color-brite);
     /* light outside button */
     box-shadow: 0 0 1em 0 var(--color-brite);
     position: relative;
 }
 
 /* button pseudo-class before */
-#button::before {
+.button::before {
     /* reflection effect under button */
     content: '';
     position: absolute;
@@ -56,7 +57,7 @@ body {
 }
 
 /* change when mouse hover over button */
-#button:hover {
+.button:hover {
     /* so that text edges are clearly defined on mouse over: */
     text-shadow: none;
     /* invert button colors on mouse over: */

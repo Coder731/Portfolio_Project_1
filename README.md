@@ -214,11 +214,16 @@ Live Link:
 
 - [Display a Table in Readme](https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md)
 
+- [Using Span <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools reference](https://www.w3schools.com/tags/tag_span.asp)
+
+    ###### Markdown
+
 - [Markdown text alignment using the center tag](https://stackoverflow.com/questions/14051715/markdown-native-text-alignment)
 
 - [Markdown inline style for image alignment](https://stackoverflow.com/questions/255170/markdown-and-image-alignment)
 
-- [Using Span, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools reference](https://www.w3schools.com/tags/tag_span.asp)
+- How to use links in README [Link to Pages](https://docs.readme.com/docs/linking-to-pages)
+
     ##### Content / HTML on Home Page
     ###### Content / head element
     - [X-UA-Compatible Tag, older Microsoft Browser support](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
@@ -249,6 +254,8 @@ Live Link:
     - Short answer? No because the browser will only render the first one. [Can a HTML element have multiple unique ID attributes? [duplicate]](https://stackoverflow.com/questions/16936132/can-a-html-element-have-multiple-unique-id-attributes)
     ###### Can only target a single HTML element with a single before pseudo-element 
     - In CSS2.1, an element can only have at most one of any kind of pseudo-element at any time. (This means an element can have both a :before and an :after pseudo-element — it just cannot have more than one of each kind.) [Can I have multiple :before pseudo-elements for the same element?](https://stackoverflow.com/questions/11998593/can-i-have-multiple-before-pseudo-elements-for-the-same-element)
+    ###### Pseudo-classes
+    - A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it. [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
     ###### CSS position Property
     - [CSS position Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/pr_class_position.asp)
     - Although there is support in new inset property, this was avoided for Browser Compatibility. [(No) CSS shorthand for positioning](https://stackoverflow.com/questions/10855276/css-shorthand-for-positioning)
@@ -321,7 +328,7 @@ Live Link:
     ###### Google Fonts
     - Using Google fonts in a few of my pages and hit a wall when trying to use variations of a font.  Importing three faces, Normal, Bold, ExtraBold via the link tag.  How to use the variants of the font in my CSS. Answer: They use regular CSS.  Just use regular font family property. Now decide what "weight" the font should have by adding font weight property (values in parentheses) as needed for semi-bold, for bold (700), for extra bold (800). [Specifying Style and Weight for Google Fonts](https://stackoverflow.com/questions/7256065/specifying-style-and-weight-for-google-fonts#7256119)
     ###### How to use Google Fonts
-    - [How to use Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
+    - How to use Google Fonts [CSS Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
     - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
     ###### Open Sans Google Font
     - [Open Sans Google font code](https://fonts.google.com/specimen/Open+Sans?query=Open+sans)

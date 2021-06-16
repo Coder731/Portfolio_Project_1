@@ -336,8 +336,7 @@ Live Link:
 ##### Reference Sources / style.css file / Color
 ###### Color HEX
 - [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
-###### Matrix Color Scheme
-- Matrix colors used as a theme for website. [Green and Black Colors taken from this image](https://www.mobygames.com/images/shots/l/369148-the-matrix-online-windows-screenshot-every-time-an-area-loads.jpg)
+
 ###### CSS Color Wheel
 - [Adobe color-wheel](https://color.adobe.com/create/color-wheel)
 ###### Colors - Tool for selecting multiple colors for website. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
@@ -382,6 +381,12 @@ Live Link:
 
 ###### Images side by side in markdown
 - [Stack two images horizontally in R_Markdown](https://community.rstudio.com/t/how-to-stack-two-images-horizontally-in-r-markdown/18941)
+
+## Media References
+
+###### Matrix Color Scheme
+- Matrix colors used as a theme for website. [Green and Black Colors taken from this image](https://www.mobygames.com/images/shots/l/369148-the-matrix-online-windows-screenshot-every-time-an-area-loads.jpg)
+
 ## Technologies Used
 
 ###### Image Compressors

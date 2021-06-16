@@ -34,9 +34,6 @@ body {
     border: var(--color-brite) 0.1em solid;
     border-radius: 0.7em;
     padding: 0.04em 0.4em;
-    /* light around button text */
-    text-shadow: 
-        0 0 0.1em var(--color-brite);
     position: relative;
 }
 

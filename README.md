@@ -130,6 +130,14 @@ How the project achieves this
     As a secondary color combination, white and light blue were too low contrast.
     So, blue color was deepened.
 
+### Validator Testing
+
+- HTML
+- [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+CSS
+- [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
 ## User Experience
 ### Accessibility
 High Contrast
@@ -162,13 +170,6 @@ High Contrast
 ![Color code for white used in project](assets/images/12_hex_to_rgb_hashFFFFFF.jpg)
 #### Figure above shows white used in Secondary color theme
 
-### Validator Testing
-
-- HTML
-- [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-
-CSS
-- [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 ## Bugs
 ### Fixed Bugs
 Bug:

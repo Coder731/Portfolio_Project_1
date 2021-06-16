@@ -272,6 +272,8 @@ Live Link:
     ##### Reference Sources / HTML / CSS
     - Use list style none in CSS to remove bullet from unordered list item. [How to Remove, Replace or Style List Bullets with Pure CSS](https://www.w3docs.com/snippets/css/how-to-remove-replace-or-style-list-bullets-with-css.html)
 
+    ##### Reference Sources / Navigation bar / Bug / Vertical
+    - Potential solution to Bug with unordered list making Navigation bar display vertically. [horizontal nav bar / unordered list](https://stackoverflow.com/questions/33395003/horizontal-nav-bar-unordered-list)
     ##### Reference Sources / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
     - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)

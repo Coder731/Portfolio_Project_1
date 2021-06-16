@@ -333,31 +333,7 @@ Live Link:
 ###### Set word wrap at End of Line
 - How to set Vim to word wrap at the end of a line, for use in terminal to write commit messages. [Automatic word wrapping](https://vim.fandom.com/wiki/Automatic_word_wrapping)
 - Hard wrap recommended at 72 characters for git commits using Vim. [How to wrap git commit comments?](https://stackoverflow.com/questions/2119942/how-to-wrap-git-commit-comments)
-
-## Technologies Used
-
-###### Image Compressors
-- Default image compressor. [TinyPNG](https://tinypng.com/)
-- Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)
-
-## Templates Referenced
-
-    #### Templates Referenced / Readme
-- [Template used for this Readme](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_nav.png)
-
-- [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
-
-- [love-running repository](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/01-getting-set-up/01-getting-set-up)
-
-- [git-pod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
-
-- CodeInstitute lessons on the Editor were used as a template for how to showcase technologies.  The technologies used in this project, are shown in this Readme file. [Creating a Webpage that showcases technologies used in a Project](https://github.com/Code-Institute-Solutions/Editor)
-
-## Credits
-
-### Credits / Content
-
-##### Content / style.css file / Color
+##### Reference Sources / style.css file / Color
 ###### Color HEX
 - [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
 ###### Matrix Color Scheme
@@ -385,6 +361,30 @@ Live Link:
 - [CSS box-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp)
 - [CSS Box Shadow <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css3_shadows_box.asp)
 - [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
+
+## Technologies Used
+
+###### Image Compressors
+- Default image compressor. [TinyPNG](https://tinypng.com/)
+- Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)
+
+## Templates Referenced
+
+    #### Templates Referenced / Readme
+- [Template used for this Readme](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_nav.png)
+
+- [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
+
+- [love-running repository](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/01-getting-set-up/01-getting-set-up)
+
+- [git-pod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+- CodeInstitute lessons on the Editor were used as a template for how to showcase technologies.  The technologies used in this project, are shown in this Readme file. [Creating a Webpage that showcases technologies used in a Project](https://github.com/Code-Institute-Solutions/Editor)
+
+## Credits
+
+### Credits / Content
+
 
 ##### Fonts
 ###### CSS Font Size

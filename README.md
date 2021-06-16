@@ -218,63 +218,14 @@ Live Link:
 
 ## Reference Sources
 - Here are reference sources used in the project.
-
-### Reference Sources / Non-content support material
-
-##### Content / Git
-###### Git: Methods of adding Header and Message to git commit messages
-- How to use console VIM editor in Integrated Development Environment to add git commit messages with line breaks. [Learning How to Git: Creating a (Longer) Commit Message](https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a)
-- How to add a line break to a git commit message from the terminal, using "here document". [How to commit with a header and a message in git from the command line](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)
-    - Here document is a file literal or input stream literal.  It behaves as a separate file. It originates in Unix shell and is found in Bash. [Here document](https://en.wikipedia.org/wiki/Here_document)
-        - EOF stands for End Of File. [EOF](https://acronyms.thefreedictionary.com/EOF)
-###### Git: How to open editor from terminal, why not to punctuate commit messages
-- How to open default editor from terminal in Integrated Development Environment to write a git commit message. Also, reasons not to use punctuation marks. [How to Write Good Commit Messages in GitHub?
-](https://www.geeksforgeeks.org/how-to-write-good-commit-messages-in-github/)
-- Reason not to use commas in git commit messages. Also, if exporting git commit messages to csv, how to switch to semicolon delimitors instead of commas. This allows export of commit messages with commas, without messages splitting into different cells at each comma.  [How to escape commas inside commit title/subject in Git logs?](https://stackoverflow.com/questions/58907495/how-to-escape-commas-inside-commit-title-subject-in-git-logs)
-###### Viewing GitHub Commits
-- [How to view git commits on GitHub Repositories](https://stackoverflow.com/questions/65373797/where-can-i-see-the-commit-history-on-the-github-website)
-- [Image (from stackoverflow link above) highlighting where to access git commits](https://i.stack.imgur.com/HjDQX.png)
-###### Comparing Git Commits
-- [Git: How to compare two different versions of a file](https://alvinalexander.com/photos/git-compare-two-different-versions-of-a-file/)
-###### IDE Integrated Development Environment
-- What does the abbreviation IDE stand for? [What Is an IDE? | Codecademy](https://www.codecademy.com/articles/what-is-an-ide)
-
-##### Content / Vim
-###### Set word wrap at End of Line
-- How to set Vim to word wrap at the end of a line, for use in terminal to write commit messages. [Automatic word wrapping](https://vim.fandom.com/wiki/Automatic_word_wrapping)
-- Hard wrap recommended at 72 characters for git commits using Vim. [How to wrap git commit comments?](https://stackoverflow.com/questions/2119942/how-to-wrap-git-commit-comments)
-
-## Technologies Used
-
-###### Image Compressors
-- Default image compressor. [TinyPNG](https://tinypng.com/)
-- Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)
-
-## Templates Referenced
-
-    #### Templates Referenced / Readme
-- [Template used for this Readme](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_nav.png)
-
-- [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
-
-- [love-running repository](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/01-getting-set-up/01-getting-set-up)
-
-- [git-pod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
-
-- CodeInstitute lessons on the Editor were used as a template for how to showcase technologies.  The technologies used in this project, are shown in this Readme file. [Creating a Webpage that showcases technologies used in a Project](https://github.com/Code-Institute-Solutions/Editor)
-
-## Credits
-
-### Credits / Content
-
-    ##### Content / Readme / Image Alignment
+##### Reference Sources  / Readme / Image Alignment
 - [Putting two images on the same line by skipping line break](https://stackoverflow.com/questions/49633290/how-to-stack-images-horizontally-in-readme-md)
 
 - [Display a Table in Readme](https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md)
 
 - [Using Span <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools reference](https://www.w3schools.com/tags/tag_span.asp)
 
-    ##### Content / Readme / Markdown
+    ##### Reference Sources  / Readme / Markdown
 
 - [Markdown text alignment using the center tag](https://stackoverflow.com/questions/14051715/markdown-native-text-alignment)
 
@@ -282,21 +233,21 @@ Live Link:
 
 - How to use links in README [Link to Pages](https://docs.readme.com/docs/linking-to-pages)
 
-    ##### Content / All HTML Pages
+    ##### Reference Sources  / All HTML Pages
     Use unordered list element with list item elements for each anchor element to make navigation bar stretch across page.
     - [how to make navigation bar stretch across the page (HTML)](https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html)
     - [How To Make Navigation Bar Stretch Across The Page](https://www.aurigait.com/blog/how-to-make-navigation-bar-stretch-across-the-page/)
     - [CSS Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/CSS/css_list.asp)
     - [HTML Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/HTML/html_lists.asp)
 
-    ##### Content / HTML on Home Page
+    ##### Reference Sources  / HTML on Home Page
     ###### Content / head element
     - [X-UA-Compatible Tag, older Microsoft Browser support](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
     - [Defining document compatibility](https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))
     ###### Content / body element
     - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
 
-    #####  Content / style.css file
+    #####  Reference Sources  / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
     - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
     - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
@@ -358,55 +309,103 @@ Live Link:
     ###### Anatomy of a CSS Rule
     - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
 
-    ##### Content / style.css file / Color
-    ###### Color HEX
-    - [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
-    ###### Matrix Color Scheme
-    - Matrix colors used as a theme for website. [Green and Black Colors taken from this image](https://www.mobygames.com/images/shots/l/369148-the-matrix-online-windows-screenshot-every-time-an-area-loads.jpg)
-    ###### CSS Color Wheel
-    - [Adobe color-wheel](https://color.adobe.com/create/color-wheel)
-    ###### Colors - Tool for selecting multiple colors for website. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
-    - [Color design theory](https://blog.hubspot.com/marketing/color-theory-design)
-    - Color wheel calculator tool for picking website. [Sessions College](https://www.sessions.edu/color-calculator-results/?colors=2b2527,22f0e2,1d99ff,32d16c,3af568,ffffff)
-    - Tool for checking Accessibility of Color combination chosen for website. [Accessibility of color combination Tool](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&secondary.color=2b2527&primary.text.color=1d99ff&secondary.text.color=3af568)
-    - Used this site to check if font/background combinations are above 7:1 contrast ratio.[Web Accessibility In Mind WebAIM](https://webaim.org/resources/contrastchecker/)
-    - [Add inline style to h2 element to center content](https://stackoverflow.com/questions/41439730/how-to-center-a-h2)
+### Reference Sources / Non-content support material
 
-    ###### CSS HSL Colors
-    - [CSS HSL Colors <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_colors_hsl.asp)
-    -  Browser Compatibility: hsl CSS property, alpha parameter: Internet Explorer Browser does not support alpha parameter in hsl hue staturation lightness property in CSS Stylesheets [hsl()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl())
-    - [CSS hsl() Function <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/func_hsl.asp)
-    - [Colors HSL <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hsl.asp)
+##### Content / Git
+###### Git: Methods of adding Header and Message to git commit messages
+- How to use console VIM editor in Integrated Development Environment to add git commit messages with line breaks. [Learning How to Git: Creating a (Longer) Commit Message](https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a)
+- How to add a line break to a git commit message from the terminal, using "here document". [How to commit with a header and a message in git from the command line](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)
+    - Here document is a file literal or input stream literal.  It behaves as a separate file. It originates in Unix shell and is found in Bash. [Here document](https://en.wikipedia.org/wiki/Here_document)
+        - EOF stands for End Of File. [EOF](https://acronyms.thefreedictionary.com/EOF)
+###### Git: How to open editor from terminal, why not to punctuate commit messages
+- How to open default editor from terminal in Integrated Development Environment to write a git commit message. Also, reasons not to use punctuation marks. [How to Write Good Commit Messages in GitHub?
+](https://www.geeksforgeeks.org/how-to-write-good-commit-messages-in-github/)
+- Reason not to use commas in git commit messages. Also, if exporting git commit messages to csv, how to switch to semicolon delimitors instead of commas. This allows export of commit messages with commas, without messages splitting into different cells at each comma.  [How to escape commas inside commit title/subject in Git logs?](https://stackoverflow.com/questions/58907495/how-to-escape-commas-inside-commit-title-subject-in-git-logs)
+###### Viewing GitHub Commits
+- [How to view git commits on GitHub Repositories](https://stackoverflow.com/questions/65373797/where-can-i-see-the-commit-history-on-the-github-website)
+- [Image (from stackoverflow link above) highlighting where to access git commits](https://i.stack.imgur.com/HjDQX.png)
+###### Comparing Git Commits
+- [Git: How to compare two different versions of a file](https://alvinalexander.com/photos/git-compare-two-different-versions-of-a-file/)
+###### IDE Integrated Development Environment
+- What does the abbreviation IDE stand for? [What Is an IDE? | Codecademy](https://www.codecademy.com/articles/what-is-an-ide)
 
-    ###### CSS text shadow
-    - How to use text shadow in CSS Stylesheets. CSS Syntax uses horizontal shadow, vertical shadow, blur radius, and color parameters. [CSS text-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
+##### Content / Vim
+###### Set word wrap at End of Line
+- How to set Vim to word wrap at the end of a line, for use in terminal to write commit messages. [Automatic word wrapping](https://vim.fandom.com/wiki/Automatic_word_wrapping)
+- Hard wrap recommended at 72 characters for git commits using Vim. [How to wrap git commit comments?](https://stackoverflow.com/questions/2119942/how-to-wrap-git-commit-comments)
 
-    ###### CSS box shadow
-    - Browser Compatibility: Only Partial Support in Internet Explorer 9 for Box shadow inset parameter. [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
-    - [CSS box-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp)
-    - [CSS Box Shadow <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css3_shadows_box.asp)
-    - [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
-    
-    ##### Fonts
-    ###### CSS Font Size
-    - [CSS Font Size <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_font_size.asp)
-    ###### Google Fonts
-    - Using Google fonts in a few of my pages and hit a wall when trying to use variations of a font.  Importing three faces, Normal, Bold, ExtraBold via the link tag.  How to use the variants of the font in my CSS. Answer: They use regular CSS.  Just use regular font family property. Now decide what "weight" the font should have by adding font weight property (values in parentheses) as needed for semi-bold, for bold (700), for extra bold (800). [Specifying Style and Weight for Google Fonts](https://stackoverflow.com/questions/7256065/specifying-style-and-weight-for-google-fonts#7256119)
-    ###### How to use Google Fonts
-    - How to use Google Fonts [CSS Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
-    - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
-    ###### Open Sans Google Font
-    - [Open Sans Google font code](https://fonts.google.com/specimen/Open+Sans?query=Open+sans)
+## Technologies Used
 
-    ##### General notes
-    - No CSS in README with GitHub. [GitHub does not allow for CSS to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
-    - How to align images in Readme using HTML. [Center images in README](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-on-github/62383408#62383408)
-    - [GitHub Repository on how to do an image in a README_using Markdown](https://github.com/alandtsang/README)
-    - [Anatomy of the html tag](https://clearlydecoded.com/anatomy-of-html-tag)
-    - Resource for Markdown. [R_Markdown](https://rmarkdown.rstudio.com/)
+###### Image Compressors
+- Default image compressor. [TinyPNG](https://tinypng.com/)
+- Used any time TinPNG gave jfif file, which will not run in Integrated Development Environment. [JPEG_compressor](https://compressjpeg.com/)
 
-    ###### Images side by side in markdown
-    - [Stack two images horizontally in R_Markdown](https://community.rstudio.com/t/how-to-stack-two-images-horizontally-in-r-markdown/18941)
+## Templates Referenced
+
+    #### Templates Referenced / Readme
+- [Template used for this Readme](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_nav.png)
+
+- [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
+
+- [love-running repository](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/01-getting-set-up/01-getting-set-up)
+
+- [git-pod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+- CodeInstitute lessons on the Editor were used as a template for how to showcase technologies.  The technologies used in this project, are shown in this Readme file. [Creating a Webpage that showcases technologies used in a Project](https://github.com/Code-Institute-Solutions/Editor)
+
+## Credits
+
+### Credits / Content
+
+##### Content / style.css file / Color
+###### Color HEX
+- [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
+###### Matrix Color Scheme
+- Matrix colors used as a theme for website. [Green and Black Colors taken from this image](https://www.mobygames.com/images/shots/l/369148-the-matrix-online-windows-screenshot-every-time-an-area-loads.jpg)
+###### CSS Color Wheel
+- [Adobe color-wheel](https://color.adobe.com/create/color-wheel)
+###### Colors - Tool for selecting multiple colors for website. [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+- [Color design theory](https://blog.hubspot.com/marketing/color-theory-design)
+- Color wheel calculator tool for picking website. [Sessions College](https://www.sessions.edu/color-calculator-results/?colors=2b2527,22f0e2,1d99ff,32d16c,3af568,ffffff)
+- Tool for checking Accessibility of Color combination chosen for website. [Accessibility of color combination Tool](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&secondary.color=2b2527&primary.text.color=1d99ff&secondary.text.color=3af568)
+- Used this site to check if font/background combinations are above 7:1 contrast ratio.[Web Accessibility In Mind WebAIM](https://webaim.org/resources/contrastchecker/)
+- [Add inline style to h2 element to center content](https://stackoverflow.com/questions/41439730/how-to-center-a-h2)
+
+###### CSS HSL Colors
+- [CSS HSL Colors <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_colors_hsl.asp)
+-  Browser Compatibility: hsl CSS property, alpha parameter: Internet Explorer Browser does not support alpha parameter in hsl hue staturation lightness property in CSS Stylesheets [hsl()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl())
+- [CSS hsl() Function <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/func_hsl.asp)
+- [Colors HSL <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hsl.asp)
+
+###### CSS text shadow
+- How to use text shadow in CSS Stylesheets. CSS Syntax uses horizontal shadow, vertical shadow, blur radius, and color parameters. [CSS text-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
+
+###### CSS box shadow
+- Browser Compatibility: Only Partial Support in Internet Explorer 9 for Box shadow inset parameter. [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+- [CSS box-shadow Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp)
+- [CSS Box Shadow <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css3_shadows_box.asp)
+- [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
+
+##### Fonts
+###### CSS Font Size
+- [CSS Font Size <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_font_size.asp)
+###### Google Fonts
+- Using Google fonts in a few of my pages and hit a wall when trying to use variations of a font.  Importing three faces, Normal, Bold, ExtraBold via the link tag.  How to use the variants of the font in my CSS. Answer: They use regular CSS.  Just use regular font family property. Now decide what "weight" the font should have by adding font weight property (values in parentheses) as needed for semi-bold, for bold (700), for extra bold (800). [Specifying Style and Weight for Google Fonts](https://stackoverflow.com/questions/7256065/specifying-style-and-weight-for-google-fonts#7256119)
+###### How to use Google Fonts
+- How to use Google Fonts [CSS Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
+- [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
+###### Open Sans Google Font
+- [Open Sans Google font code](https://fonts.google.com/specimen/Open+Sans?query=Open+sans)
+
+##### General notes
+- No CSS in README with GitHub. [GitHub does not allow for CSS to affect README.md files](http://stackoverflow.com/questions/51956361/ddg#51956450)
+- How to align images in Readme using HTML. [Center images in README](https://stackoverflow.com/questions/12090472/how-do-i-center-an-image-in-the-readme-md-on-github/62383408#62383408)
+- [GitHub Repository on how to do an image in a README_using Markdown](https://github.com/alandtsang/README)
+- [Anatomy of the html tag](https://clearlydecoded.com/anatomy-of-html-tag)
+- Resource for Markdown. [R_Markdown](https://rmarkdown.rstudio.com/)
+
+###### Images side by side in markdown
+- [Stack two images horizontally in R_Markdown](https://community.rstudio.com/t/how-to-stack-two-images-horizontally-in-r-markdown/18941)
 
 
 

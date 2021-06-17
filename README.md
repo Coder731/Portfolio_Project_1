@@ -229,6 +229,8 @@ Potential Causes:
 Attempts:
 - Tried setting width to different percentages, however these did not take into account different text widths.
 - Other than using new units for width like view width, with potential Backward Compatibility issues, there does not seem to be a way to set font to a percentage of screen width.
+- Added orange and blue background color to body element in home page.  This did not take effect in the Browser.
+
 Potential Other Solutions:
 - Use card, instead of Unordered List.  Detail to be added.
 - Revisit HTML file
@@ -242,6 +244,7 @@ Potential Other Solutions:
 - Revisit solution search.
 - Try using span element
 - Look up div element
+- Try using margin property    
 
 ## Deployment
 
@@ -314,6 +317,7 @@ Use unordered list element with list item elements for each anchor element to ma
 ##### Reference Sources / Navigation bar / Bug / Partial Width
 - Can have more than one Navigation bar. Used temporarily for debugging Partial width Navigation bar Bug. [Is it possible to add multiple CSS navigation bars on one HTML page and if yes, how?](https://www.quora.com/Is-it-possible-to-add-multiple-CSS-navigation-bars-on-one-HTML-page-and-if-yes-how?share=1)
 - [Making the nav bar span the width of the page](https://stackoverflow.com/questions/29538290/making-the-nav-bar-span-the-width-of-the-page)
+- [CSS Margins](https://www.w3schools.com/Css/css_margin.asp)
 
 #### Reference Sources / CSS
 

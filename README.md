@@ -271,6 +271,7 @@ Live Link:
 
 ## Reference Sources
 - Here are reference sources used in the project.
+
 ##### Reference Sources  / Readme / Image Alignment
 - [Putting two images on the same line by skipping line break](https://stackoverflow.com/questions/49633290/how-to-stack-images-horizontally-in-readme-md)
 
@@ -278,7 +279,7 @@ Live Link:
 
 - [Using Span <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools reference](https://www.w3schools.com/tags/tag_span.asp)
 
-    ##### Reference Sources  / Readme / Markdown
+##### Reference Sources  / Readme / Markdown
 
 - [Markdown text alignment using the center tag](https://stackoverflow.com/questions/14051715/markdown-native-text-alignment)
 
@@ -286,7 +287,7 @@ Live Link:
 
 - How to use links in README [Link to Pages](https://docs.readme.com/docs/linking-to-pages)
 
-    ##### Reference Sources  / All HTML Pages
+##### Reference Sources  / All HTML Pages
     Use unordered list element with list item elements for each anchor element to make navigation bar stretch across page.
     - [how to make navigation bar stretch across the page (HTML)](https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html)
     - [How To Make Navigation Bar Stretch Across The Page](https://www.aurigait.com/blog/how-to-make-navigation-bar-stretch-across-the-page/)
@@ -307,8 +308,12 @@ Live Link:
 
     ##### Reference Sources / Navigation bar / Bug / Vertical
     - Potential solution to Bug with unordered list making Navigation bar display vertically. Use display property, with a value of inline-block to set navigation bar horizontal. [horizontal nav bar / unordered list](https://stackoverflow.com/questions/33395003/horizontal-nav-bar-unordered-list)
+
     ##### Reference Sources / Navigation bar / Bug / Partial Width
     - Can have more than one Navigation bar. Used temporarily for debugging Partial width Navigation bar Bug. [Is it possible to add multiple CSS navigation bars on one HTML page and if yes, how?](https://www.quora.com/Is-it-possible-to-add-multiple-CSS-navigation-bars-on-one-HTML-page-and-if-yes-how?share=1)
+
+    #### Reference Sources / CSS
+
     ##### Reference Sources / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
     - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
@@ -400,13 +405,17 @@ Live Link:
 - [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
 
 ##### Fonts
+
 ###### CSS Font Size
 - [CSS Font Size <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_font_size.asp)
+
 ###### Google Fonts
 - Using Google fonts in a few of my pages and hit a wall when trying to use variations of a font.  Importing three faces, Normal, Bold, ExtraBold via the link tag.  How to use the variants of the font in my CSS. Answer: They use regular CSS.  Just use regular font family property. Now decide what "weight" the font should have by adding font weight property (values in parentheses) as needed for semi-bold, for bold (700), for extra bold (800). [Specifying Style and Weight for Google Fonts](https://stackoverflow.com/questions/7256065/specifying-style-and-weight-for-google-fonts#7256119)
+
 ###### How to use Google Fonts
 - How to use Google Fonts [CSS Google Fonts <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_font_google.asp)
 - [Roboto Google font code](https://fonts.google.com/specimen/Roboto)
+
 ###### Open Sans Google Font
 - [Open Sans Google font code](https://fonts.google.com/specimen/Open+Sans?query=Open+sans)
 

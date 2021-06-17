@@ -201,7 +201,9 @@ Fix:
 
 ### Unfixed Bugs
 
-#### Images 9 and 10 are named with capitalised .JPG endings.
+#### File Extension Name Bug
+
+##### Images 9 and 10 are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
 - However, when the links were updated to .jpg they did not work.
 - It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg

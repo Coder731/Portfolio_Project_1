@@ -243,7 +243,6 @@ Potential Other Solutions:
 - Try using span element
 - Look up div element
 
-
 ## Deployment
 
 process to deploy on GitHub.
@@ -275,14 +274,14 @@ Live Link:
 ## Reference Sources
 - Here are reference sources used in the project.
 
-##### Reference Sources  / Readme / Image Alignment
+##### Reference Sources / Readme / Image Alignment
 - [Putting two images on the same line by skipping line break](https://stackoverflow.com/questions/49633290/how-to-stack-images-horizontally-in-readme-md)
 
 - [Display a Table in Readme](https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md)
 
 - [Using Span <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools reference](https://www.w3schools.com/tags/tag_span.asp)
 
-##### Reference Sources  / Readme / Markdown
+##### Reference Sources / Readme / Markdown
 
 - [Markdown text alignment using the center tag](https://stackoverflow.com/questions/14051715/markdown-native-text-alignment)
 
@@ -290,94 +289,95 @@ Live Link:
 
 - How to use links in README [Link to Pages](https://docs.readme.com/docs/linking-to-pages)
 
-##### Reference Sources  / All HTML Pages
-    Use unordered list element with list item elements for each anchor element to make navigation bar stretch across page.
-    - [how to make navigation bar stretch across the page (HTML)](https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html)
-    - [How To Make Navigation Bar Stretch Across The Page](https://www.aurigait.com/blog/how-to-make-navigation-bar-stretch-across-the-page/)
-    - [CSS Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/CSS/css_list.asp)
-    - [HTML Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/HTML/html_lists.asp)
+##### Reference Sources / All HTML Pages
+Use unordered list element with list item elements for each anchor element to make navigation bar stretch across page.
+- [how to make navigation bar stretch across the page (HTML)](https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html)
+- [How To Make Navigation Bar Stretch Across The Page](https://www.aurigait.com/blog/how-to-make-navigation-bar-stretch-across-the-page/)
+- [CSS Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/CSS/css_list.asp)
+- [HTML Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/HTML/html_lists.asp)
 
-    ##### Reference Sources  / HTML on Home Page
-    ###### Content / head element
-    - [X-UA-Compatible Tag, older Microsoft Browser support](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
-    - [Defining document compatibility](https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))
-    ###### Content / body element
-    - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
+##### Reference Sources / HTML on Home Page
+###### Content / head element
+- [X-UA-Compatible Tag, older Microsoft Browser support](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
+- [Defining document compatibility](https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))
+###### Content / body element
+- [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
 
-    ##### Reference Sources / HTML / CSS
-    - Use list style none in CSS to remove bullet from unordered list item. [How to Remove, Replace or Style List Bullets with Pure CSS](https://www.w3docs.com/snippets/css/how-to-remove-replace-or-style-list-bullets-with-css.html)
+##### Reference Sources / HTML / CSS
+- Use list style none in CSS to remove bullet from unordered list item. [How to Remove, Replace or Style List Bullets with Pure CSS](https://www.w3docs.com/snippets/css/how-to-remove-replace-or-style-list-bullets-with-css.html)
 
-    #### Reference Sources / Navigation bar / Bug
+#### Reference Sources / Navigation bar / Bug
 
-    ##### Reference Sources / Navigation bar / Bug / Vertical
-    - Potential solution to Bug with unordered list making Navigation bar display vertically. Use display property, with a value of inline-block to set navigation bar horizontal. [horizontal nav bar / unordered list](https://stackoverflow.com/questions/33395003/horizontal-nav-bar-unordered-list)
+##### Reference Sources / Navigation bar / Bug / Vertical
+- Potential solution to Bug with unordered list making Navigation bar display vertically. Use display property, with a value of inline-block to set navigation bar horizontal. [horizontal nav bar / unordered list](https://stackoverflow.com/questions/33395003/horizontal-nav-bar-unordered-list)
 
-    ##### Reference Sources / Navigation bar / Bug / Partial Width
-    - Can have more than one Navigation bar. Used temporarily for debugging Partial width Navigation bar Bug. [Is it possible to add multiple CSS navigation bars on one HTML page and if yes, how?](https://www.quora.com/Is-it-possible-to-add-multiple-CSS-navigation-bars-on-one-HTML-page-and-if-yes-how?share=1)
+##### Reference Sources / Navigation bar / Bug / Partial Width
+- Can have more than one Navigation bar. Used temporarily for debugging Partial width Navigation bar Bug. [Is it possible to add multiple CSS navigation bars on one HTML page and if yes, how?](https://www.quora.com/Is-it-possible-to-add-multiple-CSS-navigation-bars-on-one-HTML-page-and-if-yes-how?share=1)
+- [Making the nav bar span the width of the page](https://stackoverflow.com/questions/29538290/making-the-nav-bar-span-the-width-of-the-page)
 
-    #### Reference Sources / CSS
+#### Reference Sources / CSS
 
-    ##### Reference Sources / style.css file
-    - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
-    - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
-    - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
-    - Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
-    ###### Using CSS Box sizing
-    - First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
-    - Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
-    - Third source using box sizing in CSS. [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
-    - Fourth source using box sizing in CSS. [CSS Box Sizing Property, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp)
-    ###### Pseudo-elements in CSS
-    - CSS Pseudo-elements [Before and After pseudo elements explained - part one: how they work](https://www.youtube.com/watch?v=zGiirUiWslI&list=PL4-IK0AVhVjPBX_HelwDlNsTiyr2YGSBw&ab_channel=KevinPowell)
-    - [CSS Pseudo-elements <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSS/css_pseudo_elements.asp)
-    ###### Using the "before" selector in CSS
-    - Source 1 for CSS before selector. [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_before.asp)
-    - Source 2 for CSS before selector. [CSS ::before selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
-    ###### Using the "after" selector in CSS
-    - Source 1 for CSS after selector. [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_after.asp)
-    - Source 2 for CSS after selector. [CSS ::after selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
-    ###### Can only target a single HTML element with a single id selector
-    - Short answer? No because the browser will only render the first one. [Can a HTML element have multiple unique ID attributes? [duplicate]](https://stackoverflow.com/questions/16936132/can-a-html-element-have-multiple-unique-id-attributes)
-    ###### Can only target a single HTML element with a single before pseudo-element 
-    - In CSS2.1, an element can only have at most one of any kind of pseudo-element at any time. (This means an element can have both a :before and an :after pseudo-element — it just cannot have more than one of each kind.) [Can I have multiple :before pseudo-elements for the same element?](https://stackoverflow.com/questions/11998593/can-i-have-multiple-before-pseudo-elements-for-the-same-element)
-    ###### Pseudo-classes
-    - A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it. [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
-    ###### CSS position Property
-    - [CSS position Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/pr_class_position.asp)
-    - Although there is support in new inset property, this was avoided for Browser Compatibility. [(No) CSS shorthand for positioning](https://stackoverflow.com/questions/10855276/css-shorthand-for-positioning)
-    - New inset property, which acts like shorthand. Not used for Browser Compatibility. [inset](https://developer.mozilla.org/en-US/docs/Web/CSS/inset#browser_compatibility)
-    ###### CSS left property
-    - The left CSS property pertains to the horizontal position of an element. [left](https://developer.mozilla.org/en-US/docs/Web/CSS/left)
-    ###### CSS transform
-    - If perspective() is one of multiple function values, it must be listed first. [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
-        - The perspective() CSS function defines a transformation that sets the distance between the user and the z=0 plane [perspective()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/perspective())
-        - [CSS Transform: Rotating a 3D object with perspective based on mouse position](https://www.armandocanals.com/posts/CSS-transform-rotating-a-3D-object-perspective-based-on-mouse-position.html)
-        - The rotate CSS function [rotate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate())
-        - The rotateX CSS function defines a transformation that rotates an element around the horizontal axis.[rotateX()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateX())
-    ###### CSS filter Property
-    - CSS Syntax for filter Property includes setting value to blur [CSS filter Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/css3_pr_filter.asp)
-    ###### CSS blur()function
-    - The blurCSS function applies a Gaussian blur to the input image. [blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur())
-    ###### CSS hover Selector
-    - [CSS hover Selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_hover.asp)
+##### Reference Sources / style.css file
+- [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
+- [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
+- First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
+- Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
+###### Using CSS Box sizing
+- First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
+- Second source using box sizing in CSS. [Box Sizing](https://css-tricks.com/box-sizing/)
+- Third source using box sizing in CSS. [CSS Box Sizing, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/css/css3_box-sizing.asp)
+- Fourth source using box sizing in CSS. [CSS Box Sizing Property, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp)
+###### Pseudo-elements in CSS
+- CSS Pseudo-elements [Before and After pseudo elements explained - part one: how they work](https://www.youtube.com/watch?v=zGiirUiWslI&list=PL4-IK0AVhVjPBX_HelwDlNsTiyr2YGSBw&ab_channel=KevinPowell)
+- [CSS Pseudo-elements <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSS/css_pseudo_elements.asp)
+###### Using the "before" selector in CSS
+- Source 1 for CSS before selector. [CSS ::before Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_before.asp)
+- Source 2 for CSS before selector. [CSS ::before selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
+###### Using the "after" selector in CSS
+- Source 1 for CSS after selector. [CSS ::after Selector, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15"> W3Schools article](https://www.w3schools.com/cssref/sel_after.asp)
+- Source 2 for CSS after selector. [CSS ::after selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
+###### Can only target a single HTML element with a single id selector
+- Short answer? No because the browser will only render the first one. [Can a HTML element have multiple unique ID attributes? [duplicate]](https://stackoverflow.com/questions/16936132/can-a-html-element-have-multiple-unique-id-attributes)
+###### Can only target a single HTML element with a single before pseudo-element 
+- In CSS2.1, an element can only have at most one of any kind of pseudo-element at any time. (This means an element can have both a :before and an :after pseudo-element — it just cannot have more than one of each kind.) [Can I have multiple :before pseudo-elements for the same element?](https://stackoverflow.com/questions/11998593/can-i-have-multiple-before-pseudo-elements-for-the-same-element)
+###### Pseudo-classes
+- A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it. [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+###### CSS position Property
+- [CSS position Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/pr_class_position.asp)
+- Although there is support in new inset property, this was avoided for Browser Compatibility. [(No) CSS shorthand for positioning](https://stackoverflow.com/questions/10855276/css-shorthand-for-positioning)
+- New inset property, which acts like shorthand. Not used for Browser Compatibility. [inset](https://developer.mozilla.org/en-US/docs/Web/CSS/inset#browser_compatibility)
+###### CSS left property
+- The left CSS property pertains to the horizontal position of an element. [left](https://developer.mozilla.org/en-US/docs/Web/CSS/left)
+###### CSS transform
+- If perspective() is one of multiple function values, it must be listed first. [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+    - The perspective() CSS function defines a transformation that sets the distance between the user and the z=0 plane [perspective()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/perspective())
+    - [CSS Transform: Rotating a 3D object with perspective based on mouse position](https://www.armandocanals.com/posts/CSS-transform-rotating-a-3D-object-perspective-based-on-mouse-position.html)
+    - The rotate CSS function [rotate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate())
+    - The rotateX CSS function defines a transformation that rotates an element around the horizontal axis.[rotateX()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateX())
+###### CSS filter Property
+- CSS Syntax for filter Property includes setting value to blur [CSS filter Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/css3_pr_filter.asp)
+###### CSS blur()function
+- The blurCSS function applies a Gaussian blur to the input image. [blur](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur())
+###### CSS hover Selector
+- [CSS hover Selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_hover.asp)
 
-    ###### Using Asterisk selector in CSS
-    The CSS Asterisk selector * selects all HTML elements.
-    - First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)
-    - Second source for asterisk selector. [CSS asterisk * selector](https://stackoverflow.com/questions/1204275/what-does-an-asterisk-do-in-a-css-selector)
-    - Third source for asterisk selector. [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
-    ###### Using CSS padding property
-    - [CSS padding Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/pr_padding.asp)
-    ###### Using CSS Grid
-    - [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
-    ###### Using rem units
-    - In CSS, the size unit rem stands for root element. [Using rem versus em size units in CSS](https://stackoverflow.com/questions/13941275/how-does-rem-differ-from-em-in-css)
-    - [Rem in CSS: Understanding and Using rem Units](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
-    ###### Cursor Pointer
-    - Using a CSS declaration with cursor property set to a value of pointer, to display pointing hand in CSS. [Cursor property set to value of pointer <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/pr_class_cursor.asp)
-        - [Practice page for cusor set to pointer in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
-    ###### Anatomy of a CSS Rule
-    - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
+###### Using Asterisk selector in CSS
+The CSS Asterisk selector * selects all HTML elements.
+- First source for asterisk selector. [CSS asterisk * selector](geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)
+- Second source for asterisk selector. [CSS asterisk * selector](https://stackoverflow.com/questions/1204275/what-does-an-asterisk-do-in-a-css-selector)
+- Third source for asterisk selector. [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
+###### Using CSS padding property
+- [CSS padding Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/pr_padding.asp)
+###### Using CSS Grid
+- [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
+###### Using rem units
+- In CSS, the size unit rem stands for root element. [Using rem versus em size units in CSS](https://stackoverflow.com/questions/13941275/how-does-rem-differ-from-em-in-css)
+- [Rem in CSS: Understanding and Using rem Units](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
+###### Cursor Pointer
+- Using a CSS declaration with cursor property set to a value of pointer, to display pointing hand in CSS. [Cursor property set to value of pointer <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/pr_class_cursor.asp)
+    - [Practice page for cusor set to pointer in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
+###### Anatomy of a CSS Rule
+- How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
 
 ##### Reference Sources / style.css file / Color
 ###### Color HEX

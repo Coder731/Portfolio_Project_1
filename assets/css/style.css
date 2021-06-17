@@ -53,3 +53,7 @@ body {
 li {
     display: inline-block;
 }
+
+nav {
+    width: 100%;
+}

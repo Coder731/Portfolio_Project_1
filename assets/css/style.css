@@ -5,15 +5,9 @@
     --color-white: #ffffff;
 }
 
-/* Box sizing */
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
 /* Targets entire body */
 body {
     font-family: 'Roboto', sans-serif;
-    display: grid;
     color: var(--color-brite);
     background: var(--color-bkgrd);
 }
@@ -56,4 +50,5 @@ li {
 
 nav {
     width: 100%;
+    background-color: orange;
 }

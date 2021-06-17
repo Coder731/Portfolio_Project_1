@@ -412,7 +412,7 @@ Live Link:
 
 ### Reference Sources / Non-content support material
 
-##### Content / Git
+#### Content / Git
 ###### Git: Methods of adding Header and Message to git commit messages
 - How to use console VIM editor in Integrated Development Environment to add git commit messages with line breaks. [Learning How to Git: Creating a (Longer) Commit Message](https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a)
 - How to add a line break to a git commit message from the terminal, using "here document". [How to commit with a header and a message in git from the command line](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)

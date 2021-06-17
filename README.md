@@ -298,6 +298,8 @@ Live Link:
 
     ##### Reference Sources / Navigation bar / Bug / Vertical
     - Potential solution to Bug with unordered list making Navigation bar display vertically. Use display property, with a value of inline-block to set navigation bar horizontal. [horizontal nav bar / unordered list](https://stackoverflow.com/questions/33395003/horizontal-nav-bar-unordered-list)
+    ##### Reference Sources / Navigation bar / Bug / Partial Width
+    - Can have more than one Navigation bar. Used temporarily for debugging Partial width Navigation bar Bug. [Is it possible to add multiple CSS navigation bars on one HTML page and if yes, how?](https://www.quora.com/Is-it-possible-to-add-multiple-CSS-navigation-bars-on-one-HTML-page-and-if-yes-how?share=1)
     ##### Reference Sources / style.css file
     - [Inline CSS formatting best practices - Two questions](https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions)
     - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)

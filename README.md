@@ -240,6 +240,9 @@ Potential Other Solutions:
 - Experiment with display, position, float, inline-block, block and inline values.
 - Experiment with center, right, left, bottom, top values.
 - Revisit solution search.
+- Try using span element
+- Look up div element
+
 
 ## Deployment
 

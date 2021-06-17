@@ -201,20 +201,20 @@ Fix:
 
 ### Unfixed Bugs
 
-#### File Extension Name Bug
+##### File Extension Name Bug
 
-##### Images 9 and 10 are named with capitalised .JPG endings.
+###### Images 9 and 10 are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
 - However, when the links were updated to .jpg they did not work.
 - It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg
 - In the interest of simplicity, the files were reverted to the orignal .JPG extension.
     - Note: Full names for Images 9 and 10 are 9_hex_to_rgb_hash3af568.JPG and 10_hex_to_rgb_hash2b2527.JPG
 
-## Debug
+#### Debug
 
-#### Home page Bugs
+##### Home page Bugs
 
-##### Navigation bar Bugs
+###### Navigation bar Bugs
 Bug: Partial width Navigation bar
 Before the addition of unordered list and list item tags:
 - Navigation bar was not stetching fully horizontally across screen.

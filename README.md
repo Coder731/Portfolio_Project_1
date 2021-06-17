@@ -218,6 +218,15 @@ Attempts:
 - Other than using new units for width like view width, with potential Backward Compatibility issues, there does not seem to be a way to set font to a percentage of screen width.
 Potential Other Solutions:
 - Use card, instead of Unordered List.  Detail to be added.
+- Revisit HTML file
+- Build second Nav bar for trial purposes
+    - Use card approach mentioned above in trial Nav bar
+    - Try using only Nav bar or only unordered list to see which is easier to make fill full width of pages
+- CSS Grid
+- 1 Dimentional alternative to CSS Grid
+- Experiment with display, position, float, inline-block, block and inline values.
+- Experiment with center, right, left, bottom, top values.
+- Revisit solution search.
 #### Images 9 and 10 are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
 - However, when the links were updated to .jpg they did not work.

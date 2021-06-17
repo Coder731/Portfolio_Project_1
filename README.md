@@ -205,7 +205,19 @@ Fix:
 Bug: Partial width Navigation bar
 Before the addition of unordered list and list item tags:
 - Navigation bar was not stetching fully horizontally across screen.
-
+Information Gathering:
+- Set nav element and unordered list element to orange in turn.  Both took up full width of screen.
+- Set list element to orange, and it took up the width of a button on home page.
+Potential Causes:
+- Button class, button hover class, anchor element, or list item element could be preventing buttons from spreading across width of page.
+- Document Object Model is not set correctly. 
+- Browser default properties
+- Some single property is set wrong or inherited preventing full width.
+Attempts:
+- Tried setting width to different percentages, however these did not take into account different text widths.
+- Other than using new units for width like view width, with potential Backward Compatibility issues, there does not seem to be a way to set font to a percentage of screen width.
+Potential Other Solutions:
+- Use card, instead of Unordered List.  Detail to be added.
 #### Images 9 and 10 are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
 - However, when the links were updated to .jpg they did not work.

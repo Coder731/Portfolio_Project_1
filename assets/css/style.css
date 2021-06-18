@@ -1,47 +1,55 @@
+/* center header */
+
+#header {
+    
+}
+
+/* Neon button */
+
 /* Credits Comment Start */
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
 /* Create a neon button with a reflection using CSS */
 /* Kevin Powell */
 /* Declare colors using CSS variables and :root CSS pseudo-class */
-:root {
-    --color-brite: #3af568;
-    --color-bkgrd: #2b2527;
-    --color-white: #ffffff;
-}
+    :root {
+        --color-brite: #3af568;
+        --color-bkgrd: #2b2527;
+        --color-white: #ffffff;
+    }
 
-/* Targets entire body */
-body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--color-brite);
-    background: var(--color-bkgrd);
-}
+    /* Targets entire body */
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: var(--color-brite);
+        background: var(--color-bkgrd);
+    }
 
-/* button */
+    /* button */
 
-.button {
-    /* turn off underline beneath button link */
-    text-decoration: none;
-    /* make button text green */
-    color: var(--color-brite);
-    /* optimise accessibility using large bold font */
-    font-size: 2rem;
-    font-weight:900;
-    
-    cursor: pointer;
-    display: inline-block;
-    border: var(--color-brite) 0.1em solid;
-    padding: 0.04em 0.4em;
-    position: relative;
-}
+    .button {
+        /* turn off underline beneath button link */
+        text-decoration: none;
+        /* make button text green */
+        color: var(--color-brite);
+        /* optimise accessibility using large bold font */
+        font-size: 2rem;
+        font-weight:900;
+        
+        cursor: pointer;
+        display: inline-block;
+        border: var(--color-brite) 0.1em solid;
+        padding: 0.04em 0.4em;
+        position: relative;
+    }
 
-/* change when mouse hover over button */
-.button:hover {
-    /* so that text edges are clearly defined on mouse over: */
-    text-shadow: none;
-    /* invert button colors on mouse over: */
-    background: var(--color-brite);
-    color: var(--color-bkgrd);
-}
+    /* change when mouse hover over button */
+    .button:hover {
+        /* so that text edges are clearly defined on mouse over: */
+        text-shadow: none;
+        /* invert button colors on mouse over: */
+        background: var(--color-brite);
+        color: var(--color-bkgrd);
+    }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
 /* Create a neon button with a reflection using CSS */
@@ -60,6 +68,8 @@ li {
     display: inline-block;
 }
 
+/* Nav bar Full width */
+
 /* to Debug Nav bar Partial Width, overflow: hidden CSS Rule from https://stackoverflow.com/questions/29538290/making-the-nav-bar-span-the-width-of-the-page */
 nav {
     width: 100%;
@@ -73,18 +83,18 @@ nav {
 /* Brian Design */
 /* taken from 11:20 in video */
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-/* taken from 19:04 in video */
-.nav-menu {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* taken from 19:04 in video */
+    .nav-menu {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
 
-}
+    }
 /* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
 /* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
 /* Brian Design */

@@ -380,18 +380,36 @@ The CSS Asterisk selector * selects all HTML elements.
 - Third source for asterisk selector. [CSS asterisk * selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_all.asp)
 ###### Using CSS padding property
 - [CSS padding Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/CSSref/pr_padding.asp)
-###### Using CSS Grid
-- [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
+
 ###### Using rem units
 - In CSS, the size unit rem stands for root element. [Using rem versus em size units in CSS](https://stackoverflow.com/questions/13941275/how-does-rem-differ-from-em-in-css)
 - [Rem in CSS: Understanding and Using rem Units](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
 ###### Cursor Pointer
 - Using a CSS declaration with cursor property set to a value of pointer, to display pointing hand in CSS. [Cursor property set to value of pointer <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/pr_class_cursor.asp)
-    - [Practice page for cusor set to pointer in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
+    - [Practice page for cursor set to pointer in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
 ###### Anatomy of a CSS Rule
 - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
 
+##### Using CSS Grid
+
+###### Single Grid
+- [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
+
+###### Multi Grid
+- [The Multi-Grid One-Page Layout](https://medium.com/@nikkipantony/multi-grid-one-page-layout-css-grid-6efefd537404)
+- Put each grid inside section element containers [CodePen Home: CSS Multi-Grid One-Page Layout Experiment with CSS Grid, Flexbox and HTML5 Sections](https://codepen.io/nikkipantony/pen/vWgjBw)
+
+##### CSS Best Practice
+
+###### How to Structure CSS
+- [Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing)
+- [Use multiple css stylesheets in the same html page](https://stackoverflow.com/questions/4284499/use-multiple-css-stylesheets-in-the-same-html-page)
+
+###### CSS multiple classes per element
+- [multiple classes on single element html [closed]](https://stackoverflow.com/questions/17366432/multiple-classes-on-single-element-html)
+
 ##### Reference Sources / style.css file / Color
+
 ###### Color HEX
 - [How to use HEX color in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/colors/colors_hexadecimal.asp)
 
@@ -507,6 +525,11 @@ The CSS Asterisk selector * selects all HTML elements.
 - Used overflow property set to a value of hidden. [Making the nav bar span the width of the page](https://stackoverflow.com/questions/29538290/making-the-nav-bar-span-the-width-of-the-page)
 
 - Used while debugging Nav bar Partial Width Bug.  This code was reproduced locally in a separate repository and then stripped down to find which elements were needed to fix the nav bar Partial Width bug.  The asterisk class with box sizing, zero margin, zero padding and font family properties was taken from 11:20 in video, as well as nav menu and nav links button classes taken from 19:04 in video.  This solved the Nav bar Partial width bug. [How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial](https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign)
+
+###### Multi Grid
+Used section elements as containers to allow for multiple grids on home page.
+- [The Multi-Grid One-Page Layout](https://medium.com/@nikkipantony/multi-grid-one-page-layout-css-grid-6efefd537404)
+- Put each grid inside section element containers [CodePen Home: CSS Multi-Grid One-Page Layout Experiment with CSS Grid, Flexbox and HTML5 Sections](https://codepen.io/nikkipantony/pen/vWgjBw)
 
 ### Credits / Media
 

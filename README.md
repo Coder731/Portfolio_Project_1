@@ -199,18 +199,7 @@ Potential Solutions:
 Fix:
 - Use inline-block value for display property in CSS rule targeting list item element in CSS Stylesheet
 
-### Unfixed Bugs
-
-##### File Extension Name Bug
-
-###### Images 9 and 10 are named with capitalised .JPG endings.
-- To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
-- However, when the links were updated to .jpg they did not work.
-- It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg
-- In the interest of simplicity, the files were reverted to the orignal .JPG extension.
-    - Note: Full names for Images 9 and 10 are 9_hex_to_rgb_hash3af568.JPG and 10_hex_to_rgb_hash2b2527.JPG
-
-#### Debug
+#### Debugged
 
 ##### Home page Bugs
 
@@ -244,7 +233,23 @@ Potential Other Solutions:
 - Revisit solution search.
 - Try using span element
 - Look up div element
-- Try using margin property    
+- Try using margin property
+Resolution:
+- Added div element as a container for the nav bar and added CSS Style rules for asterisk nav menu and nav links button.
+- Resolved
+
+### Unfixed Bugs
+
+##### File Extension Name Bug
+
+###### Images 9 and 10 are named with capitalised .JPG endings.
+- To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
+- However, when the links were updated to .jpg they did not work.
+- It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg
+- In the interest of simplicity, the files were reverted to the orignal .JPG extension.
+    - Note: Full names for Images 9 and 10 are 9_hex_to_rgb_hash3af568.JPG and 10_hex_to_rgb_hash2b2527.JPG
+
+#### Debug
 
 ## Deployment
 

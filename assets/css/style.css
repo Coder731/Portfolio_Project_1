@@ -54,3 +54,29 @@ nav {
     margin: 0 0 0 0;
     overflow: hidden;
 }
+
+/* Credit Start*/
+/* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
+/* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
+/* taken from 11:20 in video */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/* taken from 19:04 in video */
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+
+}
+
+.nav-links-btn {
+    background-color: red;   
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+/* Credit End */

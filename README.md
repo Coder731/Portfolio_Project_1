@@ -498,6 +498,8 @@ The CSS Asterisk selector * selects all HTML elements.
 
 - Used overflow property set to a value of hidden. [Making the nav bar span the width of the page](https://stackoverflow.com/questions/29538290/making-the-nav-bar-span-the-width-of-the-page)
 
+- Used while debugging Nav bar Partial Width Bug.  This code was reproduced locally in a separate repository and then stripped down to find which elements were needed to fix the nav bar Partial Width bug.  The asterisk class with box sizing, zero margin, zero padding and font family properties was taken from 11:20 in video, as well as nav menu and nav links button classes taken from 19:04 in video.  This solved the Nav bar Partial width bug. [How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial](https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign)
+
 ### Credits / Media
 
 - photos

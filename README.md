@@ -112,6 +112,9 @@ How the project achieves this
 - Add light switch to switch from Matrix theme green font on black background to blue font on white background.
 - Add audio to website, with image of an amplifier, switch, and sign asking if user wants to turn the sound on.
 
+#### Minor Features Left to Implement
+- Make Buttons align center in Navigation bar.
+
 ## Testing
 
 - Details of testing.

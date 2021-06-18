@@ -1,3 +1,7 @@
+/* Credits Comment Start */
+/* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+/* Create a neon button with a reflection using CSS */
+/* Kevin Powell */
 /* Declare colors using CSS variables and :root CSS pseudo-class */
 :root {
     --color-brite: #3af568;
@@ -39,6 +43,14 @@ body {
     color: var(--color-bkgrd);
 }
 
+/* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+/* Create a neon button with a reflection using CSS */
+/* Kevin Powell */
+/* Credits Comment End */
+
+
+
+
 /* bulletless class rule for unordered list on home page */
 .bulletless {
     list-style: none;
@@ -58,6 +70,7 @@ nav {
 /* Credit Start*/
 /* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
 /* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
+/* Brian Design */
 /* taken from 11:20 in video */
 
 * {
@@ -72,5 +85,7 @@ nav {
     grid-template-columns: repeat(5, auto);
 
 }
-
+/* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
+/* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
+/* Brian Design */
 /* Credit End */

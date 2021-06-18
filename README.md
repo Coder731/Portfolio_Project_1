@@ -499,7 +499,7 @@ The CSS Asterisk selector * selects all HTML elements.
 
 ### Credits / Content
 
-- [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
+- root body button and button hover CSS Rules taken from here. [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
 
 - Used overflow property set to a value of hidden. [Making the nav bar span the width of the page](https://stackoverflow.com/questions/29538290/making-the-nav-bar-span-the-width-of-the-page)
 

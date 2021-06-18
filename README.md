@@ -484,8 +484,6 @@ The CSS Asterisk selector * selects all HTML elements.
 #### Templates Referenced / Readme
 - [Template used for this Readme](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_nav.png)
 
-- [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
-
 - [love-running repository](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/01-getting-set-up/01-getting-set-up)
 
 - [git-pod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
@@ -495,6 +493,8 @@ The CSS Asterisk selector * selects all HTML elements.
 ## Credits
 
 ### Credits / Content
+
+- [CSS Neon Button Worked Example](https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell)
 
 ### Credits / Media
 

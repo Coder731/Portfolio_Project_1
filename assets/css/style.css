@@ -139,3 +139,11 @@ nav {
 /* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
 /* Brian Design */
 /* Credit End */
+
+
+
+/* remove underline from anchor in first header */
+    .lineless {
+        /* turn off underline beneath button link */
+        text-decoration: none;
+    }

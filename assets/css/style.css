@@ -104,10 +104,6 @@
     list-style: none;
 }
 
-/* li {
-    display: inline-block;
-} */
-
 /* Nav bar Full width */
 
 /* to Debug Nav bar Partial Width, overflow: hidden CSS Rule from https://stackoverflow.com/questions/29538290/making-the-nav-bar-span-the-width-of-the-page */

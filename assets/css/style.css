@@ -1,8 +1,19 @@
 /* center header */
 
+/* Credit Comment Start */
+/* Credit Comment These three style declarations (for display, flex-direction and align-items) were taken from: */
+/* https://codepen.io/nikkipantony/pen/vWgjBw */
+/* Nikki Pantony */
 #header {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+/* Credit Comment These three style declarations (for display, flex-direction and align-items) were taken from: */
+/* https://codepen.io/nikkipantony/pen/vWgjBw */
+/* Nikki Pantony */
+/* Credit Comment End */
 
 /* Neon button */
 

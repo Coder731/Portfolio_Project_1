@@ -531,6 +531,10 @@ Used section elements as containers to allow for multiple grids on home page.
 - [The Multi-Grid One-Page Layout](https://medium.com/@nikkipantony/multi-grid-one-page-layout-css-grid-6efefd537404)
 - Put each grid inside section element containers [CodePen Home: CSS Multi-Grid One-Page Layout Experiment with CSS Grid, Flexbox and HTML5 Sections](https://codepen.io/nikkipantony/pen/vWgjBw)
 
+###### Center Header
+
+- Three declarations were taken from this source.  These were used to center the header on the home page. [CodePen Home: CSS Multi-Grid One-Page Layout Experiment with CSS Grid, Flexbox and HTML5 Sections](https://codepen.io/nikkipantony/pen/vWgjBw)
+
 ### Credits / Media
 
 - photos

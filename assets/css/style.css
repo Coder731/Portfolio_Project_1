@@ -104,9 +104,9 @@
     list-style: none;
 }
 
-li {
+/* li {
     display: inline-block;
-}
+} */
 
 /* Nav bar Full width */
 
@@ -129,18 +129,51 @@ nav {
         padding: 0;
         font-family: 'Roboto', sans-serif;
     }
+
+    /* Start reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+    @media only screen and (min-width:540px) {
+    /* End reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+
+    /* Nested Credit Comment Start*/
+    /* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
+    /* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
+    /* Brian Design */
     /* taken from 19:04 in video */
+    /* This refers to .nav-menu dixplay grid and grid template columns rules*/
     .nav-menu {
         display: grid;
         grid-template-columns: repeat(5, auto);
-
+    /* Nested Credit Comment End */
     }
+}
 /* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
 /* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
 /* Brian Design */
 /* Credit End */
 
 
+/* for media rule referenced https://www.w3schools.com/cssref/css3_pr_mediaquery.asp*/
+    @media only screen and (max-width: 539px) {
+
+    /* Nested Credit Comment Start*/
+    /* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
+    /* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
+    /* Brian Design */
+    /* taken from 19:04 in video */
+    /* This refers to .nav-menu dixplay grid and grid template columns rules*/
+    .nav-menu {
+            /* changed display to block per https://www.w3schools.com/Css/css_navbar_vertical.asp */
+            /* Start Reference https://www.w3schools.com/Css/css_navbar_vertical.asp */
+            display: block;
+            /* End Reference https://www.w3schools.com/Css/css_navbar_vertical.asp */
+            grid-template-columns: repeat(5, auto);
+    /* Nested Credit Comment End */
+    }
+}
+/* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
+/* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
+/* Brian Design */
+/* Credit End */
 
 /* remove underline from anchor in first header */
     .lineless {

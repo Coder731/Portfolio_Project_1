@@ -479,6 +479,16 @@ to increase margin at top of webpage
 ###### Open Sans Google Font
 - [Open Sans Google font code](https://fonts.google.com/specimen/Open+Sans?query=Open+sans)
 
+##### Responsive Design
+- [Responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+
+###### CSS media Rule
+- [CSS media Rule <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+
+###### Nav bar vertical
+- Center Links & Add Borders. [CSS Vertical Navigation Bar <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/Css/css_navbar_vertical.asp)
+    - Block elements take up the full width by default.
+
 ### Reference Sources / Non-content support material
 
 #### Content / Git

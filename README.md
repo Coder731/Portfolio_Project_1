@@ -394,10 +394,15 @@ The CSS Asterisk selector * selects all HTML elements.
 
 ###### Single Grid
 - [CSS Grid <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_grid.asp)
+- Test page [Grid Layout <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_layout_named)
 
 ###### Multi Grid
 - [The Multi-Grid One-Page Layout](https://medium.com/@nikkipantony/multi-grid-one-page-layout-css-grid-6efefd537404)
 - Put each grid inside section element containers [CodePen Home: CSS Multi-Grid One-Page Layout Experiment with CSS Grid, Flexbox and HTML5 Sections](https://codepen.io/nikkipantony/pen/vWgjBw)
+
+##### Header and Footer
+
+-  Yes, only 1 of each for each "section" of your page. [html5: using header or footer tag twice?](https://stackoverflow.com/questions/4837269/html5-using-header-or-footer-tag-twice)
 
 ##### Reference Sources / CSS Center Header
 
@@ -411,9 +416,9 @@ The CSS Asterisk selector * selects all HTML elements.
 ###### CSS align items Property
 - [CSS align-items Property](https://www.w3schools.com/CSSref/css3_pr_align-items.asp)
 
-##### Reference Sources / CSS title
+##### Reference Sources / CSS h1
 
-###### CSS title / Override Google Chrome Developer Tools user agent stylesheet / margin
+###### CSS h1 / Override Google Chrome Developer Tools user agent stylesheet / margin
 
 - Using CSS properties from user agent stylesheet to create rule
 native to project stylesheet that overrides these properties,

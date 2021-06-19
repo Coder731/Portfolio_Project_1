@@ -15,6 +15,14 @@
 
 /* End of Reference */
 
+/* add style rule for id home to center second header on home page  */
+/* Credit Comment reuse 3 style rules from #header, see #header Credit Comment */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
 /* center header */
 
 /* Credit Comment Start */

@@ -399,6 +399,18 @@ The CSS Asterisk selector * selects all HTML elements.
 - [The Multi-Grid One-Page Layout](https://medium.com/@nikkipantony/multi-grid-one-page-layout-css-grid-6efefd537404)
 - Put each grid inside section element containers [CodePen Home: CSS Multi-Grid One-Page Layout Experiment with CSS Grid, Flexbox and HTML5 Sections](https://codepen.io/nikkipantony/pen/vWgjBw)
 
+##### Reference Sources / CSS Center Header
+
+###### CSS flex Property
+- [CSS flex Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/css3_pr_flex.asp)
+- [flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+
+###### CSS flex direction Property
+- [CSS flex-direction Property <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp)
+
+###### CSS align items Property
+- [CSS align-items Property](https://www.w3schools.com/CSSref/css3_pr_align-items.asp)
+
 ##### CSS Best Practice
 
 ###### How to Structure CSS

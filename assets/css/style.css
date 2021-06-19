@@ -72,10 +72,14 @@
         font-weight:900;
         
         cursor: pointer;
-        display: inline-block;
         border: var(--color-brite) 0.1em solid;
         padding: 0.04em 0.4em;
         position: relative;
+    /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    /* End Nested Credit Comment */
     }
 
     /* change when mouse hover over button */

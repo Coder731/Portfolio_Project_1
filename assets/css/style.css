@@ -8,7 +8,7 @@
 
 
 :-webkit-any(article, aside, nav, section) h1 {
-    font-size: 1.5em;
+    font-size: 2rem;
     margin-block-start: 2em;
     margin-block-end: 2em;
 }
@@ -62,6 +62,10 @@
 
     /* button */
 
+/* @media reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+@media screen and (min-width: 1050px) {
+    /* for when nav button is one line in height */
+
     .button {
         /* turn off underline beneath button link */
         text-decoration: none;
@@ -96,6 +100,254 @@
 /* Kevin Powell */
 /* Credits Comment End */
 
+}
+
+
+/* Duplicate from button and button:hover rules  */
+/* Used to make first_header and first_header:hover rules */
+
+        /* button */
+
+/* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+
+@media screen and (max-width: 1049px) and (min-width: 880px) {
+
+    /* for when CSS nav bar is 2 lines in height due to word wrapping in User Survey Form button */
+
+
+    /* button */
+
+    .button {
+        /* turn off underline beneath button link */
+        text-decoration: none;
+        /* make button text green */
+        color: var(--color-brite);
+        /* optimise accessibility using large bold font */
+        font-size: 2rem;
+        font-weight:900;
+        
+        cursor: pointer;
+        border: var(--color-brite) 0.1em solid;
+        padding: 0.04em 0.4em;
+        position: relative;
+    /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    /* End Nested Credit Comment */
+    /* adjust button height, responsive design */
+        height: 85px;
+    }
+
+    /* change when mouse hover over button */
+    .button:hover {
+        /* so that text edges are clearly defined on mouse over: */
+        text-shadow: none;
+        /* invert button colors on mouse over: */
+        background: var(--color-brite);
+        color: var(--color-bkgrd);
+    }
+
+/* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+/* Create a neon button with a reflection using CSS */
+/* Kevin Powell */
+/* Credits Comment End */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Second Duplicate (third version) from (of) button and button:hover rules  */
+/* Used to make first_header and first_header:hover rules */
+/* for media query */
+
+        /* button */
+
+/* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+
+@media screen and (max-width: 879px) and (min-width: 588px) {
+
+    /* button */
+
+    .button {
+        /* turn off underline beneath button link */
+        text-decoration: none;
+        /* make button text green */
+        color: var(--color-brite);
+        /* optimise accessibility using large bold font */
+        font-size: 2rem;
+        font-weight:900;
+        
+        cursor: pointer;
+        border: var(--color-brite) 0.1em solid;
+        padding: 0.04em 0.4em;
+        position: relative;
+    /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    /* End Nested Credit Comment */
+    /* adjust button height, responsive design */
+        height: 122.26px;
+
+    }
+
+    /* change when mouse hover over button */
+    .button:hover {
+        /* so that text edges are clearly defined on mouse over: */
+        text-shadow: none;
+        /* invert button colors on mouse over: */
+        background: var(--color-brite);
+        color: var(--color-bkgrd);
+    }
+
+/* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+/* Create a neon button with a reflection using CSS */
+/* Kevin Powell */
+/* Credits Comment End */
+    
+/* End third version (second copy) of button and button:hover */
+
+}
+
+/* Third Duplicate (fourth version) from (of) button and button:hover rules  */
+/* Used to make first_header and first_header:hover rules */
+/* for media query */
+
+        /* button */
+
+/* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+
+@media screen and (max-width: 587px) {
+
+    /* button */
+
+    .button {
+        /* turn off underline beneath button link */
+        text-decoration: none;
+        /* make button text green */
+        color: var(--color-brite);
+        /* optimise accessibility using large bold font */
+        font-size: 2rem;
+        font-weight:900;
+        
+        cursor: pointer;
+        border: var(--color-brite) 0.1em solid;
+        padding: 0.04em 0.4em;
+        position: relative;
+    /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    /* End Nested Credit Comment */
+    /* adjust button height, responsive design */
+
+    }
+
+    /* change when mouse hover over button */
+    .button:hover {
+        /* so that text edges are clearly defined on mouse over: */
+        text-shadow: none;
+        /* invert button colors on mouse over: */
+        background: var(--color-brite);
+        color: var(--color-bkgrd);
+    }
+
+/* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+/* Create a neon button with a reflection using CSS */
+/* Kevin Powell */
+/* Credits Comment End */
+    
+/* End fourth version (second copy) of button and button:hover */
+
+}
+
+
+
+
+
+
+
+/* Start fifth version (third copy) */
+
+
+/* Duplicate from button and button:hover rules  */
+/* Used to make first_header and first_header:hover rules */
+
+        /* first_header */
+
+/* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+
+
+        .first_header {
+            /* turn off underline beneath button link */
+            text-decoration: none;
+            /* make button text green */
+            color: var(--color-brite);
+            /* optimise accessibility using large bold font */
+            font-size: 2rem;
+            font-weight:900;
+            
+            cursor: pointer;
+            border: var(--color-brite) 0.1em solid;
+            padding: 0.04em 0.4em;
+            position: relative;
+        /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        /* End Nested Credit Comment */
+        }
+
+        /* change when mouse hover over button */
+        .first_header:hover {
+            /* so that text edges are clearly defined on mouse over: */
+            text-shadow: none;
+            /* invert button colors on mouse over: */
+            background: var(--color-brite);
+            color: var(--color-bkgrd);
+        }
+
+    /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+    /* Create a neon button with a reflection using CSS */
+    /* Kevin Powell */
+    /* Credits Comment End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -127,7 +379,7 @@ nav {
     }
 
     /* Start reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
-    @media only screen and (min-width:540px) {
+    @media only screen and (min-width:588px) {
     /* End reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
     /* Nested Credit Comment Start*/
@@ -149,7 +401,7 @@ nav {
 
 
 /* for media rule referenced https://www.w3schools.com/cssref/css3_pr_mediaquery.asp*/
-    @media only screen and (max-width: 539px) {
+    @media only screen and (max-width: 587px) {
 
     /* Nested Credit Comment Start*/
     /* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */

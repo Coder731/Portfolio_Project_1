@@ -143,6 +143,8 @@ CSS
 - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ## User Experience
+[By default](https://www.w3schools.com/jsref/prop_anchor_target.asp), internal website pages open on same page for the user, in order to avoid cluttering up browser with many tabs when moving around the website.
+
 ### Accessibility
 High Contrast
 
@@ -282,7 +284,9 @@ Live Link:
         - 10_hex_to_rgb_hash2b2527.JPG
         - 11_hex_to_rgb_hash0000FF.jpg
         - 12_hex_to_rgb_hasFFFFFF.jpg
-
+-media
+    -audio
+        -computer_music.wav file made in Ableton Live 10 Lite.   
 ## Reference Sources
 - Here are reference sources used in the project.
 
@@ -301,17 +305,38 @@ Live Link:
 
 - How to use links in README [Link to Pages](https://docs.readme.com/docs/linking-to-pages)
 
+### HTML
+
+-[HTML anchor target Attribute](https://www.w3schools.com/tags/att_a_target.asp)
+
+#### Navigation bar / HTML
+
 ##### Reference Sources / All HTML Pages
+
 Use unordered list element with list item elements for each anchor element to make navigation bar stretch across page.
 - [how to make navigation bar stretch across the page (HTML)](https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html)
 - [How To Make Navigation Bar Stretch Across The Page](https://www.aurigait.com/blog/how-to-make-navigation-bar-stretch-across-the-page/)
 - [CSS Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/CSS/css_list.asp)
 - [HTML Lists <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/HTML/html_lists.asp)
 
+- Using internal HTML page links [How do I link to part of a page? (hash?)](https://stackoverflow.com/questions/2835140/how-do-i-link-to-part-of-a-page-hash)
+
 ##### Reference Sources / HTML on Home Page
+
+###### audio
+- How to play audio in a html page. [HTML Audio <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/html/html5_audio.asp)
+
+- [Html 5 audio tag custom controls?](https://stackoverflow.com/questions/7638754/html-5-audio-tag-custom-controls)
+
+-[Is it possible to style html5 audio tag?](https://stackoverflow.com/questions/4126708/is-it-possible-to-style-html5-audio-tag)
+
+-[mediaControls.css](https://chromium.googlesource.com/chromium/blink/+/72fef91ac1ef679207f51def8133b336a6f6588f/Source/core/css/mediaControls.css?autodive=0%2F%2F%2F)
+
 ###### Content / head element
+
 - [X-UA-Compatible Tag, older Microsoft Browser support](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
 - [Defining document compatibility](https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))
+
 ###### Content / body element
 - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
 
@@ -579,9 +604,9 @@ to increase margin at top of webpage
 -Used for form and matrix background image generation. [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 -Used for form and matrix background image generation. Signup Form Challenge 1 [Code Institute Project love running 2.0 ](https://github.com/Code-Institute-Org/love-running-2.0)
-    -([Animation]https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
+    - ([Animation]https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
 
--[Backrground zoom](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
+- [Background zoom](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
 
 ###### Multi Grid
 Used section elements as containers to allow for multiple grids on home page.

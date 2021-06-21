@@ -157,13 +157,6 @@
 
 
 
-
-
-
-
-
-
-
 /* Second Duplicate (third version) from (of) button and button:hover rules  */
 /* Used to make first_header and first_header:hover rules */
 /* for media query */
@@ -269,24 +262,16 @@
 
 }
 
-
-
-
-
-
-
-/* Start fifth version (third copy) */
-
-
-/* Duplicate from button and button:hover rules  */
-/* Used to make first_header and first_header:hover rules */
-
-        /* first_header */
-
-/* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
-
-
         .first_header {
+                    /* Start fifth version (third copy) */
+
+                    /* Duplicate from button and button:hover rules  */
+                    /* Used to make first_header and first_header:hover rules */
+
+                            /* first_header */
+
+                    /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+
             /* turn off underline beneath button link */
             text-decoration: none;
             /* make button text green */
@@ -315,39 +300,54 @@
             color: var(--color-bkgrd);
         }
 
-    /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
-    /* Create a neon button with a reflection using CSS */
-    /* Kevin Powell */
-    /* Credits Comment End */
+                /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+                /* Create a neon button with a reflection using CSS */
+                /* Kevin Powell */
+                /* Credits Comment End */
 
+.second_header {
+            /* Start sixth version (fifth copy) */
 
+        /* Duplicate from button and button:hover rules  */
+        /* Used to make first_header and first_header:hover rules */
 
+                /* second_header */
 
+        /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
+    /* turn off underline beneath button link */
+    text-decoration: none;
+    /* make button text green */
+    color: var(--color-brite);
+    /* optimise accessibility using large bold font */
+    font-size: 2rem;
+    font-weight:900;
+    
+    cursor: pointer;
+    border: var(--color-brite) 0.1em solid;
+    padding: 0.04em 0.4em;
+    position: relative;
+/* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/* End Nested Credit Comment */
+    text-align:center;
+}
 
+/* change when mouse hover over button */
+.first_header:hover {
+    /* so that text edges are clearly defined on mouse over: */
+    text-shadow: none;
+    /* invert button colors on mouse over: */
+    background: var(--color-brite);
+    color: var(--color-bkgrd);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+/* Create a neon button with a reflection using CSS */
+/* Kevin Powell */
+/* Credits Comment End */
 
 
 

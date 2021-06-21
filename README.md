@@ -423,7 +423,7 @@ The CSS Asterisk selector * selects all HTML elements.
 - Using CSS properties from user agent stylesheet to create rule
 native to project stylesheet that overrides these properties,
 to increase margin at top of webpage
-- This gives instructions from December 2018.  Chrome was on version 72 and is now on version 91.  So, there have been changes in the interim.  This includes changes to the instructions given.  Instead of the Select automatically checkbox, now there is a Use Browser Default checkbox.  Also, as there is an option to set different devices. [Override the user agent string](https://developer.chrome.com/docs/devtools/device-mode/override-user-agent/)
+- This gives instructions from December 2018.  Chrome was on version 72 [and is now on version 91](https://chromereleases.googleblog.com/).  So, there have been changes in the interim.  This includes changes to the instructions given.  Instead of the Select automatically checkbox, now there is a Use Browser Default checkbox.  Also, as there is an option to set different devices. [Override the user agent string](https://developer.chrome.com/docs/devtools/device-mode/override-user-agent/)
 - [What is a user agent stylesheet?](https://stackoverflow.com/questions/12582624/what-is-a-user-agent-stylesheet)
 
 ##### CSS Best Practice

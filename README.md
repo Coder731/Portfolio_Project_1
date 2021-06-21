@@ -111,6 +111,7 @@ How the project achieves this
 - Make buttons rotate, giving the illusion of shifting perspective when user moves mouse.
 - Add light switch to switch from Matrix theme green font on black background to blue font on white background.
 - Add audio to website, with image of an amplifier, switch, and sign asking if user wants to turn the sound on.
+- Improve Compatibility: Remove flexbox as [not supported in Internet Explorer 10 as mentioned here.](https://www.w3schools.com/csS/css_align.asp)
 
 #### Minor Features Left to Implement
 - Make Buttons align center in Navigation bar.
@@ -390,6 +391,14 @@ The CSS Asterisk selector * selects all HTML elements.
 ###### Anatomy of a CSS Rule
 - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
 
+##### Reference Sources style2 css file
+
+##### CSS Background Image
+- [CSS background image <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_background_image.asp)
+
+###### CSS Center
+-[CSS center veritcal <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
+
 ##### Using CSS Grid
 
 ###### Single Grid
@@ -500,6 +509,10 @@ to increase margin at top of webpage
 - How to add a line break to a git commit message from the terminal, using "here document". [How to commit with a header and a message in git from the command line](https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line)
     - Here document is a file literal or input stream literal.  It behaves as a separate file. It originates in Unix shell and is found in Bash. [Here document](https://en.wikipedia.org/wiki/Here_document)
         - EOF stands for End Of File. [EOF](https://acronyms.thefreedictionary.com/EOF)
+- Use git diff to transform current directory into a git repository. [git init](https://github.com/git-guides/git-init)
+- Explains chunks in git diff [git diff](https://www.toolsqa.com/git/git-diff/)
+- Fourth item in numbered list under Combined diff format heading gives information on chunks. [git diff Documentation]https://git-scm.com/docs/git-diff#_combined_diff_format)
+- [Best explanation of git diff git chunk header](https://www.atlassian.com/git/tutorials/saving-changes/git-diff)
 
 ###### Git: Adding Commit Messages
 - Rule 7 Use commit message body to explain what and why not how. [How to COMMIT BETTER with GIT](https://youtu.be/Hlp-9cdImSM)
@@ -563,6 +576,13 @@ to increase margin at top of webpage
 
 - Used while debugging Nav bar Partial Width Bug.  This code was reproduced locally in a separate repository and then stripped down to find which elements were needed to fix the nav bar Partial Width bug.  The asterisk class with box sizing, zero margin, zero padding and font family properties was taken from 11:20 in video, as well as nav menu and nav links button classes taken from 19:04 in video.  This solved the Nav bar Partial width bug. [How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial](https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign)
 
+-Used for form and matrix background image generation. [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+-Used for form and matrix background image generation. Signup Form Challenge 1 [Code Institute Project love running 2.0 ](https://github.com/Code-Institute-Org/love-running-2.0)
+    -([Animation]https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
+
+-[Backrground zoom](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
+
 ###### Multi Grid
 Used section elements as containers to allow for multiple grids on home page.
 - [The Multi-Grid One-Page Layout](https://medium.com/@nikkipantony/multi-grid-one-page-layout-css-grid-6efefd537404)
@@ -578,4 +598,8 @@ Used section elements as containers to allow for multiple grids on home page.
 - images
     - images online
         - [The Matrix](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SmUcZE7l8Du70D59UMg1_wHaGo%26pid%3DApi&f=1)
-
+        - [Matrix Background image](https://getwallpapers.com/collection/matrix-binary-code-falling-wallpaper)
+- [Font Awesome](https://fontawesome.com/)
+        - [Frown Face](https://fontawesome.com/v5.15/icons/frown?style=regular)
+        - [Meh Face](https://fontawesome.com/v5.15/icons/meh?style=regular)
+        - [Smiley Face](https://fontawesome.com/v5.15/icons/smile-beam?style=regular)

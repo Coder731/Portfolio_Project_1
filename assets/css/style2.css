@@ -1,0 +1,123 @@
+/* root pseudo element and body rules duplicated from style.css */
+/* Neon button */
+/* aoplied here generally for font and color uniformity */
+
+/* Credits Comment Start */
+/* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+/* Create a neon button with a reflection using CSS */
+/* Kevin Powell */
+/* Declare colors using CSS variables and :root CSS pseudo-class */
+:root {
+    --color-brite: #3af568;
+    --color-bkgrd: #2b2527;
+    --color-white: #ffffff;
+}
+
+/* Targets entire body */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-brite);
+    background: var(--color-bkgrd);
+}
+/* Credit Comment End Neon Button */
+
+/* Credit Comment: Code Institute Runing Project https://github.com/Code-Institute-Org/gitpod-full-template*/
+
+#matrix-outer {
+    /*  create zoom level for matrix image */
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#background-image-one {
+    height: 600px;
+    width: 100%;
+    background: url('../images/13_matrix_image.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: matrix-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+
+
+@keyframes matrix-zoom {
+    from{
+            transform: scale(200);
+    }
+    to {
+            transform: scale(1);
+    }
+}
+
+/* Credit Comment: https://www.w3schools.com/csS/css_align.asp */
+
+/* Thanks on user_survey_form.html page*/
+/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+.thanks-container {
+    height:400px;
+    position: relative;
+    height: 50%;
+}
+
+/* Original and three copies below */
+/* Thanks on user_survey_form.html page*/
+/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+#t-one {
+    margin: 0;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    /* -ms-transform: translateY(-10%); */
+    transform: translate(-50%, -50%);
+    /* Add background color and increased font-size for usability */
+    background-color: var(--color-bkgrd);
+    font-size: 1.2em;
+    /* font-weight: 700; */
+}
+
+
+/* Thanks on user_survey_form.html page*/
+/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+#t-two {
+    margin: 0;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    /* -ms-transform: translateY(-10%); */
+    transform: translate(-50%, -50%);
+    /* Add background color and increased font-size for usability */
+    background-color: var(--color-bkgrd);
+    font-size: 1.2em;
+}
+
+
+/* Thanks on user_survey_form.html page*/
+/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+#t-three {
+    margin: 0;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    /* -ms-transform: translateY(-10%); */
+    transform: translate(-50%, -50%);
+    /* Add background color and increased font-size for usability */
+    background-color: var(--color-bkgrd);
+    font-size: 1.2em;
+}
+
+
+/* Thanks on user_survey_form.html page*/
+/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+#t-four {
+    margin: 0;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    /* -ms-transform: translateY(-10%); */
+    transform: translate(-50%, -50%);
+    /* Add background color and increased font-size for usability */
+    background-color: var(--color-bkgrd);
+    font-size: 1.2em;
+}

@@ -2,10 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <!-- "X-UA-Compatible" and "IE=edge" optimises webpage display if user has older version of Internet Explorer (Ref_0001, Ref0002) -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="alternative stylesheet" href="assets/css/style2.css">
+
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <title>References</title>
 </head>
 <body>
@@ -24,32 +32,61 @@
         <h1>The History of the Silicon Based Desktop Computer</h1>
     </header>
 
-    <!--Page header:-->
-    <header id="references">
-        <h1>References:</h1>
-        
-        <h2>01 References used generally on website:</h2>
-        
-        <h2>02 References for home page:</h2>
-        
-            <h3>02.01 References for head element of home page:</h3>
-                <a href="https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do" target="_self">Ref_0001 X-UA-Compatible Tag, older Microsoft Browser support</a><br>
-                <a href="https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85)" target="_self">Ref_0002 Defining document compatibility</a><br>
-                
-            <h3>02.02 References for body element of home page:</h3>
-
-        <h2>03 References for home page:</h2>
-        
-            <h3>03.01 References for head element of References page:</h3>
-
-            <h3>03.02 References for body element of References page:</h3>
-            <a href="https://stackoverflow.com/questions/33541600/how-to-indent-a-header" target="_self">Ref_0003 How to indent a header?</a><br>
-
-        <h2>04 References for style.css file:</h2>
-            <a href="https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions" target="_self">Ref_0004 Inline CSS formatting best practices - Two questions</a><br>
-            <a href="https://www.w3schools.com/Css/css_syntax.asp" target="_self">Ref_0005 CSS Syntax</a><br>
+    <section>
+        <div>
             
-    </header>
+        </div>
+    </section>
+
+    <!-- Credit Comment: Using Love Running Walkthrough Project Signup Form Challenge 1 on CodeInstitute as a Template for form -->
+    <section class="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="POST">
+            <h2>How was your experience on this website?</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last_name" required>
+            
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required>
+            <!-- Credit Comment: emoticons from Font Awesome https://fontawesome.com/ -->
+            <label for="bad">_ _ _ _<i class="far fa-frown"></i> Bad</label>
+            <input id="bad" type="radio" name="experience" value="bad" required>
+            
+            <label for="alright">_ _ _ _ <i class="far fa-meh"></i> Alright</label>
+            <input id="alright" type="radio" name="experience" value="alright" required>
+            
+            <label for="good">_ _ _ _ <i class="far fa-smile-beam"></i> Good</label>
+            <input id="good" type="radio" name="experience" value="good" required>
+            
+            <input class="submit" type="submit" value="Submit">
+        </form>
+
+
+
+
+
+    </section>
     
+    <section id="matrix-outer">
+        <div id="background-image-one">
+            <div class="thanks-container">
+                <div class="thanks-vertical-center" id="t-one">
+                    <p>Thanks</p>
+                </div>
+                <div class="thanks-vertical-center" id="t-two">
+                    <p>for</p>
+                </div>
+                <div class="thanks-vertical-center" id="t-three">
+                    <p>stopping</p>
+                </div>
+                <div class="thanks-vertical-center" id="t-four">
+                    <p>by!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>

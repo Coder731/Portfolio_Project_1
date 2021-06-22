@@ -424,6 +424,10 @@ The CSS Asterisk selector * selects all HTML elements.
 ###### Cursor Pointer
 - Using a CSS declaration with cursor property set to a value of pointer, to display pointing hand in CSS. [Cursor property set to value of pointer <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/pr_class_cursor.asp)
     - [Practice page for cursor set to pointer in CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csSref/tryit.asp?filename=trycss_cursor)
+
+###### Embedding iframe element
+-[Method of embedding a YouTube video: Go to video select SHARE > embed > copy the iframe element into your HTML](https://www.bitdegree.org/learn/how-to-embed-a-youtube-video)
+
 ###### Anatomy of a CSS Rule
 - How to refer to the different parts of a CSS Rule. [Anatomy of a CSS Rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
 
@@ -642,3 +646,5 @@ Used section elements as containers to allow for multiple grids on home page.
         - [Frown Face](https://fontawesome.com/v5.15/icons/frown?style=regular)
         - [Meh Face](https://fontawesome.com/v5.15/icons/meh?style=regular)
         - [Smiley Face](https://fontawesome.com/v5.15/icons/smile-beam?style=regular)
+- video
+    - Video on vacuum tube computers, [considered the first generation computer](https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)#Third_generation). For video, please click here: [Computer History 1949 -1960 Early Vacuum Tube Computers Overview, History Project Educational](https://youtu.be/WnNm_uJYWhA?t=3)

@@ -10,44 +10,47 @@
 </head>
 <body>
 
-    <!--Navigation links to pages on this site: -->
-    <div id="site-pages">
-        <a href="01_home.html" target="_self">Home</a>
-        <a href="#02_tech_event_1.html" target="_self">Page 2 Tech Event 1</a>
-        <a href="#02_tech_event_2.html" target="_self">Page 3 Tech Event 2</a>
-    </div>
+    <body>
+
+        <!-- Reference Comment: Referred to audio element from W3Schools https://www.w3schools.com/html/html5_audio.asp -->
+        <audio src="assets/media/audio/computer_music.wav" controls>
+            <source src="assets/media/audio/computer_music.wav" type="audio/wav"></source>
+        Your browser does not support the audio element.
+        </audio>
     
-    <!--Page header:-->
-    <header id="home">
-        <h1>The History of the Silicon Based Desktop Computer</h1>
-    </header>
-
-    <!--Page header:-->
-    <header id="references">
-        <h1>References:</h1>
-        
-        <h2>01 References used generally on website:</h2>
-        
-        <h2>02 References for home page:</h2>
-        
-            <h3>02.01 References for head element of home page:</h3>
-                <a href="https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do" target="_self">Ref_0001 X-UA-Compatible Tag, older Microsoft Browser support</a><br>
-                <a href="https://docs.microsoft.com/en-gb/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85)" target="_self">Ref_0002 Defining document compatibility</a><br>
-                
-            <h3>02.02 References for body element of home page:</h3>
-
-        <h2>03 References for home page:</h2>
-        
-            <h3>03.01 References for head element of References page:</h3>
-
-            <h3>03.02 References for body element of References page:</h3>
-            <a href="https://stackoverflow.com/questions/33541600/how-to-indent-a-header" target="_self">Ref_0003 How to indent a header?</a><br>
-
-        <h2>04 References for style.css file:</h2>
-            <a href="https://stackoverflow.com/questions/5732486/inline-css-formatting-best-practices-two-questions" target="_self">Ref_0004 Inline CSS formatting best practices - Two questions</a><br>
-            <a href="https://www.w3schools.com/Css/css_syntax.asp" target="_self">Ref_0005 CSS Syntax</a><br>
-            
-    </header>
+        <section id="section-one">
+        <div class="grid-container">
+            <header>
+                <a href="01_home.html" class="lineless">
+                    <h1 class="first_header" id="header">Silicon Desktop History</h1>
+                </a>
+            </header>
+        </div>
+        </section>
+        <section id="section-two">
+        <!--Navigation links to pages on this site: -->
+            <div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="bulletless"><a href="01_home_.html" class="button" target="_self">Home</a></li>
+                        <li class="bulletless"><a href="02_tech_event_1.html" class="button" target="_self">Tech event 1</a></li>
+                        <li class="bulletless"><a href="03_tech_event_2.html" class="button" target="_self">Tech event 2</a></li>
+                        <li class="bulletless"><a href="04_tech_event_3.html" class="button" target="_self">Tech event 3</a></li>
+                        <li class="bulletless"><a href="05_user_survey_form.html" class="button" target="_self">User Survey Form</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section id="section-three">
+            <!--Page header:-->
+            <header id="home">
+                <h1 class="second_header">The History of the Silicon Based Desktop Computer</h1>
+            </header>
+        </section>
+        <div>
+            <p></p>
+        </div>
+        </section>
     
 </body>
 </html>

@@ -25,7 +25,7 @@ How the project achieves this
 
 - Wireframe in Balsamiq
 
-    #### Table  of Wireframe Rough Plan Sketch made in using Balsamiq
+#### First Table  of Wireframe Rough Plan Sketch made in using Balsamiq: 
 <table>
     <tr>
         <td><a href="assets/images/1_time_line_sketch.png" target="_blank">
@@ -45,6 +45,17 @@ How the project achieves this
         <td><center>Tech Event 2</center></td>
         <td><center>Tech Event 3</center></td>
         <td><center>User Survey Form Image</center></td>
+    </tr>
+</table>
+
+#### Second Table  of Wireframe Rough Plan Sketch made in using Balsamiq: Videos ideas for tech event 1, 2 and 3
+<table>
+    <tr>
+        <td><a href="assets/images/14_wireframe_for_videos.png" target="_blank">
+            <img src="assets/images/14_wireframe_for_videos.png" alt="Image Created with Balsamiq of wireframe for videos proposed for webpages named tech event 1 2 and 3" width="700"></a></td>
+    </tr>
+    <tr>
+        <td><center>Image Created with Balsamiq of wireframe for videos proposed for webpages named tech event 1 2 and 3</center></td>
     </tr>
 </table>
 

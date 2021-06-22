@@ -648,3 +648,8 @@ Used section elements as containers to allow for multiple grids on home page.
         - [Smiley Face](https://fontawesome.com/v5.15/icons/smile-beam?style=regular)
 - video
     - Video on vacuum tube computers, [considered the first generation computer](https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)#Third_generation). For video, please click here: [Computer History 1949 -1960 Early Vacuum Tube Computers Overview, History Project Educational](https://youtu.be/WnNm_uJYWhA?t=3)
+    - Video on [How a MOSFET works](https://youtu.be/Bfvyj88Hs_o?t=1)
+    - EUV
+        - Video on [EUV. (Please click here for video)](https://youtu.be/oIiqVrKDtLc?t=363) 
+            - or
+        - [Extreme ultraviolet lithography used in computer chip printing. (Please click here for text description.)](https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography)

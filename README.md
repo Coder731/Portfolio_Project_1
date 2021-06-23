@@ -323,7 +323,8 @@ Live Link:
         - 12_hex_to_rgb_hasFFFFFF.jpg
 -media
     -audio
-        -computer_music.wav file made in Ableton Live 10 Lite.
+        -01_computer_music.wav file made in Ableton Live 10 Lite.
+        -02_tech_event_2.wav file made in Ableton Live 10 Lite.
 
 ## Reference Sources
 - Here are reference sources used in the project.

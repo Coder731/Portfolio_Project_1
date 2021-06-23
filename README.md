@@ -436,6 +436,7 @@ Use unordered list element with list item elements for each anchor element to ma
 - [CSS Syntax <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3Schools" width="15">](https://www.w3schools.com/Css/css_syntax.asp)
 - First source using :root to declare css variables early in CSS stylesheet. [CSS variable](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
 - Second source using :root to declare css variables early in CSS stylesheet. [CSS variables in MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
+- Third source using :root. [CSS root Selector <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/cssref/sel_root.asp)
 
 ###### Using CSS Box sizing
 - First source using box sizing in CSS. [Reset box sizing](https://www.youtube.com/watch?v=6xNcXwC6ikQ)
@@ -623,6 +624,9 @@ to increase margin at top of webpage
 
 - [Horizontal timeline in pure css](https://stackoverflow.com/questions/21916615/horizontal-timeline-in-pure-css)
 
+### Scroll bar
+- Used to add button colors to scroll bar used in horizontal scroling timeline on home page. [::-webkit-scrollbar](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
+
 ### Reference Sources / Non-content support material
 
 #### Content / Git
@@ -690,6 +694,11 @@ to increase margin at top of webpage
 - [git-pod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 - CodeInstitute lessons on the Editor were used as a template for how to showcase technologies.  The technologies used in this project, are shown in this Readme file. [Creating a Webpage that showcases technologies used in a Project](https://github.com/Code-Institute-Solutions/Editor)
+
+## W3Schools Educational Walkthrough Code Used
+
+###### Custom Scrollbar
+-Used for styling horizontal scroll bar for timeline on home page [How TO - Custom Scrollbar <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
 
 ## Credits
 

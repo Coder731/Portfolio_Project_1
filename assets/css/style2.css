@@ -11,6 +11,10 @@
     --color-brite: #3af568;
     --color-bkgrd: #2b2527;
     --color-white: #ffffff;
+    --color-altgrn: #69f43a; /* Analagous Color from Color Scheme Section of README */
+    --color-blue: #0000ff;
+    --color-altblue: lightblue;
+    --color-grnwhite: #e7f5e7;
 }
 
 /* Targets entire body */
@@ -133,7 +137,7 @@ body {
     height: 100px; 
     padding: 100px 0;
     width: 100%;
-    background-color: #dadefe;
+    background-color: var(--color-bkgrd);
   }
   
   .time-line-box .timeline {
@@ -156,7 +160,7 @@ body {
     padding: 0px 10px;
     display: flex;
     justify-content: center;
-    border-top: 3px solid #455EFC;
+    border-top: 3px solid var(--color-brite);
     position: relative;
     transition: all 200ms ease-in;
   }
@@ -167,9 +171,9 @@ body {
     content: '';
     width: 12px;
     height: 12px;
-    background-color: #455EFC;
+    background-color: var(--color-brite);
     border-radius: 12px;
-    border: 2px solid #455EFC;
+    border: 2px solid var(--color-brite);
     position: absolute;
     left: 50%;
     top: 0%;
@@ -241,3 +245,55 @@ body {
                     https://stackoverflow.com/users/468722/frameworker 
     Credit Comment Start
 horizontal scroll slider*/
+
+/* Start Color Scroll bars on horizontal scroll bar of horizontal timeline
+    Reference Comment Start
+    Reference Comment used W3Schools How TO - Custom Scrollbar
+    https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+    
+    Changed colors from defaults to fit website color scheme */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-brite);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-blue);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-grnwhite);
+  }
+
+/*    Reference Comment used W3Schools How TO - Custom Scrollbar
+    https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+    
+    Changed colors from defaults to fit website color scheme
+    Credit Comment End
+    End Color Scroll bars on horizontal scroll bar of horizontal timeline */
+
+/* style scrollbar corner
+    Reference Comment
+    https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+    ::-webkit-scrollbar-corner {
+      background: var(--color-bkgrd);
+    }
+
+/* selector from https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar */
+::-webkit-scrollbar-button  {
+    background: var(--color-blue);
+}
+
+
+/* modified selector from https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar */
+::-webkit-scrollbar-button:hover  {
+    background: var(--color-grnwhite);
+}

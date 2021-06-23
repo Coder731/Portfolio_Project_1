@@ -383,13 +383,13 @@ Use unordered list element with list item elements for each anchor element to ma
 ##### HTML Attributes
 
 ###### anchor element target attribute
-- [HTML anchor target Attribute](https://www.w3schools.com/tags/att_a_target.asp)
+- [HTML anchor target Attribute <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/tags/att_a_target.asp)
 
 ###### The id attribute
-- [The id attribute](https://www.w3schools.com/htmL/html_id.asp)
+- [The id attribute <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/htmL/html_id.asp)
 
-###### rel Attribute
-- [HTML <link> rel Attribute](https://www.w3schools.com/tags/att_link_rel.asp)
+###### The rel Attribute
+- [HTML link rel Attribute <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/tags/att_link_rel.asp)
 
 #### Navigation bar / HTML
 
@@ -598,7 +598,7 @@ to increase margin at top of webpage
     - Block elements take up the full width by default.
 
 ### Timeline
-- [How TO - Timeline](https://www.w3schools.com/howto/howto_css_timeline.asp)
+- [How TO - Timeline <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/howto/howto_css_timeline.asp)
 
 - [Horizontal timeline in pure css](https://stackoverflow.com/questions/21916615/horizontal-timeline-in-pure-css)
 

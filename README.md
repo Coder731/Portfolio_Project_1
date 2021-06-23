@@ -25,17 +25,17 @@ How the project achieves this
 
 - Wireframe in Balsamiq
 
-#### First Table  of Wireframe Rough Plan Sketch made in using Balsamiq: 
+#### First Table of Wireframe Rough Plan Sketch made in using Balsamiq: 
 <table>
     <tr>
         <td><a href="assets/images/1_time_line_sketch.png" target="_blank">
             <img src="assets/images/1_time_line_sketch.png" alt="Computer History Timeline Image Created with Balsamiq" width="200"></a></td>
-        <td><a href="assets/images/2_tech_event_1.png" target="_blank">
-            <img src="assets/images/2_tech_event_1.png" width="200" alt="Tech Event 1 Created Using Balsamiq" width="40"></a></td>
-        <td><a href="assets/images/3_tech_event_2.png" target="_blank">
-            <img src="assets/images/3_tech_event_2.png" alt="Tech Event 2" width="200" style="float: right;"></a></td>
-        <td><a href="assets/images/4_tech_event_3.png" target="_blank">
-            <img src="assets/images/4_tech_event_3.png" alt="Tech Event 3" width="200"></a></td>
+        <td><a href="assets/images/2_Tech_event_1.png" target="_blank">
+            <img src="assets/images/2_Tech_event_1.png" width="200" alt="Tech Event 1 Created Using Balsamiq" width="40"></a></td>
+        <td><a href="assets/images/3_Tech_Event_2.png" target="_blank">
+            <img src="assets/images/3_Tech_Event_2.png" alt="Tech Event 2" width="200" style="float: right;"></a></td>
+        <td><a href="assets/images/4_Tech_Event_3.png" target="_blank">
+            <img src="assets/images/4_Tech_Event_3.png" alt="Tech Event 3" width="200"></a></td>
         <td><a href="assets/images/5_User_Survey_Form.png" target="_blank">
             <img src="assets/images/5_User_Survey_Form.png" alt="User Survey Form" width="200"></a></td>
     </tr>
@@ -59,7 +59,7 @@ How the project achieves this
     </tr>
 </table>
 
-#### Third Table  of Wireframe Updated Plan made using Balsamiq: Content and video ideas for tech event 1, 2 and 3
+#### Third Table of Wireframe Updated Plan made using Balsamiq: Content and video ideas for tech event 1, 2 and 3
 <table>
     <tr>
         <td><a href="assets/images/15_wireframe_for_content.png" target="_blank">
@@ -76,7 +76,7 @@ How the project achieves this
     - Survey Form to gather user feedback about the website.
 
 
-- The website features a <form> element. This is a survey of how the user found the content and overall impression of the website.
+- The website features a form element. This is a survey of how the user found the content and overall impression of the website.
 
 (Use love-running as template)
 
@@ -281,14 +281,34 @@ Resolution:
 
 ### Unfixed Bugs
 
+#### Unfixed Using Workaround
+##### File name in file path unchangeable Bug
+- Problem:
+    - Detection: The following images were not displaying in README
+                 in "First Table of Wireframe Rough Plan Sketch made in using Balsamiq:"
+            2_Tech_Event_1.png
+            3_Tech_Event_2.png
+            4_Tech_Event_3.png
+    - Cause:
+        - files not found for given href and src values
+      - Root Cause:
+        - Renaming the files does not seem to affect the name in the path the system uses to refer to the files.
+    - Solution (Workaround):
+        - Changed href and src values back to original values
+        - Refer to deleted version of path in commit b560138c5da5bc558a0fbd5ffe5cfe98ec6ac308
+            for original values used for href and src, featuring Capitalisations in file names
+
 ##### File Extension Name Bug
 
-###### Images 9 and 10 are named with capitalised .JPG endings.
+###### Images 9, 10 and 16 are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
 - However, when the links were updated to .jpg they did not work.
 - It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg
 - In the interest of simplicity, the files were reverted to the orignal .JPG extension.
-    - Note: Full names for Images 9 and 10 are 9_hex_to_rgb_hash3af568.JPG and 10_hex_to_rgb_hash2b2527.JPG
+    - Note: Full names for Images 9, 10 and 16 are 9_hex_to_rgb_hash3af568.JPG 10_hex_to_rgb_hash2b2527.JPG and 16_nav_bar_image.JPG
+
+##### Potential Cause for File Extension Name Bug and File name in file path unchangeable Bug
+- Potentially, changing the file names or file paths through the Windows system does not change the Linux file paths in the same way.
 
 ##### Navigation bar displays in regular font on home page but bold on other pages
 

@@ -121,3 +121,123 @@ body {
     background-color: var(--color-bkgrd);
     font-size: 1.2em;
 }
+
+/*  horizontal timeline
+        Credit Comment Start 
+        Item 3 on https://csshint.com/horizontal-timeline-css/ 
+        https://codepen.io/kundankumarmourya/pen/oKBMLe
+            by Kundan Kumar Mourya
+                https://codepen.io/kundankumarmourya*/
+
+.time-line-box {
+    height: 100px; 
+    padding: 100px 0;
+    width: 100%;
+    background-color: #dadefe;
+  }
+  
+  .time-line-box .timeline {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .time-line-box .timestamp {
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time-line-box .status {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid #455EFC;
+    position: relative;
+    transition: all 200ms ease-in;
+  }
+  .time-line-box .status span {
+    padding-top: 8px;
+  }
+  .time-line-box .status span:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #455EFC;
+    border-radius: 12px;
+    border: 2px solid #455EFC;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: all 200ms ease-in;
+  }
+  
+  .swiper-container {
+    width: 95%; 
+    margin: auto;
+    overflow-y: auto;
+  }
+  .swiper-wrapper{
+    display: inline-flex;
+    flex-direction: row;
+    overflow-y:auto;
+    justify-content: center;
+  }
+  .swiper-container::-webkit-scrollbar-track{
+     background:#a8a8a8b6;
+  }
+  .swiper-container::-webkit-scrollbar{
+    height: 2px;
+  }
+  .swiper-container::-webkit-scrollbar-thumb{
+     background: #4F4F4F !important;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 12px;
+    width: 200px;
+    height: 100%;
+    position: relative;
+  }
+  
+/* Item 3 on https://csshint.com/horizontal-timeline-css/ 
+                    https://codepen.io/kundankumarmourya/pen/oKBMLe
+                        by Kundan Kumar Mourya
+                            https://codepen.io/kundankumarmourya
+   Credit Comment End
+   horizontal timeline end */
+
+
+/* horizontal scroll slider
+    Credit Comment Start*/
+            /* Credit Comment Start
+            horizontal scroll
+            https://stackoverflow.com/questions/9925754/css-horizontal-scroll
+                by FrameWorker 
+                    https://stackoverflow.com/users/468722/frameworker */
+                #outer_wrapper {  
+                    overflow: scroll;  
+                    width:100%;
+                }
+                #outer_wrapper #inner_wrapper {
+                    width:6000px; /* If you have more elements, increase the width accordingly */
+                }
+                #outer_wrapper #inner_wrapper div.box { /* Define the properties of inner block */
+                    width: 250px;
+                    height:300px;
+                    float: left;
+                    margin: 0 4px 0 0;
+                    border:1px grey solid;
+                }
+                /* https://stackoverflow.com/questions/9925754/css-horizontal-scroll
+                    by FrameWorker 
+                    https://stackoverflow.com/users/468722/frameworker 
+    Credit Comment Start
+horizontal scroll slider*/

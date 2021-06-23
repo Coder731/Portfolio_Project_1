@@ -201,14 +201,14 @@ High Contrast
 
 ## Bugs
 ### Fixed Bugs
-Bug: Unstyled Home Button
+Bug: Unstyled Home Button (Resolved)
 - Home button on Navigation bar on Home page was not being styled by CSS.
 Cause:
 - The button id deleted from anchor for home page in Navigation bar in error.
 Fix:
 - The button id reinstated to anchor for home page in Navigation bar.
 
-Bug: Bulleted Navigation bar
+Bug: Bulleted Navigation bar (Resolved)
 Since the addition of unordered list and list item tags to Navigation bar on home page:
 - Bullets are present to the left of buttons
 Cause:
@@ -217,7 +217,7 @@ Fix:
 - Add bulletless class selector rule to CSS stylesheet with list-style property set to a value of none.
 - Add bulletless class to list items on home page.
 
-Bug: Vertical Navigation bar
+Bug: Vertical Navigation bar (Resolved)
 Since the addition of unordered list and list item tags to Navigation bar on home page:
 - Navigation bar is displaying vertically not horizontally
 Attempts:
@@ -231,7 +231,7 @@ Fix:
 
 ##### Home page Bugs
 
-###### Navigation bar Bugs
+###### Navigation bar Bugs (Resolved)
 Bug: Partial width Navigation bar
 Before the addition of unordered list and list item tags:
 - Navigation bar was not stetching fully horizontally across screen.
@@ -265,6 +265,19 @@ Potential Other Solutions:
 Resolution:
 - Added div element as a container for the nav bar and added CSS Style rules for asterisk nav menu and nav links button.
 - Resolved
+
+###### Horizontal timeline and horizontal scroll slider bug (Resolved)
+- Problem:
+    - Detection:
+        - timeline displays vertically on home page
+    - Cause:
+        - style2 css stylesheet not connecting to style home page
+      - Root Cause:
+        - rel attribute of CSS Stylesheet set to "alternate stylesheet" not "alternative stylesheet"
+    -Solution:
+        - Changed rel attribute of CSS Stylesheet from "alternate stylesheet" to "alternative stylesheet"
+- Resolved
+
 
 ### Unfixed Bugs
 
@@ -365,13 +378,16 @@ Use unordered list element with list item elements for each anchor element to ma
 ###### Content / body element
 - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
 
-###### anchor element
-- [HTML anchor target Attribute](https://www.w3schools.com/tags/att_a_target.asp)
-
 ##### HTML Attributes
+
+###### anchor element target attribute
+- [HTML anchor target Attribute](https://www.w3schools.com/tags/att_a_target.asp)
 
 ###### The id attribute
 - [The id attribute](https://www.w3schools.com/htmL/html_id.asp)
+
+###### rel Attribute
+- [HTML <link> rel Attribute](https://www.w3schools.com/tags/att_link_rel.asp)
 
 #### Navigation bar / HTML
 
@@ -579,6 +595,11 @@ to increase margin at top of webpage
 - Center Links & Add Borders. [CSS Vertical Navigation Bar <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/Css/css_navbar_vertical.asp)
     - Block elements take up the full width by default.
 
+### Timeline
+- [How TO - Timeline](https://www.w3schools.com/howto/howto_css_timeline.asp)
+
+- [Horizontal timeline in pure css](https://stackoverflow.com/questions/21916615/horizontal-timeline-in-pure-css)
+
 ### Reference Sources / Non-content support material
 
 #### Content / Git
@@ -660,9 +681,17 @@ to increase margin at top of webpage
 -Used for form and matrix background image generation. [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 -Used for form and matrix background image generation. Signup Form Challenge 1 [Code Institute Project love running 2.0 ](https://github.com/Code-Institute-Org/love-running-2.0)
-    - ([Animation]https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
+    - [Animation](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
 
 - [Background zoom](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
+
+#### Credits Content Timeline
+
+- [Horizontal Timeline](https://codepen.io/kundankumarmourya/pen/oKBMLe)
+
+#### Credit Contents Scroll
+
+- [CSS horizontal scroll](https://stackoverflow.com/questions/9925754/css-horizontal-scroll)
 
 #### Historical data sources
 - Historical data source [History of computing hardware (1960s–present)](https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)#Third_generation)

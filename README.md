@@ -88,10 +88,10 @@ How the project achieves this
 
 - __Navigation Bar__
 
-    - Featured on all three pages.
+    - Featured on all five pages.
     - Responsive element.
 
-![Nav Bar]()
+![nav bar](assets/images/16_nav_bar_image.JPG)
 
 ![Footer]()
 
@@ -289,6 +289,8 @@ Resolution:
 - It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg
 - In the interest of simplicity, the files were reverted to the orignal .JPG extension.
     - Note: Full names for Images 9 and 10 are 9_hex_to_rgb_hash3af568.JPG and 10_hex_to_rgb_hash2b2527.JPG
+
+##### Navigation bar displays in regular font on home page but bold on other pages
 
 #### Debug
 

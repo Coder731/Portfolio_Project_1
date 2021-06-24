@@ -2,9 +2,9 @@
     in order to style
     text*/
 .text li {
-    color: red !important;
-    text-align: center !important;
-    text-transform: uppercase !important;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #content {
@@ -12,7 +12,7 @@
     list-style-position: inside;
 }
 .bullet {
-    background-color: yellow !important;
+    background-color: yellow;
 }
 
 #content2 {

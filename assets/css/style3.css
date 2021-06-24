@@ -1,0 +1,131 @@
+/* target section-five on 02_tech_event_1.html
+    in order to style
+    text*/
+.text li {
+    color: red !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+}
+
+#content {
+    text-align: center;
+    list-style-position: inside;
+}
+.bullet {
+    background-color: yellow !important;
+}
+
+#content2 {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+
+
+
+/* Combined vertical timeline and 2 columns Start */
+
+    /* text align https://www.w3schools.com/css/css_text_align.asp */
+    #left-side {
+        text-align: right;
+    }
+
+    /* Add class selector bulletless2 to remove bullet from vertical timeline beside detailed text. */
+    .bulletless2 {
+        list-style-type: none; /* Add selector from https://reactgo.com/remove-bullets-ul-html/ */
+    }
+
+    /* Add selector for right column unordered list to Set padding in right column to 0 for all sides*/
+    .time-point {
+        padding: 0 0 0 0;
+    }
+
+    /* 2 columns https://www.w3schools.com/howto/howto_css_two_columns.asp */
+
+    .column {
+        float: left;
+        width: 50%;
+      }
+
+    /* Added to ensure list item stays in left column and not in center of column but on right of column */
+    .column2 {
+        float: left; /* from column class rule above*/
+        text-align: right; /* from W3Schools via left-side id selector above*/
+        width: 50%;
+    }
+
+   
+
+    li.column2 {
+        text-align: right;
+    }
+
+    h3.right-text {
+        padding: 0 0 0 0;
+    }
+
+    div.column3 {
+        padding: 0 1em 0 0;
+    }
+
+    div#left-side {
+        text-align:right;
+    }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+    /* vertical timeline https://freefrontend.com/css-timelines/
+    https://codepen.io/mathiesjanssen/pen/ggeBKm*/
+  
+
+    * {
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      height: 100%;
+    }
+    body {
+      height: inherit;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #79838c;
+    }
+
+    div.container {
+      display: flex;
+      flex: auto;
+      flex-direction: column;
+      max-height: 100%;
+    }
+    div.header {
+      height: auto;
+      text-align: center;
+      background: slategrey;
+      color: green;
+      padding: 2.3rem 1rem 2.3rem 1rem;
+      position: relative;
+    
+    }
+
+    div.item {
+      display: flex;
+      flex: auto;
+      overflow-y: auto;
+      padding: 0rem 1rem 0rem 1rem;
+    }
+
+    #timeline {
+      position: relative;
+      display: table;
+    }
+/* Combined vertical timeline and 2 columns end */

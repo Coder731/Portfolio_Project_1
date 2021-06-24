@@ -138,23 +138,28 @@ How the project achieves this
 #### Minor Features Left to Implement
 - Make Buttons align center in Navigation bar.
 
+##### Potentially useful tools for features
+- Use list item appended to content id and [::marker pseudo element selector](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker) as a CSS selector, as identified using Google Chrome Developer Tools Inspect Element.
+    - Purpose: To style tech event 1 page content
+
 ## Testing
 
 - Details of testing.
 
-    ### Usability Testing
-    #### Consistency testing
-    A unified theme was needed to communicate that the website was about computer history.  So, the color scheme of green and black used in the 1999 Movie "The Matrix" was used.
+### Usability Testing
 
-    #### Accessibility Standards
-    AAA requires a contrast ratio of 7:1.
-    [WCAG 2.1 Part 1.4.6 Contrast(Enhanced) - Level AAA](https://www.w3.org/WAI/WCAG21/quickref/)
+#### Consistency testing
+A unified theme was needed to communicate that the website was about computer history.  So, the color scheme of green and black used in the 1999 Movie "The Matrix" was used.
 
-    #### Visibility Testing
-    For contrast, bright green on black rated well.
+#### Accessibility Standards
+AAA requires a contrast ratio of 7:1.
+[WCAG 2.1 Part 1.4.6 Contrast(Enhanced) - Level AAA](https://www.w3.org/WAI/WCAG21/quickref/)
 
-    As a secondary color combination, white and light blue were too low contrast.
-    So, blue color was deepened.
+#### Visibility Testing
+For contrast, bright green on black rated well.
+
+As a secondary color combination, white and light blue were too low contrast.
+So, blue color was deepened.
 
 ### Validator Testing
 
@@ -200,7 +205,8 @@ High Contrast
 #### Figure above shows white used in Secondary color theme
 
 ## Bugs
-### Fixed Bugs
+
+### Fixed Bugs <a id="fixed_bugs"></a>
 Bug: Unstyled Home Button (Resolved)
 - Home button on Navigation bar on Home page was not being styled by CSS.
 Cause:
@@ -209,6 +215,7 @@ Fix:
 - The button id reinstated to anchor for home page in Navigation bar.
 
 Bug: Bulleted Navigation bar (Resolved)
+(Note: See also nav Bug 2 [here](#bullet_nav_bug_2))
 Since the addition of unordered list and list item tags to Navigation bar on home page:
 - Bullets are present to the left of buttons
 Cause:
@@ -278,10 +285,56 @@ Resolution:
         - Changed rel attribute of CSS Stylesheet from "alternate stylesheet" to "alternative stylesheet"
 - Resolved
 
+### minor Bugs (fixed and unfixed)
+
+#### minor Bugs (fixed and unfixed) Unclassified
+
+##### minor Debug (asterisk selector, zero padding, bullets and numbering, list related elements, indented nav bar minor Bug) 
+
+###### Shorter name: asterisk padding bullet list indent nav Bug: "bullet nav Bug 2" <a id="bullet_nav_bug_2"></a>
+- (Note: No bullet nav Bug 1, as it was slightly different for "Bug: Bulleted Navigation bar (Resolved)"). See [Fixed Bugs](#fixed_bugs).
+- In style css, asterisk selector with padding set to zero was preventing bullets and numbers in unordered and ordered lists from being displayed.
+- However, removal of this declaration makes nav bar indent on all pages.
+- Potentially, could make a more specific selector than asterisk, which selects all elements, to set padding to zero in most elements while avoiding all elements related to lists: unordered list, ordered list, and list item elements.
+    - However, ideally this would not affect the nav bar, or any other elements now being styled by the asterisk selector.
+    - To pursue this line of debugging, could try to find out and list all the elements which are styled by asterisk.
+        - Could potentially use Google Chrome Developer Tools Inspect Element.
+- For the purpose of moving on with adding text content to the website, the nav bar may temporarily need to be left indented, to allow bullet point lists.
+- Next Steps:
+    - Replace asterisk selector with nav bar Selector.
+    - Check which, if any, parts of site change.
+    - Add duplicates of rule changing selector as needed to include more elements in order to undo these changes.
+    - If unfixed by this approach potentially revert to asterisk selector and modify or try a different approach.
+
+#### minor Bugs Fixed
+##### Right align text in left column Bug (Resolved)
+- Scenario: Adding and merging vertical timeline and two columns with each other and 02_tech_event_1.html.
+    - Trying to right align text in left column
+- Problem: Text aligning half way across left column not towards right of column.
+- Why was this a problem: Verticaly timeline runs down the center of the page and years (on the left) need to be close to this line (to the right of the left column).
+- Debugging: Drew out element tree and tried alternatively using different selectors in element tree with same declaration
+    - Used Inspect Element on Browser
+    - Adjusted colors of different elements
+        - Recorded how colored elements in question appeared by color, then related this back to selector in CSS stylesheet and finally back to element in HTML.
+- Cause: The same column class was targetting multiple elements in left and right columns and at different points in the element tree.
+- Solution: created numbered column classes as needed.
+
+##### Padding missing on vertical timeline Bug
+- Problem: Padding not showing between right aligned text in left column and bullet point used as time point.
+- Debugging: Added colors to elements and same padding declaration to different selectors
+- Solution: It was necessary to target the inner elements nested in the element tree. By process of elimination narrowed it down to two rules and picked the one which set padding correctly.
+
+#### minor Bugs Unfixed
+
+#### minor Bugs Unfixed Using Workaround
+- Scenario: Wrapping section opening and closing tags around merged vertical timeline with two columns in 02_tech_event_1.html 
+- Problem: Content of second time point aligns left when merged vertical timeline with two columns is wrapped in section tags.
+- Workaround: Left merged vertical timeline with two columns without section tag wrapping.
 
 ### Unfixed Bugs
 
 #### Unfixed Using Workaround
+
 ##### File name in file path unchangeable Bug
 - Problem:
     - Detection: The following images were not displaying in README
@@ -341,10 +394,10 @@ Live Link:
         - 10_hex_to_rgb_hash2b2527.JPG
         - 11_hex_to_rgb_hash0000FF.jpg
         - 12_hex_to_rgb_hasFFFFFF.jpg
--media
-    -audio
-        -01_computer_music.wav file made in Ableton Live 10 Lite.
-        -02_tech_event_2.wav file made in Ableton Live 10 Lite.
+- media
+    - audio
+        - 01_computer_music.wav file made in Ableton Live 10 Lite.
+        - 02_tech_event_2.wav file made in Ableton Live 10 Lite.
 
 ## Reference Sources
 - Here are reference sources used in the project.
@@ -363,6 +416,11 @@ Live Link:
 - [Markdown inline style for image alignment](https://stackoverflow.com/questions/255170/markdown-and-image-alignment)
 
 - How to use links in README [Link to Pages](https://docs.readme.com/docs/linking-to-pages)
+
+###### Internal links to navigate README
+- [How to link to part of the same document in Markdown?](https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown)
+- Used this to add anchor element(s) to Heading(s) (and possibly other components) in README, to allow for internal links. See Comment by 
+[vgavro](https://github.com/vgavro) on this site: [Support internal links in markdown long_descriptions](https://github.com/pypa/readme_renderer/issues/169)
 
 ### HTML
 
@@ -401,6 +459,27 @@ Use unordered list element with list item elements for each anchor element to ma
 ###### Content / body element
 - [How to indent a header?](https://stackoverflow.com/questions/33541600/how-to-indent-a-header)
 
+##### link
+
+###### link
+- [link: The External Resource Link element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#attr-title)
+- The HTML a tag defines a hyperlink [HTML Links <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/html/html_links.asp)
+
+###### link types
+- Describes link types using a, area, form and link [Link types](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
+
+##### article
+-Used in selector at the start of first CSS Stylesheet [article tag <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/TAGS/tag_article.asp)
+
+#### HTML Elements
+
+###### Self Closing HTML elements
+- [Self-Closing Tags in HTML](https://www.tutorialmines.net/self-closing-tags-html/)
+
+###### anchor element
+- [a The Anchor element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+- The HTML a tag defines a hyperlink [HTML Links <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/html/html_links.asp)
+
 ##### HTML Attributes
 
 ###### anchor element target attribute
@@ -411,11 +490,6 @@ Use unordered list element with list item elements for each anchor element to ma
 
 ###### The rel Attribute
 - [HTML link rel Attribute <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/tags/att_link_rel.asp)
-
-#### Navigation bar / HTML
-
-##### Reference Sources / HTML / CSS
-- Use list style none in CSS to remove bullet from unordered list item. [How to Remove, Replace or Style List Bullets with Pure CSS](https://www.w3docs.com/snippets/css/how-to-remove-replace-or-style-list-bullets-with-css.html)
 
 #### Reference Sources / Navigation bar / Bug
 
@@ -518,7 +592,14 @@ The CSS Asterisk selector * selects all HTML elements.
 - [CSS background image <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/css/css_background_image.asp)
 
 ###### CSS Center
--[CSS center veritcal <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
+- [CSS center vertical <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/howto/howto_css_center-vertical.asp)
+
+- [How To Center or Align Text and Images on Your Webpage with HTML](https://www.digitalocean.com/community/tutorials/how-to-center-or-align-text-and-images-on-your-webpage-with-html)
+
+##### Reference Sources / style3 css file
+- [How to Center Text in CSS](https://blog.hubspot.com/website/center-text-in-css)
+
+- [How TO - List Without Bullets](https://www.w3schools.com/howto/howto_css_list_without_bullets.asp)
 
 ##### Using CSS Grid
 
@@ -564,6 +645,9 @@ to increase margin at top of webpage
 
 ###### CSS multiple classes per element
 - [multiple classes on single element html [closed]](https://stackoverflow.com/questions/17366432/multiple-classes-on-single-element-html)
+
+##### CSS links
+- four states of any link. a: link a:visited a:hover a:active [How To Add Links In CSS](https://cssdeck.com/blog/how-to-add-links-in-css/)
 
 ##### Reference Sources / style.css file / Color
 
@@ -619,6 +703,9 @@ to increase margin at top of webpage
 - Center Links & Add Borders. [CSS Vertical Navigation Bar <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/Css/css_navbar_vertical.asp)
     - Block elements take up the full width by default.
 
+##### CSS selectors
+- Combining Multiple CSS Selectors [Multiple Class / ID and Class Selectors](https://css-tricks.com/multiple-class-id-selectors/)
+
 ### Timeline
 - [How TO - Timeline <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/howto/howto_css_timeline.asp)
 
@@ -673,6 +760,20 @@ to increase margin at top of webpage
 ###### Images side by side in markdown
 - [Stack two images horizontally in R_Markdown](https://community.rstudio.com/t/how-to-stack-two-images-horizontally-in-r-markdown/18941)
 
+### Reference Sources by Issue
+
+#### Center bullets of unordered list with text
+
+- To make the bullet point center with the text in an unordered list: in the unordered list element, add list style position CSS property, set to a value of inside. [Center bullets of an unordered list with text](https://stackoverflow.com/questions/28977320/how-do-i-get-the-bullet-points-of-a-ul-to-center-with-the-text)
+    - [list style position CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position)
+
+#### Vertical Timeline 2 Columns Merge
+- [https://www.w3schools.com/css/css_text_align.asp](https://www.w3schools.com/css/css_text_align.asp)
+
+#### Remove Bullet Point
+- [How to remove bullets from a un-ordered list (ul) in Html](https://reactgo.com/remove-bullets-ul-html/)
+- [CSS padding <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/csS/css_padding.asp)
+
 ## Media References
 
 ###### Matrix Color Scheme
@@ -712,10 +813,22 @@ to increase margin at top of webpage
 
 -Used for form and matrix background image generation. [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
--Used for form and matrix background image generation. Signup Form Challenge 1 [Code Institute Project love running 2.0 ](https://github.com/Code-Institute-Org/love-running-2.0)
+-Used for form and matrix background image generation. Signup Form Challenge 1 [Code Institute Project love running 2.0](https://github.com/Code-Institute-Org/love-running-2.0)
     - [Animation](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
 
 - [Background zoom](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
+
+- Merged Vertical timeline with 2 Columns.
+    - [Vertical Timeline](https://freefrontend.com/css-timelines/)
+        - [Vertical Timeline](https://codepen.io/mathiesjanssen/pen/ggeBKm)
+    - [2 Columns](https://www.w3schools.com/howto/howto_css_two_columns.asp)
+        - [W3Schools Try it](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns)
+
+### README
+
+#### Internal Linking
+- Used this to add anchor element(s) to Heading(s) (and possibly other components) in README, to allow for internal links. See Comment by 
+[vgavro](https://github.com/vgavro) on this site: [Support internal links in markdown long_descriptions](https://github.com/pypa/readme_renderer/issues/169)
 
 #### Credits Content Timeline
 
@@ -725,9 +838,6 @@ to increase margin at top of webpage
 
 - [CSS horizontal scroll](https://stackoverflow.com/questions/9925754/css-horizontal-scroll)
 
-#### Historical data sources
-- Historical data source [History of computing hardware (1960s–present)](https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)#Third_generation)
-
 ###### Multi Grid
 Used section elements as containers to allow for multiple grids on home page.
 - [The Multi-Grid One-Page Layout](https://medium.com/@nikkipantony/multi-grid-one-page-layout-css-grid-6efefd537404)
@@ -736,6 +846,13 @@ Used section elements as containers to allow for multiple grids on home page.
 ###### Center Header
 
 - Three declarations were taken from this source.  These were used to center the header on the home page. [CodePen Home: CSS Multi-Grid One-Page Layout Experiment with CSS Grid, Flexbox and HTML5 Sections](https://codepen.io/nikkipantony/pen/vWgjBw)
+
+#### Historical data sources
+- Historical data source [History of computing hardware (1960s–present)](https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)#Third_generation)
+
+- [Computer - First Generation <img src="assets/images/17_QR_Code_for_Further_Reading_First_Generation.png" alt="HTML5" width="400">](https://www.tutorialspoint.com/computer_fundamentals/computer_first_generation.htm)
+
+- [History of the transistor](https://en.wikipedia.org/wiki/History_of_the_transistor)
 
 ### Credits / Media
 

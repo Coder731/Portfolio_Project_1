@@ -371,10 +371,9 @@ nav {
 /* Brian Design */
 /* taken from 11:20 in video */
 
-    * {
+    * { /* padding zero removed from this rule, which causes nav bar to indent on all pages.  See README Shorter name: asterisk padding bullet list indent nav Bug: "bullet nav Bug 2"*/
         box-sizing: border-box;
         margin: 100 0 100 0;
-        padding: 0;
         font-family: 'Roboto', sans-serif;
     }
 

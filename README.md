@@ -288,6 +288,22 @@ Resolution:
 ### minor Bugs (fixed and unfixed)
 
 #### minor Bugs (fixed and unfixed) Unclassified
+- Context: For vertical timeline merged with two columns.
+- Problem: 
+    - 2 section opening tags and two section closing tags within nested element tree.
+    - Only one set is coupled together by system.
+- Cause: 
+    - Second section opening tag does not close before the containing unordered list element, inside the first opening Section tag, closes.
+    - So, after the unordered list nested inside the first opening section element closes, the second opning Section tag nested in the unordered list seems closed off like a local variable within the unordered list.
+    - Therefore, when first Section closing tag appears, since the most recent Section tag is not visible so to speak, due to being nested in the unordered list, the system pairs the aforementioned first Section closing tag with the first Section closing tag.
+    - A second Section closing tag comes after this first, now paired Section closing tag; however, the aforementioned second Section closing tag is unpaired.
+    - This is because the first opening Section tag is now paired with the first Section closing tag; and the second Section closing tag is not visible, due to being "locked" it seems inside the unordered list.
+- Root Cause:
+    - Although [this reference](https://www.adobepress.com/articles/article.asp?p=1179145&seqNum=3) is for XML it illustrates a similar problem to that experienced here with highlighting a right and a wrong approach to closing nested elements in HTML.
+- Solution: Second Section element was brought outside nested unordered list, allowing both opening Section tags to pair with both closing Section tags.
+    - Original incorrect, problematic Section tag order, including unordered list: open (unordered list open) OPEN (unordered list close) close CLOSE.  Where, OPEN and CLOSE are unpaired.
+    - Final correct Section tag order, showing nested unordered list: open open (unordered list) close close.
+- General take away rule of thumb: Nested element must close before parent element.
 
 ##### minor Debug (asterisk selector, zero padding, bullets and numbering, list related elements, indented nav bar minor Bug) 
 

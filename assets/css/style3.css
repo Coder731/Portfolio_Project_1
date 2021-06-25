@@ -88,17 +88,30 @@
       border: 0;
       margin: 0;
       padding: 0;
+
+      /* properties taken from Inspect Element in Google Chrome Developer Tools  */
+          /* not responding: */
+      border-bottom-color:var(--color-blue);
+      border-left-color: var(--color-blue);
+      border-right-color: var(--color-blue);
+      border-top-color: var(--color-blue);
+      outline-color: var(--color-blue);
+      caret-color: var(--color-blue);
+
+      color: var(--color-brite);
+      text-decoration-color: var(--color-blue);
+      column-rule-color: var(--color-blue);
     }
-    html {
-      height: 100%;
+
+    /* Add CSS rule to target anchor element in timeline */
+    a#anchor-timeline {
+        color: var(--color-white);
     }
+
     body {
       height: inherit;
       display: flex;
       flex-direction: column;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      color: #79838c;
     }
 
     div.container {
@@ -110,11 +123,8 @@
     div.header {
       height: auto;
       text-align: center;
-      background: slategrey;
-      color: green;
       padding: 2.3rem 1rem 2.3rem 1rem;
       position: relative;
-    
     }
 
     div.item {

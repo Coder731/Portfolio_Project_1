@@ -327,9 +327,16 @@ Resolution:
 #### minor Bugs Unfixed
 
 #### minor Bugs Unfixed Using Workaround
+
+##### Multiple section tags in vertical list merged with two columns Bug
 - Scenario: Wrapping section opening and closing tags around merged vertical timeline with two columns in 02_tech_event_1.html 
 - Problem: Content of second time point aligns left when merged vertical timeline with two columns is wrapped in section tags.
 - Workaround: Left merged vertical timeline with two columns without section tag wrapping.
+- Potential Cause: Enclosing section tags within each other may be problematic if not nested correctly.
+    - If section closing tag for first section is supposed to come first, this will probably not be read this way by the system.
+    - This may result in unexpected behaviour of site.
+- [Reference on the use of section elements](https://blog.teamtreehouse.com/use-html5-sectioning-elements)
+- It appears that using section tag for timeline means section cannot be used to contain timeline.
 
 ### Unfixed Bugs
 
@@ -799,7 +806,7 @@ to increase margin at top of webpage
 ## W3Schools Educational Walkthrough Code Used
 
 ###### Custom Scrollbar
--Used for styling horizontal scroll bar for timeline on home page [How TO - Custom Scrollbar <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
+- Used for styling horizontal scroll bar for timeline on home page [How TO - Custom Scrollbar <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1024px-W3Schools_logo.svg.png" alt="W3 Schools" width="15">](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
 
 ## Credits
 
@@ -811,9 +818,9 @@ to increase margin at top of webpage
 
 - Used while debugging Nav bar Partial Width Bug.  This code was reproduced locally in a separate repository and then stripped down to find which elements were needed to fix the nav bar Partial Width bug.  The asterisk class with box sizing, zero margin, zero padding and font family properties was taken from 11:20 in video, as well as nav menu and nav links button classes taken from 19:04 in video.  This solved the Nav bar Partial width bug. [How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial](https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign)
 
--Used for form and matrix background image generation. [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
+- Used for form and matrix background image generation. [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
--Used for form and matrix background image generation. Signup Form Challenge 1 [Code Institute Project love running 2.0](https://github.com/Code-Institute-Org/love-running-2.0)
+- Used for form and matrix background image generation. Signup Form Challenge 1 [Code Institute Project love running 2.0](https://github.com/Code-Institute-Org/love-running-2.0)
     - [Animation](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)
 
 - [Background zoom](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/02-hero-image-animation)

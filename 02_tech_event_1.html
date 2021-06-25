@@ -76,37 +76,26 @@
 
 
     <!-- This section has combined vertical timeline and 2 columns -->
-  <!-- <section id="section-six"> -->
+  
     <!-- Note inside vertical timeline is 2 columns reference -->
       <!-- vertical timeline https://freefrontend.com/css-timelines/
   https://codepen.io/mathiesjanssen/pen/ggeBKm-->
   <div class="container">
       <div class="header">
-        <svg xmlns="http://www.w3.org/2000/svg" height="64" width="64">
-          <defs>
-            <linearGradient id="verlauf" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="orange" />
-              <stop offset="100%" stop-color="chocolate" />
-            </linearGradient>
-          </defs>
-        </svg>
         <h1>Prior to First Generation and First Generation</h1>
       </div>
 
   <!-- 2 columns https://www.w3schools.com/howto/howto_css_two_columns.asp -->
       <!-- column 1 of 2 here -->
       <div class="row">
-        <div class="column4" style="background-color:#aaa;"> <!-- new-->  
+        <div class="column4" > <!-- new-->  
             <ul class="time-point2">
               <li class="column2"><!-- Add list item and class column so that this goes on the left -->
                   <div class="column3" id="left-side"><h3 id="right-text">FET</h3></div> <!-- id left-side for text align https://www.w3schools.com/css/css_text_align.asp --><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
               <br><br><p>filler4</p><!-- This line fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
               </li>
-          <!-- <br> -->
           </ul><!-- Closing tag for ul containing left column of vertical timeline -->
       </div> <!-- new closing tag-->
-      <!-- <br> -->
-          
       
 
       <!-- for close of 2nd column scroll past "vertical timeline" -->
@@ -135,7 +124,7 @@
                 <h4>Next Part</h4>
                 <ul>
                   <li>filler3</li>
-                  <li>filler2<a href="https://www.duckduckgo.com">filler</a>.</li>
+                  <li>filler2<a id="anchor-timeline" href="https://www.duckduckgo.com">filler</a></li>
                 </ul>
               </section>
 
@@ -145,11 +134,9 @@
     </div>
   <!-- end vertical timeline -->
 
-
   <!-- close 2 columns: -->
     </div>
   </div>
-<!-- </section> -->
 
 </body>
 </html>

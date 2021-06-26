@@ -1,35 +1,3 @@
-/* target section-five on 02_tech_event_1.html
-    in order to style
-    text*/
-.text li {
-    color: red;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#content {
-    text-align: center;
-    list-style-position: inside;
-}
-.bullet {
-    background-color: yellow;
-}
-
-#content2 {
-    text-align: center;
-    list-style-position: inside;
-}
-
-
-
-
-
-
-
-
-
-
-
 /* Combined vertical timeline and 2 columns Start */
 /* text align https://www.w3schools.com/css/css_text_align.asp */
 /* 2 columns https://www.w3schools.com/howto/howto_css_two_columns.asp */

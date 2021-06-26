@@ -77,63 +77,126 @@
     <!-- This section has combined vertical timeline and 2 columns -->
     <!-- Note inside vertical timeline is 2 columns reference -->
         <!-- vertical timeline https://freefrontend.com/css-timelines/
-                https://codepen.io/mathiesjanssen/pen/ggeBKm-->
-            <div class="container">
-                <div class="header">
-                    <h1>Prior to First Generation and First Generation</h1>
-                </div>
-                    <!-- 2 columns https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+            https://codepen.io/mathiesjanssen/pen/ggeBKm-->
+    <div class="container">
+                    <div class="header">
+                        <h1>Prior to First Generation and First Generation</h1>
+                    </div>
+                <!-- 2 columns https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+                <!-- row 1 -->
                     <div class="row">
-                            <!-- column 1 of 2 here -->
-                                <div class="column4" > <!-- new-->  
-                                    <ul class="time-point2">
-                                        <li class="column2"><!-- Add list item and class column so that this goes on the left -->
-                                            <div class="column3" id="left-side">
-                                                <h3 id="right-text">
-                                                    FET
-                                                </h3>
-                                            </div> <!-- id left-side for text align https://www.w3schools.com/css/css_text_align.asp --><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
-                                        <br>
-                                        <br>
-                                            <p>
-                                                filler4
-                                            </p><!-- This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
-                                        </li>
-                                    </ul><!-- Closing tag for ul containing left column of vertical timeline -->
-                                </div>                 <!-- new closing tag-->
-                            <!-- column 2 of 2 https://www.w3schools.com/howto/howto_css_two_columns.asp -->
-                                <div class="column">
-                                    <div class="item">
-                                        <div id="timeline">
-                                            <div>
-                                                    <section class="year">
-                                                        <section>
-                                                                <ul class="time-point"><!-- Add unordered list containing element -->
-                                                                    <li><h3>1925</h3></li> <!-- Add list item containing element -->
-                                                                            <ul>
-                                                                                <li class="bulletless2">Julius Edgar Lilienfeld</li><!-- Add class bulletless2 to remove bullet point -->
-                                                                            </ul>
-                                                                </ul><!-- Close unordered list containing element -->
-                                                        </section>
-                                                    </section>
-                                                <br>
-                                                    <section class="year">
-                                                            <h3>1934</h3>
-                                                                <section>
-                                                                    <h4>Next Part</h4>
-                                                                        <ul>
-                                                                            <li>filler3</li>
-                                                                            <li>filler2<a id="anchor-timeline" href="https://www.duckduckgo.com">filler</a></li>
-                                                                        </ul>
-                                                                </section>
-                                                    </section>
-                                            </div>
+
+                        <!-- left column -->
+                            <div class="column left"> <!-- new-->  
+                                <!-- column 1 of 2 here -->
+                                    <div class="item-for-left"><!-- works --><!-- .item-from-left added from right column -->
+                                        <div><!--add to match right col-->
+                                            <section>
+                                                <ul><!-- Add unordered list containing element -->
+                                                    <li><!-- Add list item and class column so that this goes on the left -->
+                                                        <h3><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
+                                                            FET
+                                                        </h3>
+                                                    <!-- If needed put line break(s) here -->
+                                                        <p>
+                                                            filler4
+                                                        </p><!--Updated Comment: line breaks above replaced with comment indicating line break placeholder. Original comment: This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
+                                                    </li>
+                                                </ul><!-- Closing tag for ul containing left column of vertical timeline -->
+                                            </section>
+                                        </div><!--add to match right col closing tag-->
+                                    </div><!-- .item-for-left added from .item closing tag on right column -->
+                                <!-- column 1 above closing -->
+                            </div><!-- .column-left closing tag :Updated Comment Original Comment: new closing tag-->
+                            
+                        <!-- right column -->
+                            <div class="column right">
+                                <!-- column 2 of 2 https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+                                    <div class="item"><!-- works -->
+                                        <div><!-- keeps separate timepoints under each other -->
+                                            <section>
+                                                <ul><!-- Add unordered list containing element -->
+                                                    <li>
+                                                        <h3>
+                                                            1925
+                                                        </h3>
+                                                    <!-- If needed put line break(s) here -->
+                                                        <p>
+                                                            Julius Edgar Lilienfeld
+                                                        </p>
+                                                    </li><!-- Add class bulletless2 to remove bullet point -->
+                                                </ul><!-- Close unordered list containing element -->
+                                            </section>
                                         </div>
                                     </div>
-                                </div>
-                    <!-- close 2 columns: -->
+                                <!-- end vertical timeline -->
+                            </div>
+                        <!-- close 2 columns: -->
+
+                    <!-- row -->
                     </div>
-            </div>
+                    <!-- row -->
+
+                <!-- row 1 -->
+
+                <!-- row 2 -->
+                <div class="row">
+
+                    <!-- left column -->
+                        <div class="column left"> <!-- new-->  
+                            <!-- column 1 of 2 here -->
+                                <div class="item-for-left"><!-- works --><!-- .item-from-left added from right column -->
+                                    <div><!--add to match right col-->
+                                        <section>
+                                            <ul><!-- Add unordered list containing element -->
+                                                <li><!-- Add list item and class column so that this goes on the left -->
+                                                    <h3><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
+                                                        FET
+                                                    </h3>
+                                                <!-- If needed put line break(s) here -->
+                                                    <p>
+                                                        filler4
+                                                    </p><!--Updated Comment: line breaks above replaced with comment indicating line break placeholder. Original comment: This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
+                                                </li>
+                                            </ul><!-- Closing tag for ul containing left column of vertical timeline -->
+                                        </section>
+                                    </div><!--add to match right col closing tag-->
+                                </div><!-- .item-for-left added from .item closing tag on right column -->
+                            <!-- column 1 above closing -->
+                        </div><!-- .column-left closing tag :Updated Comment Original Comment: new closing tag-->
+                        
+                    <!-- right column -->
+                        <div class="column right">
+                            <!-- column 2 of 2 https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+                                <div class="item"><!-- works -->
+                                    <div><!-- keeps separate timepoints under each other -->
+                                        <section>
+                                            <ul><!-- Add unordered list containing element -->
+                                                <li>
+                                                    <h3>
+                                                        1925
+                                                    </h3>
+                                                <!-- If needed put line break(s) here -->
+                                                    <p>
+                                                        Julius Edgar Lilienfeld
+                                                    </p>
+                                                </li><!-- Add class bulletless2 to remove bullet point -->
+                                            </ul><!-- Close unordered list containing element -->
+                                        </section>
+                                    </div>
+                                </div>
+                            <!-- end vertical timeline -->
+                        </div>
+                    <!-- close 2 columns: -->
+
+                <!-- row -->
+                </div>
+                <!-- row -->
+
+            <!-- row 2 -->
+            
+            <!-- close CONTAINER: -->
+        </div>
         <!-- end vertical timeline -->
 </body>
 </html>

@@ -423,6 +423,9 @@ Live Link:
             - 01_computer_music.wav
             - 02_tech_event_2.wav
             - 03_tech_event_3.wav
+            - 04_germany.wav 
+                - Begins with sixteen bars from [Johann Sebastian Bach's](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach) [Jesu, Joy of Man's Desiring](https://youtu.be/kcvUHdhROrk?t=67)
+                - Inspired by [Beethoven's](https://en.wikipedia.org/wiki/Ludwig_van_Beethoven) [Ode to Joy](https://youtu.be/csvH_ZxN1-E?t=63)
 
 ## Reference Sources
 - Here are reference sources used in the project.

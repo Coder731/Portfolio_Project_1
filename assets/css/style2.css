@@ -1,3 +1,8 @@
+/* QUICK LIST OF FEATURES styled in style2.css */
+  /* site colors, horizontal timeline with horizontal scrollbar on home page */
+  /* image zoom animation effect on user survey form page */
+  /* "thanks" message on user survey form page image */
+
 /* root pseudo element and body rules duplicated from style.css */
 /* Neon button */
 /* aoplied here generally for font and color uniformity */
@@ -201,7 +206,7 @@ body {
     height: 2px;
   }
   .swiper-container::-webkit-scrollbar-thumb{
-     background: #4F4F4F !important;
+     background: #4F4F4F;
   }
   .swiper-slide {
     text-align: center;
@@ -231,7 +236,7 @@ body {
                     width:100%;
                 }
                 #outer_wrapper #inner_wrapper {
-                    width:6000px; /* If you have more elements, increase the width accordingly */
+                    width: 1100px; /* If you have more elements, increase the width accordingly */
                 }
                 #outer_wrapper #inner_wrapper div.box { /* Define the properties of inner block */
                     width: 250px;

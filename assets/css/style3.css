@@ -1,3 +1,6 @@
+/* QUICK LIST OF FEATURES styled in style3.css */
+  /* vertical timeline merged with 2 columns */
+  
 /* Combined vertical timeline and 2 columns Start */
 /* text align https://www.w3schools.com/css/css_text_align.asp */
 /* 2 columns https://www.w3schools.com/howto/howto_css_two_columns.asp */
@@ -20,7 +23,7 @@ https://codepen.io/mathiesjanssen/pen/ggeBKm*/
     div.header {
         height: auto;
         text-align: center;
-        padding: 2.3rem 1rem 2.3rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         position: relative;
       }
 
@@ -80,3 +83,25 @@ https://codepen.io/mathiesjanssen/pen/ggeBKm*/
                         }
     
 /* Combined vertical timeline and 2 columns end */
+
+/* Added to merged vertical timeline 2 columns: */
+    /* rule to center one time point vertically when h3 heading is blank: */
+/* For centering elements vertically refer to W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+                .center-vertically {
+                    padding-top: 0.27em;
+                }
+/* subheader class from div.header class above: */
+                /* subheader */
+                div.subheader {
+                    height: auto;
+                    text-align: center;
+                    padding: 1em 1em 1em 1em;
+                    position: relative;
+                }
+                /* line spacing options 1.5 and 2 */
+                .one-point-five-space-after {
+                    padding-bottom: 0.5em;
+                }
+                .two-space-after {
+                    padding-bottom: 1.2em;
+                }

@@ -49,10 +49,14 @@
     </section>
     <section id="section-four">
         <div>
+            <!-- Reference Comment: center iframe https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally#8366972 -->
+                <!-- Reference Comment: used answer by pedro https://stackoverflow.com/users/5564463/pedro -->
+            <p align="center">
             <!-- Reference Comment: iframe element taken by selecting SHARE > embed > on https://www.youtube.com/watch?v=WnNm_uJYWhA -->
             <!-- Reference Comment: method of using iframe embedding taken from https://www.bitdegree.org/learn/how-to-embed-a-youtube-video -->
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WnNm_uJYWhA?start=3" title="Vacuum Tube Computers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
+            </p>
         </div>
     </section>
     <section id="section-five">
@@ -63,11 +67,18 @@
             <!-- vertical timeline https://freefrontend.com/css-timelines/
                 https://codepen.io/mathiesjanssen/pen/ggeBKm-->
         <div class="container">
+                    <!-- Section Heading: "Prior to First Generation and First Generation" -->
                         <div class="header">
                             <h1>Prior to First Generation and First Generation</h1>
                         </div>
+                    <!-- subheading: "Prior to First Generation" -->
+                    <!-- From Section Heading-->
+                        <div class="subheader">
+                            <h2>Prior to First Generation</h2>
+                        </div>
+
                     <!-- 2 columns https://www.w3schools.com/howto/howto_css_two_columns.asp -->
-                    <!-- row 1 -->
+                    <!-- start row "FET 1925" -->
                         <div class="row">
 
                             <!-- left column -->
@@ -83,7 +94,7 @@
                                                             </h3>
                                                         <!-- If needed put line break(s) here -->
                                                             <p>
-                                                                filler4
+                                                                field-effect transistor
                                                             </p><!--Updated Comment: line breaks above replaced with comment indicating line break placeholder. Original comment: This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
                                                         </li>
                                                     </ul><!-- Closing tag for ul containing left column of vertical timeline -->
@@ -117,13 +128,119 @@
                                 </div>
                             <!-- close 2 columns: -->
 
+                        <!-- row div closing tag: -->
+                        </div>
+                    <!-- -end- row "FET 1925" -->
+
+                    <!-- start row "Another FET 1934" -->
+                        <div class="row">
+
+                            <!-- left column -->
+                                <div class="column left"> <!-- new-->  
+                                    <!-- column 1 of 2 here -->
+                                        <div class="item-for-left"><!-- works --><!-- .item-from-left added from right column -->
+                                            <div><!--add to match right col-->
+                                                <section>
+                                                    <ul><!-- Add unordered list containing element -->
+                                                        <li><!-- Add list item and class column so that this goes on the left -->
+                                                            <h3><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
+                                                                
+                                                            </h3>
+                                                        <!-- If needed put line break(s) here -->
+                                                            <p class="center-vertically">
+                                                                Another field-effect transistor patented
+                                                            </p><!--Updated Comment: line breaks above replaced with comment indicating line break placeholder. Original comment: This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
+                                                        </li>
+                                                    </ul><!-- Closing tag for ul containing left column of vertical timeline -->
+                                                </section>
+                                            </div><!--add to match right col closing tag-->
+                                        </div><!-- .item-for-left added from .item closing tag on right column -->
+                                    <!-- column 1 above closing -->
+                                </div><!-- .column-left closing tag :Updated Comment Original Comment: new closing tag-->
+                                
+                            <!-- right column -->
+                                <div class="column right">
+                                    <!-- column 2 of 2 https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+                                        <div class="item"><!-- works -->
+                                            <div><!-- keeps separate timepoints under each other -->
+                                                <section>
+                                                    <ul><!-- Add unordered list containing element -->
+                                                        <li>
+                                                            <h3>
+                                                                1934
+                                                            </h3>
+                                                        <!-- If needed put line break(s) here -->
+                                                            <p>
+                                                                Oskar Heil
+                                                            </p>
+                                                        </li><!-- Add class bulletless2 to remove bullet point -->
+                                                    </ul><!-- Close unordered list containing element -->
+                                                </section>
+                                            </div>
+                                        </div>
+                                    <!-- end vertical timeline -->
+                                </div>
+                            <!-- close 2 columns: -->
+
+                        <!-- row div closing tag: -->
+                        </div>
+                    <!-- -end- row "Another FET 1934" -->
+                
+                    <!-- start row "von Neumann architecture 1945" -->
+                        <div class="row">
+
+                            <!-- left column -->
+                                <div class="column left"> <!-- new-->  
+                                    <!-- column 1 of 2 here -->
+                                        <div class="item-for-left"><!-- works --><!-- .item-from-left added from right column -->
+                                            <div><!--add to match right col-->
+                                                <section>
+                                                    <ul><!-- Add unordered list containing element -->
+                                                        <li><!-- Add list item and class column so that this goes on the left -->
+                                                            <h3><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
+                                                                von Neumann architecture
+                                                            </h3>
+                                                        <!-- If needed put line break(s) here -->
+                                                            <p>
+                                                                Formulated the von Neumann architecture upon which most modern computers are based
+                                                            </p><!--Updated Comment: line breaks above replaced with comment indicating line break placeholder. Original comment: This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
+                                                        </li>
+                                                    </ul><!-- Closing tag for ul containing left column of vertical timeline -->
+                                                </section>
+                                            </div><!--add to match right col closing tag-->
+                                        </div><!-- .item-for-left added from .item closing tag on right column -->
+                                    <!-- column 1 above closing -->
+                                </div><!-- .column-left closing tag :Updated Comment Original Comment: new closing tag-->
+                                
+                            <!-- right column -->
+                                <div class="column right">
+                                    <!-- column 2 of 2 https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+                                        <div class="item"><!-- works -->
+                                            <div><!-- keeps separate timepoints under each other -->
+                                                <section>
+                                                    <ul><!-- Add unordered list containing element -->
+                                                        <li>
+                                                            <h3>
+                                                                1945
+                                                            </h3>
+                                                        <!-- If needed put line break(s) here -->
+                                                            <p>
+                                                                John von Neumann
+                                                            </p>
+                                                        </li><!-- Add class bulletless2 to remove bullet point -->
+                                                    </ul><!-- Close unordered list containing element -->
+                                                </section>
+                                            </div>
+                                        </div>
+                                    <!-- end vertical timeline -->
+                                </div>
+                            <!-- close 2 columns: -->
+
                         <!-- row -->
                         </div>
-                        <!-- row -->
-
-                    <!-- row 1 -->
-
-                    <!-- row 2 -->
+                    <!-- -end- row "von Neumann architecture 1945" -->
+                    
+                    <!-- start row "JFET 1945" -->
                     <div class="row">
 
                         <!-- left column -->
@@ -135,12 +252,18 @@
                                                 <ul><!-- Add unordered list containing element -->
                                                     <li><!-- Add list item and class column so that this goes on the left -->
                                                         <h3><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
-                                                            FET
+                                                            JFET
                                                         </h3>
                                                     <!-- If needed put line break(s) here -->
-                                                        <p>
-                                                            filler4
+                                                        <p class="one-point-five-space-after">
+                                                            junction field-effect transistor
                                                         </p><!--Updated Comment: line breaks above replaced with comment indicating line break placeholder. Original comment: This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
+                                                        <p class="one-point-five-space-after">
+                                                            Heinrich Welker first patented JFET
+                                                        </p>
+                                                        <p>
+                                                            first FET built
+                                                        </p>
                                                     </li>
                                                 </ul><!-- Closing tag for ul containing left column of vertical timeline -->
                                             </section>
@@ -158,11 +281,11 @@
                                                 <ul><!-- Add unordered list containing element -->
                                                     <li>
                                                         <h3>
-                                                            1925
+                                                            1945
                                                         </h3>
                                                     <!-- If needed put line break(s) here -->
                                                         <p>
-                                                            Julius Edgar Lilienfeld
+                                                            Heinrich Welker
                                                         </p>
                                                     </li><!-- Add class bulletless2 to remove bullet point -->
                                                 </ul><!-- Close unordered list containing element -->
@@ -175,11 +298,189 @@
 
                     <!-- row -->
                     </div>
-                    <!-- row -->
+                    <!-- -end- row "JFET 1945" -->
 
-                <!-- row 2 -->
-                
-                <!-- close CONTAINER: -->
+                    <!-- subheading: "Prior to First Generation" -->
+                    <!-- From Section Heading-->
+                    <div class="subheader">
+                        <h2>First Generation</h2>
+                    </div>
+
+                    <!-- start row "point contact transistor effect" -->
+                        <div class="row">
+
+                            <!-- left column -->
+                                <div class="column left"> <!-- new-->  
+                                    <!-- column 1 of 2 here -->
+                                        <div class="item-for-left"><!-- works --><!-- .item-from-left added from right column -->
+                                            <div><!--add to match right col-->
+                                                <section>
+                                                    <ul><!-- Add unordered list containing element -->
+                                                        <li><!-- Add list item and class column so that this goes on the left -->
+                                                            <h3><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
+                                                                
+                                                            </h3>
+                                                        <!-- If needed put line break(s) here -->
+                                                            <p class="center-vertically">
+                                                                transistor effect and point contact transistor
+                                                            </p><!--Updated Comment: line breaks above replaced with comment indicating line break placeholder. Original comment: This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
+                                                        </li>
+                                                    </ul><!-- Closing tag for ul containing left column of vertical timeline -->
+                                                </section>
+                                            </div><!--add to match right col closing tag-->
+                                        </div><!-- .item-for-left added from .item closing tag on right column -->
+                                    <!-- column 1 above closing -->
+                                </div><!-- .column-left closing tag :Updated Comment Original Comment: new closing tag-->
+                                
+                            <!-- right column -->
+                                <div class="column right">
+                                    <!-- column 2 of 2 https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+                                        <div class="item"><!-- works -->
+                                            <div><!-- keeps separate timepoints under each other -->
+                                                <section>
+                                                    <ul><!-- Add unordered list containing element -->
+                                                        <li>
+                                                            <h3>
+                                                                1947
+                                                            </h3>
+                                                        <!-- If needed put line break(s) here -->
+                                                            <p>
+                                                                John Bardeen, Walter Houser Brattain working under William Shockley at Bell Labs
+                                                            </p>
+                                                        </li><!-- Add class bulletless2 to remove bullet point -->
+                                                    </ul><!-- Close unordered list containing element -->
+                                                </section>
+                                            </div>
+                                        </div>
+                                    <!-- end vertical timeline -->
+                                </div>
+                            <!-- close 2 columns: -->
+
+                        <!-- row -->
+                        </div>
+                    <!-- -end- row "point contact transistor effect" -->
+
+                    <!-- start row "BJT first working transistor built" -->
+                    <div class="row">
+
+                        <!-- left column -->
+                            <div class="column left"> <!-- new-->  
+                                <!-- column 1 of 2 here -->
+                                    <div class="item-for-left"><!-- works --><!-- .item-from-left added from right column -->
+                                        <div><!--add to match right col-->
+                                            <section>
+                                                <ul><!-- Add unordered list containing element -->
+                                                    <li><!-- Add list item and class column so that this goes on the left -->
+                                                        <h3><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
+                                                            BJT
+                                                        </h3>
+                                                    <!-- If needed put line break(s) here -->
+                                                        <p class="one-point-five-space-after">
+                                                            bipolar junction transistor
+                                                        </p><!--Updated Comment: line breaks above replaced with comment indicating line break placeholder. Original comment: This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
+                                                        <p>
+                                                            first working transistor built
+                                                        </p>
+                                                    </li>
+                                                </ul><!-- Closing tag for ul containing left column of vertical timeline -->
+                                            </section>
+                                        </div><!--add to match right col closing tag-->
+                                    </div><!-- .item-for-left added from .item closing tag on right column -->
+                                <!-- column 1 above closing -->
+                            </div><!-- .column-left closing tag :Updated Comment Original Comment: new closing tag-->
+                            
+                        <!-- right column -->
+                            <div class="column right">
+                                <!-- column 2 of 2 https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+                                    <div class="item"><!-- works -->
+                                        <div><!-- keeps separate timepoints under each other -->
+                                            <section>
+                                                <ul><!-- Add unordered list containing element -->
+                                                    <li>
+                                                        <h3>
+                                                            1948
+                                                        </h3>
+                                                    <!-- If needed put line break(s) here -->
+                                                        <p>
+                                                            Shockley
+                                                        </p>
+                                                    </li><!-- Add class bulletless2 to remove bullet point -->
+                                                </ul><!-- Close unordered list containing element -->
+                                            </section>
+                                        </div>
+                                    </div>
+                                <!-- end vertical timeline -->
+                            </div>
+                        <!-- close 2 columns: -->
+
+                    <!-- row -->
+                    </div>
+                    <!-- -end- row "BJT first working transistor built" -->
+
+                    <!-- start row "SIT" -->
+                    <div class="row">
+
+                        <!-- left column -->
+                            <div class="column left"> <!-- new-->  
+                                <!-- column 1 of 2 here -->
+                                    <div class="item-for-left"><!-- works --><!-- .item-from-left added from right column -->
+                                        <div><!--add to match right col-->
+                                            <section>
+                                                <ul><!-- Add unordered list containing element -->
+                                                    <li><!-- Add list item and class column so that this goes on the left -->
+                                                        <h3><!-- add h3 per https://codepen.io/mathiesjanssen/pen/ggeBKm-->
+                                                            SIT
+                                                        </h3>
+                                                    <!-- If needed put line break(s) here -->
+                                                        <p class="one-point-five-space-after">
+                                                            static induction transistor
+                                                        </p><!--Updated Comment: line breaks above replaced with comment indicating line break placeholder. Original comment: This line (was break break paragraph open and close) fixes bug whereby right column was line breaking instead of left. Bug was caused by line break coming further down further out from center of nested code block.  If line break comes lower down, further out from center of nested code, (after next closing div tag or after next closing list item tag, it does not work as expected. -->
+                                                        <p class="two-space-after">
+                                                            invented
+                                                        </p>
+                                                        <p>
+                                                            a type of JFET
+                                                        </p>
+                                                        <p>
+                                                            with a short channel
+                                                        </p>
+                                                    </li>
+                                                </ul><!-- Closing tag for ul containing left column of vertical timeline -->
+                                            </section>
+                                        </div><!--add to match right col closing tag-->
+                                    </div><!-- .item-for-left added from .item closing tag on right column -->
+                                <!-- column 1 above closing -->
+                            </div><!-- .column-left closing tag :Updated Comment Original Comment: new closing tag-->
+                            
+                        <!-- right column -->
+                            <div class="column right">
+                                <!-- column 2 of 2 https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+                                    <div class="item"><!-- works -->
+                                        <div><!-- keeps separate timepoints under each other -->
+                                            <section>
+                                                <ul><!-- Add unordered list containing element -->
+                                                    <li>
+                                                        <h3>
+                                                            1950
+                                                        </h3>
+                                                    <!-- If needed put line break(s) here -->
+                                                        <p>
+                                                            Jun-ichi Nishizawa and Y. Watanabe
+                                                        </p>
+                                                    </li><!-- Add class bulletless2 to remove bullet point -->
+                                                </ul><!-- Close unordered list containing element -->
+                                            </section>
+                                        </div>
+                                    </div>
+                                <!-- end vertical timeline -->
+                            </div>
+                        <!-- close 2 columns: -->
+
+                    <!-- row -->
+                    </div>
+                    <!-- -end- row "SIT" -->
+
+                    <!-- close CONTAINER: -->
             </div>
             <!-- end vertical timeline -->
 

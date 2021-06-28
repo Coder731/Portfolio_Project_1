@@ -105,3 +105,43 @@ https://codepen.io/mathiesjanssen/pen/ggeBKm*/
                 .two-space-after {
                     padding-bottom: 1.2em;
                 }
+
+/* rule references https://stackoverflow.com/questions/16626240/vertical-align-html-form */
+/* vertically align form */
+div.vertical-align-html-form {
+    /* position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 0; */
+    text-align: center;
+    /* background-color: blue !important; */
+    padding: 0.4em;
+}
+
+h2.vertical-align-heading {
+    text-align: center;
+}
+
+h2.pad {
+    padding: 0.2em 0.4em 0.8em 0.4em;
+}
+
+div.pad-submit {
+    padding-bottom: 1em;
+}
+
+/* to flex image right and form left, reference https://www.w3docs.com/snippets/css/how-to-right-align-a-flex-item.html */
+div#flex-container-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flex-form-left {
+    border: 1px solid #8a8a8a;
+    width: 50%;
+}
+
+#flex-form-image-right {
+    border: 1px solid #8a8a8a;
+    width: 50%;
+}

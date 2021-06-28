@@ -8,8 +8,8 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-
     <link rel="alternative stylesheet" href="assets/css/style2.css">
+    <link rel="alternative stylesheet" href="assets/css/style3.css">
 
 
     <!-- Font Awesome link -->
@@ -17,12 +17,6 @@
     <title>Survey Form</title>
 </head>
 <body>
-
-    <!-- Reference Comment: Referred to audio element from W3Schools https://www.w3schools.com/html/html5_audio.asp -->
-    <audio src="assets/media/audio/04_germany.wav" controls>
-        <source src="assets/media/audio/04_germany.wav" type="audio/wav"></source>
-    Your browser does not support the audio element.
-    </audio>
 
 <!-- Credit Comment -->
     <!-- section-ids (section-one section-two section-three) taken from  -->
@@ -65,56 +59,65 @@
             
         </div>
     </section>
+    <!-- <section> -->
+        <h2 class=vertical-align-heading>
+            User survey form
+        </h2>
+        <div id="flex-container-form">
+            <!-- Credit Comment: Using Love Running Walkthrough Project Signup Form Challenge 1 on CodeInstitute as a Template for form -->
+                <div id="flex-form-left">
+                    <section class="form-section">
+                        <!-- div from https://stackoverflow.com/questions/16626240/vertical-align-html-form -->
+                        <form action="https://formdump.codeinstitute.net/" method="POST">
+                            <!-- <div style="text-align: center;" class="vertical-align-html-form"> -->
+                            <div class="vertical-align-html-form">
+                            <h2 class="pad">How was your experience on this website?</h2>
+                            <label for="fname">First Name</label>
+                            <input id="fname" type="text" name="first_name" required>
+                            </div>
 
-    <!-- Credit Comment: Using Love Running Walkthrough Project Signup Form Challenge 1 on CodeInstitute as a Template for form -->
-    <section class="form-section">
-        <form action="https://formdump.codeinstitute.net/" method="POST">
-            <h2>How was your experience on this website?</h2>
-            <label for="fname">First Name</label>
-            <input id="fname" type="text" name="first_name" required>
-            
-            <label for="lname">Last Name</label>
-            <input id="lname" type="text" name="last_name" required>
-            
-            <label for="email">Email Address</label>
-            <input id="email" type="email" name="email_address" required>
-            <!-- Credit Comment: emoticons from Font Awesome https://fontawesome.com/ -->
-            <label for="bad">_ _ _ _<i class="far fa-frown"></i> Bad</label>
-            <input id="bad" type="radio" name="experience" value="bad" required>
-            
-            <label for="alright">_ _ _ _ <i class="far fa-meh"></i> Alright</label>
-            <input id="alright" type="radio" name="experience" value="alright" required>
-            
-            <label for="good">_ _ _ _ <i class="far fa-smile-beam"></i> Good</label>
-            <input id="good" type="radio" name="experience" value="good" required>
-            
-            <input class="submit" type="submit" value="Submit">
-        </form>
+                            <div class="vertical-align-html-form">
+                            <label for="lname">Last Name</label>
+                            <input id="lname" type="text" name="last_name" required>
+                            </div>
 
+                            <div class="vertical-align-html-form">
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email" name="email_address" required>
+                            </div>
+                            <!-- Credit Comment: emoticons from Font Awesome https://fontawesome.com/ -->
+                            <div class="vertical-align-html-form">
+                            <label for="bad"><i class="far fa-frown"></i> Bad</label>
+                            <input id="bad" type="radio" name="experience" value="bad" required>
+                            </div>
 
+                            <div class="vertical-align-html-form">
+                            <label for="alright"><i class="far fa-meh"></i> Alright</label>
+                            <input id="alright" type="radio" name="experience" value="alright" required>
+                            </div>
 
+                            <div class="vertical-align-html-form">
+                            <label for="good"><i class="far fa-smile-beam"></i> Good</label>
+                            <input id="good" type="radio" name="experience" value="good" required>
+                            </div>
 
+                        <div class="vertical-align-html-form pad-submit">
+                            <input class="submit" type="submit" value="Submit">
+                            </div>
+                        </form>
+                <!-- end form -->
 
-    </section>
-    
-    <section id="matrix-outer">
-        <div id="background-image-one">
-            <div class="thanks-container">
-                <div class="thanks-vertical-center" id="t-one">
-                    <p>Thanks</p>
+                    </section>
                 </div>
-                <div class="thanks-vertical-center" id="t-two">
-                    <p>for</p>
+
+                <div id=flex-form-image-right>
+                    <section id="matrix-outer">
+                        <div id="background-image-one" alt="image from the matrix movie with green ones and zeros descending in vertical lines progressing down the screen to different lengths and at different depths of field over a black background">
+                        </div>
+                    </section>
                 </div>
-                <div class="thanks-vertical-center" id="t-three">
-                    <p>stopping</p>
-                </div>
-                <div class="thanks-vertical-center" id="t-four">
-                    <p>by!</p>
-                </div>
-            </div>
         </div>
     </section>
-
+    <!-- </section> -->
 </body>
 </html>

@@ -11,12 +11,27 @@
 
 
 :-webkit-any(article, aside, nav, section) h1 {
+    font-size: 3rem;
+    margin-block-start: 3em;
+    margin-block-end: 3em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* End of Reference */
+
+/* adapted from above rule: */
+:-webkit-any h2 {
     font-size: 2rem;
     margin-block-start: 2em;
     margin-block-end: 2em;
 }
-
-/* End of Reference */
 
 /* add style rule for id home to center second header on home page  */
 /* Credit Comment reuse 3 style rules from #header, see #header Credit Comment */
@@ -378,6 +393,7 @@ nav {
         box-sizing: border-box;
         margin: 100 0 100 0;
         font-family: 'Roboto', sans-serif;
+        font-size: 1.1em;
     }
 
     /* Start reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */

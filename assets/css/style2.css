@@ -34,19 +34,26 @@ body {
 
 #matrix-outer {
     /*  create zoom level for matrix image */
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
+    padding: 0;
 }
 
 #background-image-one {
-    height: 600px;
+    height: 700px;
     width: 100%;
+    padding:0;
     background: url('../images/13_matrix_image.jpg') no-repeat center center;
+    /* background size position and attachement from https://stackoverflow.com/questions/12082913/with-css-how-do-i-make-an-image-span-the-full-width-of-the-page-as-a-background   */
+    background-size: cover;
+    background-position: center;
+    /* edit value to local by trial and error: */
+    background-attachment:local;
 
     /* animates zoom effect on loading page */
     animation-name: matrix-zoom;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode: backwards;
 }
 
@@ -61,75 +68,6 @@ body {
 }
 
 /* Credit Comment: https://www.w3schools.com/csS/css_align.asp */
-
-/* Thanks on user_survey_form.html page*/
-/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
-.thanks-container {
-    height:400px;
-    position: relative;
-    height: 50%;
-}
-
-/* Original and three copies below */
-/* Thanks on user_survey_form.html page*/
-/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
-#t-one {
-    margin: 0;
-    position: absolute;
-    top: 17%;
-    left: 50%;
-    /* -ms-transform: translateY(-10%); */
-    transform: translate(-50%, -50%);
-    /* Add background color and increased font-size for usability */
-    background-color: var(--color-bkgrd);
-    font-size: 1.2em;
-    /* font-weight: 700; */
-}
-
-
-/* Thanks on user_survey_form.html page*/
-/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
-#t-two {
-    margin: 0;
-    position: absolute;
-    top: 37%;
-    left: 50%;
-    /* -ms-transform: translateY(-10%); */
-    transform: translate(-50%, -50%);
-    /* Add background color and increased font-size for usability */
-    background-color: var(--color-bkgrd);
-    font-size: 1.2em;
-}
-
-
-/* Thanks on user_survey_form.html page*/
-/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
-#t-three {
-    margin: 0;
-    position: absolute;
-    top: 57%;
-    left: 50%;
-    /* -ms-transform: translateY(-10%); */
-    transform: translate(-50%, -50%);
-    /* Add background color and increased font-size for usability */
-    background-color: var(--color-bkgrd);
-    font-size: 1.2em;
-}
-
-
-/* Thanks on user_survey_form.html page*/
-/* Credit Comment: W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
-#t-four {
-    margin: 0;
-    position: absolute;
-    top: 77%;
-    left: 50%;
-    /* -ms-transform: translateY(-10%); */
-    transform: translate(-50%, -50%);
-    /* Add background color and increased font-size for usability */
-    background-color: var(--color-bkgrd);
-    font-size: 1.2em;
-}
 
 /*  horizontal timeline
         Credit Comment Start 

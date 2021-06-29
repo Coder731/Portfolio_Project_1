@@ -323,13 +323,13 @@ h2 {
                 /* Kevin Powell */
                 /* Credits Comment End */
 
-.second_header {
+.page_heading {
             /* Start sixth version (fifth copy) */
 
         /* Duplicate from button and button:hover rules  */
         /* Used to make first_header and first_header:hover rules */
 
-                /* second_header */
+                /* page_heading */
 
         /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
@@ -342,7 +342,6 @@ h2 {
     font-weight:900;
     
     cursor: pointer;
-    border: var(--color-brite) 0.1em solid;
     padding: 0.04em 0.4em;
     position: relative;
 /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -393,7 +392,6 @@ nav {
         box-sizing: border-box;
         margin: 100 0 100 0;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.4rem;
     }
 
     /* Start reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */

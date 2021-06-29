@@ -158,3 +158,40 @@ span.bullet-to-text-spacing-right {
     position:relative;
     right: -20px;
 }
+
+/* add style rule to target top border of left and right column elements and turn them green on each time point in vertical timeline on 3 tech event pages: */
+div.column.left {
+    border-top-color: var(--color-brite);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    /* https://love2dev.com/blog/html-horizontal-line/ */
+    display: block; 
+    /* changed these properties slightly: (margin-before to margin-top, etc.) */
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em; 
+    margin-left: auto; 
+    margin-right: auto; 
+    overflow: hidden; 
+    border-style: inset; 
+    border-width: 1px;
+    /* border-color: var(--color-brite); */
+}
+
+div.column.right {
+    border-top-color: var(--color-brite);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    /* https://love2dev.com/blog/html-horizontal-line/ */
+    display: block; 
+    /* changed these properties slightly: (margin-before to margin-top, etc.) */
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em; 
+    margin-left: auto; 
+    margin-right: auto; 
+    overflow: hidden; 
+    border-style: inset; 
+    border-width: 1px;
+    /* border-color: var(--color-brite); */
+}

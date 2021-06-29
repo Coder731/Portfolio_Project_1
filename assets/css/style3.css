@@ -43,7 +43,7 @@ https://codepen.io/mathiesjanssen/pen/ggeBKm*/
                         .column.right {
                             float: left;
                             width: 50%;
-                            padding: 10px 10px 10px 10px;
+                            padding: 10px 10px 10px 13px;
                             /* height: 100px; */
                             /* Should be removed. Only for demonstration */
                             text-align: left;
@@ -54,7 +54,7 @@ https://codepen.io/mathiesjanssen/pen/ggeBKm*/
                         .column.left {
                             float: left; /* from .column.right rule above*/
                             width: 50%;
-                            padding: 10px 1px 10px 10px;
+                            padding: 10px 10px 10px 10px;
                             /* height: 100px; */
                             /* Should be removed. Only for demonstration */
                             text-align: right; /* from W3Schools via left-side id selector above*/
@@ -144,4 +144,17 @@ div#flex-container-form {
 #flex-form-image-right {
     border: 1px solid #8a8a8a;
     width: 50%;
+}
+
+
+/* targets span in vertical timeline for bullet point to text spacing control https://stackoverflow.com/questions/4373046/css-control-space-between-bullet-and-li */
+/* left column span */
+span.bullet-to-text-spacing-left {
+    position:relative;
+    left: -17px;
+}
+
+span.bullet-to-text-spacing-right {
+    position:relative;
+    right: -20px;
 }

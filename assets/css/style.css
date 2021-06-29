@@ -81,7 +81,7 @@ h2 {
     /* button */
 
 /* @media reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1252px) {
     /* for when nav button is one line in height */
 
     .button {
@@ -90,7 +90,7 @@ h2 {
         /* make button text green */
         color: var(--color-brite);
         /* optimise accessibility using large bold font */
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight:900;
         
         cursor: pointer;
@@ -128,7 +128,7 @@ h2 {
 
 /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
-@media screen and (max-width: 1049px) and (min-width: 880px) {
+@media screen and (max-width: 1251px) and (min-width: 880px) {
 
     /* for when CSS nav bar is 2 lines in height due to word wrapping in User Survey Form button */
 
@@ -141,7 +141,7 @@ h2 {
         /* make button text green */
         color: var(--color-brite);
         /* optimise accessibility using large bold font */
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight:900;
         
         cursor: pointer;
@@ -183,7 +183,7 @@ h2 {
 
 /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
-@media screen and (max-width: 879px) and (min-width: 588px) {
+@media screen and (max-width: 879px) and (min-width: 589px) {
 
     /* button */
 
@@ -193,7 +193,7 @@ h2 {
         /* make button text green */
         color: var(--color-brite);
         /* optimise accessibility using large bold font */
-        font-size: 2rem;
+        font-size: 1.2rem;
         font-weight:900;
         
         cursor: pointer;
@@ -236,7 +236,7 @@ h2 {
 
 /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
-@media screen and (max-width: 587px) {
+@media screen and (max-width: 588px) {
 
     /* button */
 

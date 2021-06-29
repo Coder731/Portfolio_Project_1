@@ -98,23 +98,11 @@ https://codepen.io/mathiesjanssen/pen/ggeBKm*/
                     padding: 1em 1em 1em 1em;
                     position: relative;
                 }
-                /* line spacing options 1.5 and 2 */
-                .one-point-five-space-after {
-                    padding-bottom: 0.5em;
-                }
-                .two-space-after {
-                    padding-bottom: 1.2em;
-                }
 
 /* rule references https://stackoverflow.com/questions/16626240/vertical-align-html-form */
 /* vertically align form */
 div.vertical-align-html-form {
-    /* position: absolute;
-    top: 50%;
-    right: 50%;
-    left: 0; */
     text-align: center;
-    /* background-color: blue !important; */
     padding: 0.4em;
 }
 
@@ -160,25 +148,7 @@ span.bullet-to-text-spacing-right {
 }
 
 /* add style rule to target top border of left and right column elements and turn them green on each time point in vertical timeline on 3 tech event pages: */
-div.column.left {
-    border-top-color: var(--color-brite);
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    /* https://love2dev.com/blog/html-horizontal-line/ */
-    display: block; 
-    /* changed these properties slightly: (margin-before to margin-top, etc.) */
-    margin-top: 0.5em; 
-    margin-bottom: 0.5em; 
-    margin-left: auto; 
-    margin-right: auto; 
-    overflow: hidden; 
-    border-style: inset; 
-    border-width: 1px;
-    /* border-color: var(--color-brite); */
-}
-
-div.column.right {
+div.column.left, div.column.right {
     border-top-color: var(--color-brite);
     border-left-color: transparent;
     border-right-color: transparent;

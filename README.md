@@ -180,6 +180,7 @@ So, blue color was deepened.
 ### Validator Testing
 
 HTML
+![HTML Validator Check](assets/images/html_validator_check.png)
 - [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
 CSS

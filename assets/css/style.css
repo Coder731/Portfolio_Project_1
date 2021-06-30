@@ -38,17 +38,13 @@ header {
 /* Create a neon button with a reflection using CSS */
 /* Kevin Powell */
 /* Declare colors using CSS variables and :root CSS pseudo-class */
-    :root {
-        --color-brite: #3af568;
-        --color-bkgrd: #2b2527;
-        --color-white: #ffffff;
-    }
+
 
     /* Targets entire body */
     body {
         font-family: 'Roboto', sans-serif;
-        color: var(--color-brite);
-        background: var(--color-bkgrd);
+        color: #3af568;
+        background: #2b2527;
     }
 
     /* button */
@@ -61,13 +57,13 @@ header {
         /* turn off underline beneath button link */
         text-decoration: none;
         /* make button text green */
-        color: var(--color-brite);
+        color: #3af568;
         /* optimise accessibility using large bold font */
         font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
-        border: var(--color-brite) 0.1em solid;
+        border: #3af568 0.1em solid;
         padding: 0.04em 0.4em;
         position: relative;
     /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -84,8 +80,8 @@ header {
         /* so that text edges are clearly defined on mouse over: */
         text-shadow: none;
         /* invert button colors on mouse over: */
-        background: var(--color-brite);
-        color: var(--color-bkgrd);
+        background: #3af568;
+        color: #2b2527;
     }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -114,13 +110,13 @@ header {
         /* turn off underline beneath button link */
         text-decoration: none;
         /* make button text green */
-        color: var(--color-brite);
+        color: #3af568;
         /* optimise accessibility using large bold font */
         font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
-        border: var(--color-brite) 0.1em solid;
+        border: #3af568 0.1em solid;
         padding: 0.04em 0.4em;
         position: relative;
     /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -139,8 +135,8 @@ header {
         /* so that text edges are clearly defined on mouse over: */
         text-shadow: none;
         /* invert button colors on mouse over: */
-        background: var(--color-brite);
-        color: var(--color-bkgrd);
+        background: #3af568;
+        color: #2b2527;
     }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -168,13 +164,13 @@ header {
         /* turn off underline beneath button link */
         text-decoration: none;
         /* make button text green */
-        color: var(--color-brite);
+        color: #3af568;
         /* optimise accessibility using large bold font */
         font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
-        border: var(--color-brite) 0.1em solid;
+        border: #3af568 0.1em solid;
         padding: 0.04em 0.4em;
         position: relative;
     /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -193,8 +189,8 @@ header {
         /* so that text edges are clearly defined on mouse over: */
         text-shadow: none;
         /* invert button colors on mouse over: */
-        background: var(--color-brite);
-        color: var(--color-bkgrd);
+        background: #3af568;
+        color: #2b2527;
     }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -222,13 +218,13 @@ header {
         /* turn off underline beneath button link */
         text-decoration: none;
         /* make button text green */
-        color: var(--color-brite);
+        color: #3af568;
         /* optimise accessibility using large bold font */
         font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
-        border: var(--color-brite) 0.1em solid;
+        border: #3af568 0.1em solid;
         padding: 0.04em 0.4em;
         position: relative;
     /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -246,8 +242,8 @@ header {
         /* so that text edges are clearly defined on mouse over: */
         text-shadow: none;
         /* invert button colors on mouse over: */
-        background: var(--color-brite);
-        color: var(--color-bkgrd);
+        background: #3af568;
+        color: #2b2527;
 
     }
 
@@ -312,13 +308,13 @@ header {
             /* turn off underline beneath button link */
             text-decoration: none;
             /* make button text green */
-            color: var(--color-brite);
+            color: #3af568;
             /* optimise accessibility using large bold font */
             font-size: 1.5rem;
             font-weight:900;
             
             cursor: pointer;
-            border: var(--color-brite) 0.1em solid;
+            border: #3af568 0.1em solid;
             padding: 0.04em 0.4em;
             position: relative;
         /* Start Nested Credit Comment: Add 3 declarations from https://codepen.io/nikkipantony/pen/vWgjBw  */
@@ -333,8 +329,8 @@ header {
             /* so that text edges are clearly defined on mouse over: */
             text-shadow: none;
             /* invert button colors on mouse over: */
-            background: var(--color-brite);
-            color: var(--color-bkgrd);
+            background: #3af568;
+            color: #2b2527;
         }
 
                 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -355,7 +351,7 @@ header {
     /* turn off underline beneath button link */
     text-decoration: none;
     /* make button text green */
-    color: var(--color-brite);
+    color: #3af568;
     /* optimise accessibility using large bold font */
     font-size: 1.5rem;
     font-weight:900;
@@ -376,8 +372,8 @@ header {
     /* so that text edges are clearly defined on mouse over: */
     text-shadow: none;
     /* invert button colors on mouse over: */
-    background: var(--color-brite);
-    color: var(--color-bkgrd);
+    background: #3af568;
+    color: #2b2527;
 }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -451,21 +447,13 @@ nav {
 /* Create a neon button with a reflection using CSS */
 /* Kevin Powell */
 /* Declare colors using CSS variables and :root CSS pseudo-class */
-:root {
-    --color-brite: #3af568;
-    --color-bkgrd: #2b2527;
-    --color-white: #ffffff;
-    --color-altgrn: #69f43a; /* Analagous Color from Color Scheme Section of README */
-    --color-blue: #0000ff;
-    --color-altblue: lightblue;
-    --color-grnwhite: #e7f5e7;
-}
+/* colors used:  green #3af568   background #2b2527*/
 
 /* Targets entire body */
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--color-brite);
-    background: var(--color-bkgrd);
+    color: #3af568;
+    background: #2b2527;
 }
 /* Credit Comment End Neon Button */
 
@@ -518,7 +506,7 @@ body {
 .time-line-box {
     padding: 100px 0;
     width: 100%;
-    background-color: var(--color-bkgrd);
+    background-color: #2b2527;
   }
   
   .time-line-box .timeline {
@@ -541,7 +529,7 @@ body {
     padding: 0px 10px;
     display: flex;
     justify-content: center;
-    border-top: 3px solid var(--color-brite);
+    border-top: 3px solid #3af568;
     position: relative;
     transition: all 200ms ease-in;
   }
@@ -552,9 +540,9 @@ body {
     content: '';
     width: 12px;
     height: 12px;
-    background-color: var(--color-brite);
+    background-color: #3af568;
     border-radius: 12px;
-    border: 2px solid var(--color-brite);
+    border: 2px solid #3af568;
     position: absolute;
     left: 50%;
     top: 0%;
@@ -799,7 +787,7 @@ span.bullet-to-text-spacing-right {
 
 /* add style rule to target top border of left and right column elements and turn them green on each time point in vertical timeline on 3 tech event pages: */
 div.column.left, div.column.right {
-    border-top-color: var(--color-brite);
+    border-top-color: #3af568;
     border-left-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
@@ -813,7 +801,6 @@ div.column.left, div.column.right {
     overflow: hidden; 
     border-style: inset; 
     border-width: 1px;
-    /* border-color: var(--color-brite); */
 }
 
 
@@ -844,20 +831,20 @@ main div.row {
 
 /* style link in paragraph in row in third_and_fourth_generation.html timeline */
 div.row p a {
-    background-color: var(--color-bkgrd);
-    color: var(--color-brite);
+    background-color: #2b2527;
+    color: #3af568;
 }
 
 div.row p a:hover {
-    background-color: var(--color-brite);
-    color: var(--color-bkgrd);
+    background-color: #3af568;
+    color: #2b2527;
 }
 
 form>div>button.submit-button-style {
     border-radius: 0.2rem;
     padding: 0.2rem;
-    color: var(--color-bkgrd);
-    background-color: var(--color-brite);
+    color: #2b2527;
+    background-color: #3af568;
     /* Reference: See Neon button reference: */
     cursor: pointer;
 }
@@ -871,13 +858,13 @@ footer {
 }
 
 footer>a {
-    background-color: var(--color-bkgrd);
-    color: var(--color-brite);
+    background-color: #2b2527;
+    color: #3af568;
 }
 
 footer>a:hover {
-    background-color: var(--color-brite);
-    color: var(--color-bkgrd);
+    background-color: #3af568;
+    color: #2b2527;
 }
 /* center video */
 p.video-to-center {
@@ -895,7 +882,7 @@ main {
         /* padding: 1rem 0rem 1rem 0rem; */
 
         text-decoration: none;
-        color: var(--color-brite);
+        color: #3af568;
         font-size: 1.5rem;
         font-weight: 900;
         cursor: pointer;

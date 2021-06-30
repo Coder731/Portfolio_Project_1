@@ -95,8 +95,8 @@ How the project achieves this
 
 
 - The website features a form element. This is a survey of how the user found the content and overall impression of the website.
-
-The love-running guided website building project was used as a template.
+![Form](assets/images/form_image.png)
+- The love-running guided website building project was used as a template.
 
 - Button
 ![Button](assets/images/button_image.png)

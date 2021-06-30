@@ -6,13 +6,10 @@ Developing a website on the conventional desktop computer using HTML5 and CSS3. 
 
 This project was a good learning experience about css and html.  Challenges included modifying css style rules to target only specific sections of code without affecting others.  This was most difficult towards the end of the project.  Also, trying to position items on the page involved trail and error. Another challenge was ingtegrating different features together.
 
-![Picture of Final Project](assets/images/project_four_formats.png)
+![Picture of Final Project](assets/images/final_project_validated.png)
 <center><a href="https://coder731.github.io/Portfolio_Project_1/" target="_blank">Image of Final Project</a><center>
 <center><a href="https://coder731.github.io/Portfolio_Project_1/" target="_blank">Final Project Source Code</a><center>
 
-
-![Picture of Final Project Desktop Only](assets/images/final_project.jpg)
-<center><a href="https://coder731.github.io/Portfolio_Project_1/" target="_blank">Image of Final Project Desktop Only</a><center>
 ## Features
 
 The parts of the project
@@ -426,7 +423,9 @@ Live Link:
     - images in assets>images
         - blue_white_color_combination.jpg
         - color_contrast_check_matrix.png
-        - final_project.jpg
+        - color_contrast_check_matrix.png
+        - css_validator_check.png
+        - final_project_validated.png
         - green_black_blue_white_colors.jpg
         - hex_to_rgb_hash0000ff.jpg
         - hex_to_rgb_hash2b2527.jpg
@@ -435,7 +434,6 @@ Live Link:
         - matrix_image.jpg
         - nav_bar_image.jpg
         - pre_and_first_generation.png
-        - project_four_formats.png
         - qr_code_for_further_reading_first_generation.png
         - second_generation.png
         - third_and_fourth_generation.png

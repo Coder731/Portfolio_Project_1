@@ -896,3 +896,15 @@ div.row p a:hover {
     background-color: var(--color-brite);
     color: var(--color-bkgrd);
 }
+
+form>div>button.submit-button-style {
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    color: var(--color-bkgrd);
+    background-color: var(--color-brite);
+    /* Reference: See Neon button reference: */
+    cursor: pointer;
+}
+input#email {
+    padding-bottom: 0.1rem;
+}

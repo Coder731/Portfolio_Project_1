@@ -1,4 +1,4 @@
-/* QUICK LIST OF FEATURES styled in style.css */
+/* QUICK LIST OF FEATURES styled in SECTION 1 of style.css */
   /* site colors, button, responsive elements, and nav bar */
 
 /* From Google Chrome Developer Tools Inspect Element applied to header with search filter margin */
@@ -429,3 +429,431 @@ nav {
         /* turn off underline beneath button link */
         text-decoration: none;
     }
+
+
+/* QUICK LIST OF FEATURES styled in SECTION 2 of style css */
+  /* site colors, horizontal timeline with horizontal scrollbar on home page */
+  /* image zoom animation effect on user survey form page */
+  /* "thanks" message on user survey form page image */
+
+/* root pseudo element and body rules duplicated from style.css */
+/* Neon button */
+/* aoplied here generally for font and color uniformity */
+
+/* Credits Comment Start */
+/* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
+/* Create a neon button with a reflection using CSS */
+/* Kevin Powell */
+/* Declare colors using CSS variables and :root CSS pseudo-class */
+:root {
+    --color-brite: #3af568;
+    --color-bkgrd: #2b2527;
+    --color-white: #ffffff;
+    --color-altgrn: #69f43a; /* Analagous Color from Color Scheme Section of README */
+    --color-blue: #0000ff;
+    --color-altblue: lightblue;
+    --color-grnwhite: #e7f5e7;
+}
+
+/* Targets entire body */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-brite);
+    background: var(--color-bkgrd);
+}
+/* Credit Comment End Neon Button */
+
+/* Credit Comment: Code Institute Runing Project https://github.com/Code-Institute-Org/gitpod-full-template*/
+
+#matrix-outer {
+    /*  create zoom level for matrix image */
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+#background-image-one {
+    height: 700px;
+    width: 100%;
+    padding:0;
+    background: url('../images/13_matrix_image.jpg') no-repeat center center;
+    /* background size position and attachement from https://stackoverflow.com/questions/12082913/with-css-how-do-i-make-an-image-span-the-full-width-of-the-page-as-a-background   */
+    background-size: cover;
+    background-position: center;
+    /* edit value to local by trial and error: */
+    background-attachment:local;
+
+    /* animates zoom effect on loading page */
+    animation-name: matrix-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+
+@keyframes matrix-zoom {
+    from{
+            transform: scale(200);
+    }
+    to {
+            transform: scale(1);
+    }
+}
+
+/* Credit Comment: https://www.w3schools.com/csS/css_align.asp */
+
+/*  horizontal timeline
+        Credit Comment Start 
+        Item 3 on https://csshint.com/horizontal-timeline-css/ 
+        https://codepen.io/kundankumarmourya/pen/oKBMLe
+            by Kundan Kumar Mourya
+                https://codepen.io/kundankumarmourya*/
+
+.time-line-box {
+    padding: 100px 0;
+    width: 100%;
+    background-color: var(--color-bkgrd);
+  }
+  
+  .time-line-box .timeline {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .time-line-box .timestamp {
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time-line-box .status {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid var(--color-brite);
+    position: relative;
+    transition: all 200ms ease-in;
+  }
+  .time-line-box .status span {
+    padding-top: 8px;
+  }
+  .time-line-box .status span:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-brite);
+    border-radius: 12px;
+    border: 2px solid var(--color-brite);
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: all 200ms ease-in;
+  }
+  
+  .swiper-container {
+    margin: auto;
+    /* overflow-y: auto; */
+  }
+  .swiper-wrapper{
+    display: inline-flex;
+    flex-direction: row;
+    overflow-y:auto;
+    justify-content: center;
+  }
+  .swiper-container::-webkit-scrollbar-track{
+     background:#a8a8a8b6;
+  }
+  .swiper-container::-webkit-scrollbar{
+    height: 2px;
+  }
+  .swiper-container::-webkit-scrollbar-thumb{
+     background: #4F4F4F;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 12px;
+    width: 100vw;
+    height: 100%;
+    position: relative;
+  }
+
+/* horizontal timeline image and description styling: */
+div.horizontal-timeline-image-container>span>img {
+  background-color: white;
+}
+div.horizontal-timeline-image-description>span>p {
+  width: 50vw;
+  margin-left: 25vw;
+}
+div.horizontal-timeline-image-description>span {
+  width:100%;
+}
+
+
+/* Item 3 on https://csshint.com/horizontal-timeline-css/ 
+                    https://codepen.io/kundankumarmourya/pen/oKBMLe
+                        by Kundan Kumar Mourya
+                            https://codepen.io/kundankumarmourya
+   Credit Comment End
+   horizontal timeline end */
+
+
+/* horizontal scroll slider
+    Credit Comment Start*/
+            /* Credit Comment Start
+            horizontal scroll
+            https://stackoverflow.com/questions/9925754/css-horizontal-scroll
+                by FrameWorker 
+                    https://stackoverflow.com/users/468722/frameworker */
+                #outer_wrapper {  
+                    width:100%;
+                }
+                #outer_wrapper #inner_wrapper {
+                    width: 1000px; 
+                    /* If more elements, increase width accordingly */
+                }
+                #outer_wrapper #inner_wrapper div.box { /* Define the properties of inner block */
+                    width: 250px;
+                    height:300px;
+                    float: left;
+                    margin: 0 4px 0 0;
+                    border:1px grey solid;
+                }
+                /* https://stackoverflow.com/questions/9925754/css-horizontal-scroll
+                    by FrameWorker 
+                    https://stackoverflow.com/users/468722/frameworker 
+    Credit Comment Start
+horizontal scroll slider*/
+
+/* Start Color Scroll bars on horizontal scroll bar of horizontal timeline
+    Reference Comment Start
+    Reference Comment used W3Schools How TO - Custom Scrollbar
+    https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+    
+    Changed colors from defaults to fit website color scheme */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-brite);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-blue);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-grnwhite);
+  }
+
+/*    Reference Comment used W3Schools How TO - Custom Scrollbar
+    https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+    
+    Changed colors from defaults to fit website color scheme
+    Credit Comment End
+    End Color Scroll bars on horizontal scroll bar of horizontal timeline */
+
+/* style scrollbar corner
+    Reference Comment
+    https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+    ::-webkit-scrollbar-corner {
+      background: var(--color-bkgrd);
+    }
+
+/* selector from https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar */
+::-webkit-scrollbar-button  {
+    background: var(--color-blue);
+}
+
+
+/* modified selector from https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar */
+::-webkit-scrollbar-button:hover  {
+    background: var(--color-grnwhite);
+}
+
+/* add rules to style text in home page timeline:*/
+section.time-line-box>div>div>div span {
+  font-size: 1.4rem;
+}
+
+/* QUICK LIST OF FEATURES styled in SECTION 3 of style.css */
+  /* vertical timeline merged with 2 columns */
+  
+/* Combined vertical timeline and 2 columns Start */
+/* text align https://www.w3schools.com/css/css_text_align.asp */
+/* 2 columns https://www.w3schools.com/howto/howto_css_two_columns.asp */
+
+/* vertical timeline https://freefrontend.com/css-timelines/
+https://codepen.io/mathiesjanssen/pen/ggeBKm*/
+
+/* 3 rules from w3Schools: asterisk (box-sizing declaration) .column (float width padding height declarations) .row:after (content display clear declarations) selectors from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns  */
+
+    /* CONTAINER: */
+    /* Consider removing rule: */
+    div.container {
+        display: flex;
+        flex: auto;
+        flex-direction: column;
+        max-height: 100%;
+      }
+
+    /* HEADER */
+    div.header {
+        height: auto;
+        text-align: center;
+        padding: 1rem 1rem 1rem 1rem;
+        position: relative;
+      }
+
+                /* Works */
+                * {
+                box-sizing: border-box;  
+                
+                /* Makes timeline neat and compact */
+                border: 0;
+                margin: 0;
+                padding: 0;
+                }
+                
+                /* a key, a pair of rules */
+                    /* Works */
+                        /* Create two equal columns that floats next to each other */
+                        .column.right {
+                            float: left;
+                            width: 50%;
+                            padding: 10px 10px 10px 13px;
+                            /* height: 100px; */
+                            /* Should be removed. Only for demonstration */
+                            text-align: left;
+                        }
+
+                    /* Works, added, a key */
+                        /* from above */
+                        .column.left {
+                            float: left; /* from .column.right rule above*/
+                            width: 50%;
+                            padding: 10px 10px 10px 10px;
+                            /* height: 100px; */
+                            /* Should be removed. Only for demonstration */
+                            text-align: right; /* from W3Schools via left-side id selector above*/
+                        }
+
+            /* Works            if only removes excess bullet point */
+                /* Clear floats after the columns */
+                .row:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+
+
+
+                    /* styles right column: minor padding */
+                        div.item {
+                        padding: 0rem 1rem 0rem 1rem;
+                        }
+                    /* R above */
+                    /* L below */
+                    /* from above */
+                    /* styles right column: minor padding */
+                        div.item-for-left {
+                            padding: 0rem 0 0rem 0;
+                        }
+    
+/* Combined vertical timeline and 2 columns end */
+
+/* Added to merged vertical timeline 2 columns: */
+    /* rule to center one time point vertically when h3 heading is blank: */
+/* For centering elements vertically refer to W3Schools https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+                .center-vertically {
+                    padding-top: 0.27em;
+                }
+/* subheader class from div.header class above: */
+                /* subheader */
+                div.subheader {
+                    height: auto;
+                    text-align: center;
+                    padding: 1em 1em 1em 1em;
+                    position: relative;
+                }
+
+/* rule references https://stackoverflow.com/questions/16626240/vertical-align-html-form */
+/* vertically align form */
+div.vertical-align-html-form {
+    text-align: center;
+    padding: 0.4em;
+}
+
+h2.vertical-align-heading {
+    text-align: center;
+}
+
+h2.pad {
+    padding: 0.2em 0.4em 0.8em 0.4em;
+}
+
+div.pad-submit {
+    padding-bottom: 1em;
+}
+
+/* to flex image right and form left, reference https://www.w3docs.com/snippets/css/how-to-right-align-a-flex-item.html */
+div#flex-container-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flex-form-left {
+    border: 1px solid #8a8a8a;
+    width: 50%;
+}
+
+#flex-form-image-right {
+    border: 1px solid #8a8a8a;
+    width: 50%;
+}
+
+
+/* targets span in vertical timeline for bullet point to text spacing control https://stackoverflow.com/questions/4373046/css-control-space-between-bullet-and-li */
+/* left column span */
+span.bullet-to-text-spacing-left {
+    position:relative;
+    left: -17px;
+}
+
+span.bullet-to-text-spacing-right {
+    position:relative;
+    right: -20px;
+}
+
+/* add style rule to target top border of left and right column elements and turn them green on each time point in vertical timeline on 3 tech event pages: */
+div.column.left, div.column.right {
+    border-top-color: var(--color-brite);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    /* https://love2dev.com/blog/html-horizontal-line/ */
+    display: block; 
+    /* changed these properties slightly: (margin-before to margin-top, etc.) */
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em; 
+    margin-left: auto; 
+    margin-right: auto; 
+    overflow: hidden; 
+    border-style: inset; 
+    border-width: 1px;
+    /* border-color: var(--color-brite); */
+}

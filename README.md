@@ -6,8 +6,21 @@ Developing a website on the conventional desktop computer using HTML5 and CSS3. 
 
 This project was a good learning experience about css and html.  Challenges included modifying css style rules to target only specific sections of code without affecting others.  This was most difficult towards the end of the project.  Also, trying to position items on the page involved trail and error. Another challenge was ingtegrating different features together.
 
-[Picture of Final Project](assets/images/final_project.JPG)
-[Final Project](https://coder731.github.io/Portfolio_Project_1/)
+![Picture of Final Project](assets/images/final_project.JPG)
+[Final Project Source Code](https://coder731.github.io/Portfolio_Project_1/)
+
+<table>
+    <tr>
+        <td><a href="assets/images/final_project.JPG" target="_blank">
+            <img src="assets/images/final_project.JPG" alt="Image of Final Project" width="200"></a>
+        </td>
+    </tr>
+    <tr>
+        <td><center>Image of Final Project</center>
+        </td>
+    </tr>
+</table>
+
 ## Features
 
 The parts of the project

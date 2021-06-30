@@ -857,3 +857,37 @@ div.column.left, div.column.right {
     border-width: 1px;
     /* border-color: var(--color-brite); */
 }
+
+
+/* SECTION 4 
+Features in section 4:
+margin at side of page for h1 h2 h3 and paragraph elements in main */
+
+main div.row div.column.left p {
+    margin-left: 5vw;
+}
+
+main div.row div.column.right p {
+    margin-right: 5vw;
+}
+
+main div.row div.column.left h3 {
+    margin-left: 5vw;
+}
+
+main div.row div.column.right h3 {
+    margin-right: 5vw;
+}
+
+main div.row {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+/* style link in paragraph in row */
+div.row p a {
+    background-color: var(--color-bkgrd);
+    background-color: var(--color-brite);
+    color: var(--color-bkgrd);
+    
+}

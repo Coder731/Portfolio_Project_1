@@ -4,8 +4,8 @@
 ## Overview of Project (2 paragraphs)
 Developing a website on the conventional desktop computer using HTML5 and CSS3.
 
-[Insert Picture of Final Project Simplest Version On Time Under Budget](insert website)
-
+[Picture of Final Project](assets/images/final_project.JPG)
+[Final Project](https://coder731.github.io/Portfolio_Project_1/)
 ## Features
 
 The parts of the project

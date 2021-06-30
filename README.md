@@ -79,18 +79,23 @@ How the project achieves this
 </table>
 
 - There are 5 webpages on the site.
-    - Home Page with Timeline
-    - 3 Key technologies for the computer
+    - Home Page with Timeline spanning from 1925 to the 2021.
+    - 3 pages dedicated to different eras of development of the Computer
+        - pre_and_first_generation.html has two eras.
+            - Prior to First Generation: Gives information on the field effect transistor (FET)
+            - First Generation: Gives information on other transistors including the Bipolar Junction Transistor (BJT).
+        - second_generation.html gives information on the key technology of the Second Generation of Computers, the MOSFET or metal-oxide-semiconductor field-effect transistor
+        - third_and_fourth_generation.html has two eras.
+            - Third Generation: Gives information on integrated circuits (ICs)
+            - Fourth Generation: Gives information on the microprocessor and explains that while this era is listed as being from 1971 to 1980, current desktop computers still use microprocessors, although the technology has significantly advanced.  Also including is a piece on EUV Extreme Ultraviolet lithography, used in semi-conductor fabrication.  Finally, there is a link to a recent news article semiconductor shortages and how this is affecting not only desktop computers but a wide range of other technologies.
     - Survey Form to gather user feedback about the website.
 
 
 - The website features a form element. This is a survey of how the user found the content and overall impression of the website.
 
-(Use love-running as template)
+The love-running guided website building project was used as a template.
 
 - Button
-
-
 
 - Matrix Color Scheme
 

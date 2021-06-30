@@ -66,7 +66,7 @@ header {
     /* button */
 
 /* @media reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
-@media screen and (min-width: 1252px) {
+@media screen and (min-width: 1113px) {
     /* for when nav button is one line in height */
 
     .button {
@@ -87,6 +87,8 @@ header {
         flex-direction: column;
         align-items: center;
     /* End Nested Credit Comment */
+        /* own: center text */
+        text-align: center;
     }
 
     /* change when mouse hover over button */
@@ -113,7 +115,7 @@ header {
 
 /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
-@media screen and (max-width: 1251px) and (min-width: 880px) {
+@media screen and (max-width: 1112px) and (min-width: 838px) {
 
     /* for when CSS nav bar is 2 lines in height due to word wrapping in User Survey Form button */
 
@@ -140,6 +142,8 @@ header {
     /* End Nested Credit Comment */
     /* adjust button height, responsive design */
         height: 85px;
+        /* own: center text */
+        text-align: center;
     }
 
     /* change when mouse hover over button */
@@ -168,7 +172,7 @@ header {
 
 /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
-@media screen and (max-width: 879px) and (min-width: 589px) {
+@media screen and (max-width: 837px) and (min-width: 588px) {
 
     /* button */
 
@@ -192,7 +196,8 @@ header {
     /* End Nested Credit Comment */
     /* adjust button height, responsive design */
         height: 122.26px;
-
+        /* own: center text */
+        text-align: center;
     }
 
     /* change when mouse hover over button */
@@ -221,7 +226,7 @@ header {
 
 /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
-@media screen and (max-width: 588px) {
+@media screen and (max-width: 587px) {
 
     /* button */
 
@@ -244,7 +249,8 @@ header {
         align-items: center;
     /* End Nested Credit Comment */
     /* adjust button height, responsive design */
-
+    /* own: center text */
+        text-align: center;
     }
 
     /* change when mouse hover over button */

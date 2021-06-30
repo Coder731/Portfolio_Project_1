@@ -430,6 +430,13 @@ Live Link:
         - 10_hex_to_rgb_hash2b2527.JPG
         - 11_hex_to_rgb_hash0000FF.jpg
         - 12_hex_to_rgb_hasFFFFFF.jpg
+        - 13_matrix_image.jpg
+        - 14_wireframe_for_videos.png
+        - 15_wireframe_for_content.png
+        - 16_nav_bar_image.JPG
+        - 17_QR_Code_for_Further_Reading_First_Generation.png
+        - final_project.JPG
+
 
 ## Reference Sources
 - Here are reference sources used in the project.
@@ -882,7 +889,7 @@ Used section elements as containers to allow for multiple grids on home page.
 #### Historical data sources
 - Historical data source [History of computing hardware (1960s–present)](https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)#Third_generation)
 
-- [Computer - First Generation <img src="assets/images/17_QR_Code_for_Further_Reading_First_Generation.png" alt="HTML5" width="400">](https://www.tutorialspoint.com/computer_fundamentals/computer_first_generation.htm)
+- [Computer - First Generation <img src="assets/images/17_QR_Code_for_Further_Reading_First_Generation.png" alt="HTML5" width="200">](https://www.tutorialspoint.com/computer_fundamentals/computer_first_generation.htm)
 
 - [History of the transistor](https://en.wikipedia.org/wiki/History_of_the_transistor)
 

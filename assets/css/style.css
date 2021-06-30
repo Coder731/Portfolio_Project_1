@@ -908,3 +908,17 @@ form>div>button.submit-button-style {
 input#email {
     padding-bottom: 0.1rem;
 }
+
+footer {
+    text-align: center;
+}
+
+footer>a {
+    background-color: var(--color-bkgrd);
+    color: var(--color-brite);
+}
+
+footer>a:hover {
+    background-color: var(--color-brite);
+    color: var(--color-bkgrd);
+}

@@ -262,7 +262,7 @@ Fix:
         - Changed href and src values back to original values
         - Refer to deleted version of path in commit b560138c5da5bc558a0fbd5ffe5cfe98ec6ac308
             for original values used for href and src, featuring Capitalisations in file names
-Solution: renamed files and issue resolved
+Solution: renamed files and issue resolved. (Had to copy files into a folder outside of the git repository delete and commit the images and add the images.  So, from git or bash perspective the files being added were new so no discrepancies between old and new file extension cases.)
 
 ##### File Extension Name Bug (Resolved)
 
@@ -272,7 +272,7 @@ Solution: renamed files and issue resolved
 - It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg
 - In the interest of simplicity, the files were reverted to the orignal .JPG extension.
     - Note: Images are hex_to_rgb_hash3af568.JPG hex_to_rgb_hash2b2527.JPG and nav_bar_image.JPG
-Solution: Renamed these files from .JPG to .jpg and this issue resolved itself.
+Solution: Renamed these files from .JPG to .jpg and this issue resolved itself. (Had to copy files into a folder outside of the git repository delete and commit the images and add the images.  So, from git or bash perspective the files being added were new so no discrepancies between old and new file extension cases.)
 
 ##### Potential Cause for File Extension Name Bug and File name in file path unchangeable Bug (Resolved)
 - Potentially, changing the file names or file paths through the Windows system does not change the Linux file paths in the same way.

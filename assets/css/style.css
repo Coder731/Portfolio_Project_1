@@ -743,7 +743,7 @@ https://codepen.io/mathiesjanssen/pen/ggeBKm*/
                         .column.right {
                             float: left;
                             width: 50%;
-                            padding: 10px 10px 10px 13px;
+                            padding: 10px 10px 10px 7px;
                             /* height: 100px; */
                             /* Should be removed. Only for demonstration */
                             text-align: left;
@@ -754,7 +754,7 @@ https://codepen.io/mathiesjanssen/pen/ggeBKm*/
                         .column.left {
                             float: left; /* from .column.right rule above*/
                             width: 50%;
-                            padding: 10px 10px 10px 10px;
+                            padding: 10px 5px 10px 10px;
                             /* height: 100px; */
                             /* Should be removed. Only for demonstration */
                             text-align: right; /* from W3Schools via left-side id selector above*/
@@ -872,24 +872,24 @@ Features in section 4:
 margin at side of page for h1 h2 h3 and paragraph elements in main */
 
 main div.row div.column.left p {
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 
 main div.row div.column.right p {
-    margin-right: 5vw;
+    margin-right: 2vw;
 }
 
 main div.row div.column.left h3 {
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 
 main div.row div.column.right h3 {
-    margin-right: 5vw;
+    margin-right: 2vw;
 }
 
 main div.row {
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 /* style link in paragraph in row */

@@ -10,11 +10,6 @@
 /* https://developer.chrome.com/docs/devtools/device-mode/override-user-agent/ */
 
 
-:-webkit-any(article, aside, nav, section) h1 {
-    font-size: 1.5rem;
-    margin-block-start: 1.7rem;
-    margin-block-end: 1.7rem;
-}
 
 h1 {
     font-size: 1.5rem;
@@ -971,7 +966,5 @@ main {
 
 
         font-size: 1.5rem;
-        margin-block-start: 1.7rem;
-        margin-block-end: 1.7rem;
     }
 

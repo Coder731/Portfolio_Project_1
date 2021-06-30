@@ -929,6 +929,7 @@ input#email {
 
 footer {
     text-align: center;
+    padding: 1rem;
 }
 
 footer>a {
@@ -944,3 +945,9 @@ footer>a:hover {
 p.video-to-center {
     text-align: center;
 }
+
+/* style minimum height of main section of webpages: */
+main {
+    min-height: calc(100vh - 51px)
+    }
+    

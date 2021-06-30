@@ -33,6 +33,11 @@ h2 {
     margin-block-end: 2rem;
 }
 
+/* add rule to style paragraph font size: */
+p {
+    font-size:1.048rem;
+}
+
 /* add style rule for id home to center second header on home page  */
 /* Credit Comment reuse 3 style rules from #header, see #header Credit Comment */
 #home {

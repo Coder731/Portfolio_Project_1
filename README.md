@@ -1,8 +1,10 @@
 # Portfolio_Project_1
  The History of the Silicon Based Desktop Computer
 
-## Overview of Project (2 paragraphs)
-Developing a website on the conventional desktop computer using HTML5 and CSS3.
+## Overview of Project
+Developing a website on the conventional desktop computer using HTML5 and CSS3.  This project goes through about a century of progress bringing us up to today.  This includes early work on field effect transistors.  That led to work on other transistors including the Bipolar Junction Transistor, collectively caled the first generation computers.  This in turn led to a breakthrough giving MOSFET transistors or metal–oxide–semiconductor field-effect transistors.  This era was the second generation.  The third generation was all about integrated circuits and the fourth generation is about microprocessors.  The fourth generation was from 1971 to 1980. However, as current silicon based desktop computers essentially use a very small scale version of these microprocessors, effectively we are still in the fourth generation of desktop computers.
+
+This project was a good learning experience about css and html.  Challenges included modifying css style rules to target only specific sections of code without affecting others.  This was most difficult towards the end of the project.  Also, trying to position items on the page involved trail and error. Another challenge was ingtegrating different features together.
 
 [Picture of Final Project](assets/images/final_project.JPG)
 [Final Project](https://coder731.github.io/Portfolio_Project_1/)

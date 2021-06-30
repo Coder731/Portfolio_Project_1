@@ -226,7 +226,7 @@ header {
 
 /* media range Credit Reference listed under Example "Comma separated list" at https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
-@media screen and (max-width: 587px) {
+@media screen and (max-width: 588px) {
 
     /* button */
 
@@ -260,6 +260,7 @@ header {
         /* invert button colors on mouse over: */
         background: var(--color-brite);
         color: var(--color-bkgrd);
+
     }
 
 /* https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell */
@@ -268,6 +269,45 @@ header {
 /* Credits Comment End */
     
 /* End fourth version (second copy) of button and button:hover */
+
+
+/* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
+/* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
+/* Brian Design */
+/* Credit End */
+
+
+/* for media rule referenced https://www.w3schools.com/cssref/css3_pr_mediaquery.asp*/
+
+    /* Nested Credit Comment Start*/
+    /* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
+    /* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
+    /* Brian Design */
+    /* taken from 19:04 in video */
+    /* This refers to .nav-menu dixplay grid and grid template columns rules*/
+    .nav-menu {
+            /* changed display to block per https://www.w3schools.com/Css/css_navbar_vertical.asp */
+            /* Start Reference https://www.w3schools.com/Css/css_navbar_vertical.asp */
+            display: block;
+            /* End Reference https://www.w3schools.com/Css/css_navbar_vertical.asp */
+            grid-template-columns: repeat(5, auto);
+    /* Nested Credit Comment End */
+    /* fix embedded video width so that pages display correctly on phones */
+
+    }
+
+/* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
+/* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
+/* Brian Design */
+/* Credit End */
+
+    /* style embedded video width: */
+
+
+    iframe {
+        width: 70vw;
+        padding: 10vw;
+}
 
 }
 
@@ -369,7 +409,7 @@ header {
 /* to Debug Nav bar Partial Width, overflow: hidden CSS Rule from https://stackoverflow.com/questions/29538290/making-the-nav-bar-span-the-width-of-the-page */
 nav {
     width: 100%;
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
     overflow: hidden;
 }
 
@@ -381,12 +421,11 @@ nav {
 
     * { /* padding zero removed from this rule, which causes nav bar to indent on all pages.  See README Shorter name: asterisk padding bullet list indent nav Bug: "bullet nav Bug 2"*/
         box-sizing: border-box;
-        margin: 100 0 100 0;
         font-family: 'Roboto', sans-serif;
     }
 
     /* Start reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
-    @media only screen and (min-width:588px) {
+    @media only screen and (min-width:589px) {
     /* End reference https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
 
     /* Nested Credit Comment Start*/
@@ -401,34 +440,7 @@ nav {
     /* Nested Credit Comment End */
     }
 }
-/* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
-/* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
-/* Brian Design */
-/* Credit End */
 
-
-/* for media rule referenced https://www.w3schools.com/cssref/css3_pr_mediaquery.asp*/
-    @media only screen and (max-width: 587px) {
-
-    /* Nested Credit Comment Start*/
-    /* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
-    /* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
-    /* Brian Design */
-    /* taken from 19:04 in video */
-    /* This refers to .nav-menu dixplay grid and grid template columns rules*/
-    .nav-menu {
-            /* changed display to block per https://www.w3schools.com/Css/css_navbar_vertical.asp */
-            /* Start Reference https://www.w3schools.com/Css/css_navbar_vertical.asp */
-            display: block;
-            /* End Reference https://www.w3schools.com/Css/css_navbar_vertical.asp */
-            grid-template-columns: repeat(5, auto);
-    /* Nested Credit Comment End */
-    }
-}
-/* How to Make a Responsive Navigation Menu Navbar Using HTML, CSS, and Javascript Tutorial */
-/* https://www.youtube.com/watch?v=yFWAOzwovrQ&ab_channel=BrianDesign */
-/* Brian Design */
-/* Credit End */
 
 /* remove underline from anchor in first header */
     .lineless {
@@ -892,7 +904,7 @@ main div.row {
     margin-right: 10vw;
 }
 
-/* style link in paragraph in row */
+/* style link in paragraph in row in third_and_fourth_generation.html timeline */
 div.row p a {
     background-color: var(--color-bkgrd);
     color: var(--color-brite);

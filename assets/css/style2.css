@@ -180,7 +180,6 @@ body {
                     https://stackoverflow.com/users/468722/frameworker */
                 #outer_wrapper {  
                     width:100%;
-                    height: 421px;
                 }
                 #outer_wrapper #inner_wrapper {
                     width: 1000px; /* If you have more elements, increase the width accordingly */

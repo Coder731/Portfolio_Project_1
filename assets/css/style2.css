@@ -152,6 +152,19 @@ body {
     position: relative;
   }
 
+/* horizontal timeline image and description styling: */
+div.horizontal-timeline-image-container>span>img {
+  background-color: white;
+}
+div.horizontal-timeline-image-description>span>p {
+  width: 50vw;
+  margin-left: 25vw;
+}
+div.horizontal-timeline-image-description>span {
+  width:100%;
+}
+
+
 /* Item 3 on https://csshint.com/horizontal-timeline-css/ 
                     https://codepen.io/kundankumarmourya/pen/oKBMLe
                         by Kundan Kumar Mourya

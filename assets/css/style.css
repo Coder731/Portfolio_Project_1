@@ -609,13 +609,6 @@ div.horizontal-timeline-image-container>span>img {
   margin: 1rem 0 1rem 0;
 
 }
-div.horizontal-timeline-image-description>span>p {
-  width: 50vw;
-  margin-left: 25vw;
-}
-div.horizontal-timeline-image-description>span {
-  width:100%;
-}
 
 p.index-timeline-picture-text {
     width: 50vw;

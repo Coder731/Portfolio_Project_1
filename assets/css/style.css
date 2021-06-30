@@ -887,7 +887,10 @@ main div.row {
 /* style link in paragraph in row */
 div.row p a {
     background-color: var(--color-bkgrd);
+    color: var(--color-brite);
+}
+
+div.row p a:hover {
     background-color: var(--color-brite);
     color: var(--color-bkgrd);
-    
 }

@@ -21,13 +21,6 @@ h2 {
 
 /* End of Reference */
 
-/* adapted from above rule: */
-:-webkit-any h2 {
-    font-size: 1.25rem;
-    margin-block-start: 2rem;
-    margin-block-end: 2rem;
-}
-
 /* add rule to style paragraph font size: */
 p {
     font-size:1.048rem;

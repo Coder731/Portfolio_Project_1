@@ -574,16 +574,8 @@ body {
     overflow-y:auto;
     justify-content: center;
   }
-  .swiper-container::-webkit-scrollbar-track{
-     background:#a8a8a8b6;
-  }
-  .swiper-container::-webkit-scrollbar{
-    height: 2px;
-  }
-  .swiper-container::-webkit-scrollbar-thumb{
-     background: #4F4F4F;
-  }
-  .swiper-slide {
+
+   .swiper-slide {
     text-align: center;
     font-size: 12px;
     width: 100vw;

@@ -38,30 +38,10 @@ p {
     font-size:1.048rem;
 }
 
-/* add style rule for id home to center second header on home page  */
-/* Credit Comment reuse 3 style rules from #header, see #header Credit Comment */
-#home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
+/* own: add header rule with minimum height declaration: */
+header {
+    min-height: 151px;
 }
-
-/* center header */
-
-/* Credit Comment Start */
-/* Credit Comment These three style declarations (for display, flex-direction and align-items) were taken from: */
-/* https://codepen.io/nikkipantony/pen/vWgjBw */
-/* Nikki Pantony */
-#header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Credit Comment These three style declarations (for display, flex-direction and align-items) were taken from: */
-/* https://codepen.io/nikkipantony/pen/vWgjBw */
-/* Nikki Pantony */
-/* Credit Comment End */
 
 /* Neon button */
 

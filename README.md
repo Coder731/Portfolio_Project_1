@@ -6,7 +6,7 @@ Developing a website on the conventional desktop computer using HTML5 and CSS3. 
 
 This project was a good learning experience about css and html.  Challenges included modifying css style rules to target only specific sections of code without affecting others.  This was most difficult towards the end of the project.  Also, trying to position items on the page involved trail and error. Another challenge was ingtegrating different features together.
 
-![Picture of Final Project](assets/images/final_project.JPG)
+![Picture of Final Project](assets/images/final_project.jpg)
 <center><a href="https://coder731.github.io/Portfolio_Project_1/" target="_blank">Image of Final Project</a><center>
 <center><a href="https://coder731.github.io/Portfolio_Project_1/" target="_blank">Final Project Source Code</a><center>
 
@@ -44,8 +44,8 @@ How the project achieves this
             <img src="assets/images/second_generation.png" alt="Tech Event 2" width="200" style="float: right;"></a></td>
         <td><a href="assets/images/third_and_fourth_generation.png" target="_blank">
             <img src="assets/images/third_and_fourth_generation.png" alt="Tech Event 3" width="200"></a></td>
-        <td><a href="assets/images/User_Survey_Form.png" target="_blank">
-            <img src="assets/images/User_Survey_Form.png" alt="User Survey Form" width="200"></a></td>
+        <td><a href="assets/images/user_survey_form.png" target="_blank">
+            <img src="assets/images/user_survey_form.png" alt="User Survey Form" width="200"></a></td>
     </tr>
     <tr>
         <td><center>Computer History Timeline Image Created with Balsamiq</center></td>
@@ -104,7 +104,7 @@ The love-running guided website building project was used as a template.
     - Featured on all five pages.
     - Responsive element.
 
-![nav bar](assets/images/nav_bar_image.JPG)
+![nav bar](assets/images/nav_bar_image.jpg)
 
 ![Footer]()
 
@@ -205,10 +205,10 @@ High Contrast
 ![Green black Blue and white colors on Adobe Color wheel](assets/images/green_black_blue_white_colors.jpg)
 #### Figure above shows green, black, blue and white colors on Adobe Color wheel
 
-![Color code for green used in Matrix color theme](assets/images/hex_to_rgb_hash3af568.JPG)
+![Color code for green used in Matrix color theme](assets/images/hex_to_rgb_hash3af568.jpg)
 #### Figure above shows green used in Matrix color theme
 
-![Color code for black used in Matrix color theme](assets/images/hex_to_rgb_hash2b2527.JPG)
+![Color code for black used in Matrix color theme](assets/images/hex_to_rgb_hash2b2527.jpg)
 #### Figure above shows black used in Matrix color theme
 
 ![Color code for blue used in project](assets/images/hex_to_rgb_hash0000FF.jpg)
@@ -246,6 +246,39 @@ Potential Solutions:
 - Use card, instead of Unordered List.  Detail to be added.
 Fix:
 - Use inline-block value for display property in CSS rule targeting list item element in CSS Stylesheet
+
+##### File name in file path unchangeable Bug (Resolved)
+- Problem:
+    - Detection: The following images were not displaying in README
+                 in "First Table of Wireframe Rough Plan Sketch made in using Balsamiq:"
+            pre_and_first_generation.png
+            second_generation.png
+            third_and_fourth_generation.png
+    - Cause:
+        - files not found for given href and src values
+      - Root Cause:
+        - Renaming the files does not seem to affect the name in the path the system uses to refer to the files.
+    - Solution (Workaround):
+        - Changed href and src values back to original values
+        - Refer to deleted version of path in commit b560138c5da5bc558a0fbd5ffe5cfe98ec6ac308
+            for original values used for href and src, featuring Capitalisations in file names
+Solution: renamed files and issue resolved
+
+##### File Extension Name Bug (Resolved)
+
+###### Some images are named with capitalised .JPG endings.
+- To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
+- However, when the links were updated to .jpg they did not work.
+- It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg
+- In the interest of simplicity, the files were reverted to the orignal .JPG extension.
+    - Note: Images are hex_to_rgb_hash3af568.JPG hex_to_rgb_hash2b2527.JPG and nav_bar_image.JPG
+Solution: Renamed these files from .JPG to .jpg and this issue resolved itself.
+
+##### Potential Cause for File Extension Name Bug and File name in file path unchangeable Bug (Resolved)
+- Potentially, changing the file names or file paths through the Windows system does not change the Linux file paths in the same way.
+
+##### Navigation bar displays in regular font on home page but bold on other pages (Resolved)
+Solution: Adjusted font in stylesheet.
 
 #### Debugged
 
@@ -371,38 +404,6 @@ Resolution:
 
 #### Unfixed Using Workaround
 
-##### File name in file path unchangeable Bug
-- Problem:
-    - Detection: The following images were not displaying in README
-                 in "First Table of Wireframe Rough Plan Sketch made in using Balsamiq:"
-            pre_and_first_generation.png
-            second_generation.png
-            third_and_fourth_generation.png
-    - Cause:
-        - files not found for given href and src values
-      - Root Cause:
-        - Renaming the files does not seem to affect the name in the path the system uses to refer to the files.
-    - Solution (Workaround):
-        - Changed href and src values back to original values
-        - Refer to deleted version of path in commit b560138c5da5bc558a0fbd5ffe5cfe98ec6ac308
-            for original values used for href and src, featuring Capitalisations in file names
-
-##### File Extension Name Bug
-
-###### Some images are named with capitalised .JPG endings.
-- To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
-- However, when the links were updated to .jpg they did not work.
-- It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg
-- In the interest of simplicity, the files were reverted to the orignal .JPG extension.
-    - Note: Images are hex_to_rgb_hash3af568.JPG hex_to_rgb_hash2b2527.JPG and nav_bar_image.JPG
-
-##### Potential Cause for File Extension Name Bug and File name in file path unchangeable Bug
-- Potentially, changing the file names or file paths through the Windows system does not change the Linux file paths in the same way.
-
-##### Navigation bar displays in regular font on home page but bold on other pages
-
-#### Debug
-
 ## Deployment
 
 process to deploy on GitHub.
@@ -420,20 +421,20 @@ Live Link:
     - images in assets>images
         - blue_white_color_combination.jpg
         - color_contrast_check_matrix.png
-        - final_project.JPG
+        - final_project.jpg
         - green_black_blue_white_colors.jpg
         - hex_to_rgb_hash0000FF.jpg
-        - hex_to_rgb_hash2b2527.JPG
-        - hex_to rgb_hash3af568.JPG
+        - hex_to_rgb_hash2b2527.jpg
+        - hex_to rgb_hash3af568.jpg
         - hex_to_rgb_hashFFFFFF.jpg
         - matrix_image.jpg
-        - nav_bar_image.JPG
+        - nav_bar_image.jpg
         - pre_and_first_generation.png
         - QR_Code_for_Further_Reading_First_Generation.png
         - second_generation.png
         - third_and_fourth_generation.png
         - time_line_sketch.png
-        - User_Survey_Form.png
+        - user_survey_form.png
         - wireframe_for_content.png
         - wireframe_for_videos.png
 

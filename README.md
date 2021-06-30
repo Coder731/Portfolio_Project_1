@@ -10,6 +10,9 @@ This project was a good learning experience about css and html.  Challenges incl
 <center><a href="https://coder731.github.io/Portfolio_Project_1/" target="_blank">Image of Final Project</a><center>
 <center><a href="https://coder731.github.io/Portfolio_Project_1/" target="_blank">Final Project Source Code</a><center>
 
+
+![Picture of Final Project Desktop Only](assets/images/final_project.jpg)
+<center><a href="https://coder731.github.io/Portfolio_Project_1/" target="_blank">Image of Final Project Desktop Only</a><center>
 ## Features
 
 The parts of the project
@@ -106,7 +109,7 @@ The love-running guided website building project was used as a template.
 
 ![nav bar](assets/images/nav_bar_image.jpg)
 
-![Footer]()
+![Footer](assets/images/footer.png)
 
 #### Table  of Technologies Used
 <table>

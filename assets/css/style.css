@@ -11,24 +11,24 @@
 
 
 :-webkit-any(article, aside, nav, section) h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-block-start: 1.7rem;
     margin-block-end: 1.7rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 /* End of Reference */
 
 /* adapted from above rule: */
 :-webkit-any h2 {
-    font-size: 2rem;
+    font-size: 1.25rem;
     margin-block-start: 2rem;
     margin-block-end: 2rem;
 }
@@ -90,7 +90,7 @@ h2 {
         /* make button text green */
         color: var(--color-brite);
         /* optimise accessibility using large bold font */
-        font-size: 1.7rem;
+        font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
@@ -141,7 +141,7 @@ h2 {
         /* make button text green */
         color: var(--color-brite);
         /* optimise accessibility using large bold font */
-        font-size: 1.3rem;
+        font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
@@ -193,7 +193,7 @@ h2 {
         /* make button text green */
         color: var(--color-brite);
         /* optimise accessibility using large bold font */
-        font-size: 1.2rem;
+        font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
@@ -246,7 +246,7 @@ h2 {
         /* make button text green */
         color: var(--color-brite);
         /* optimise accessibility using large bold font */
-        font-size: 2rem;
+        font-size: 1.45rem;
         font-weight:900;
         
         cursor: pointer;
@@ -295,7 +295,7 @@ h2 {
             /* make button text green */
             color: var(--color-brite);
             /* optimise accessibility using large bold font */
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight:900;
             
             cursor: pointer;
@@ -338,7 +338,7 @@ h2 {
     /* make button text green */
     color: var(--color-brite);
     /* optimise accessibility using large bold font */
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight:900;
     
     cursor: pointer;

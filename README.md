@@ -211,10 +211,10 @@ High Contrast
 ![Color code for black used in Matrix color theme](assets/images/hex_to_rgb_hash2b2527.jpg)
 #### Figure above shows black used in Matrix color theme
 
-![Color code for blue used in project](assets/images/hex_to_rgb_hash0000FF.jpg)
+![Color code for blue used in project](assets/images/hex_to_rgb_hash0000ff.jpg)
 #### Figure above shows blue used in Secondary color theme
 
-![Color code for white used in project](assets/images/hex_to_rgb_hashFFFFFF.jpg)
+![Color code for white used in project](assets/images/hex_to_rgb_hashffffff.jpg)
 #### Figure above shows white used in Secondary color theme
 
 ## Bugs
@@ -423,14 +423,15 @@ Live Link:
         - color_contrast_check_matrix.png
         - final_project.jpg
         - green_black_blue_white_colors.jpg
-        - hex_to_rgb_hash0000FF.jpg
+        - hex_to_rgb_hash0000ff.jpg
         - hex_to_rgb_hash2b2527.jpg
         - hex_to rgb_hash3af568.jpg
-        - hex_to_rgb_hashFFFFFF.jpg
+        - hex_to_rgb_hashffffff.jpg
         - matrix_image.jpg
         - nav_bar_image.jpg
         - pre_and_first_generation.png
-        - QR_Code_for_Further_Reading_First_Generation.png
+        - project_four_formats.png
+        - qr_code_for_further_reading_first_generation.png
         - second_generation.png
         - third_and_fourth_generation.png
         - time_line_sketch.png

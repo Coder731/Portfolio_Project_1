@@ -36,16 +36,16 @@ How the project achieves this
 #### First Table of Wireframe Rough Plan Sketch made in using Balsamiq: 
 <table>
     <tr>
-        <td><a href="assets/images/1_time_line_sketch.png" target="_blank">
-            <img src="assets/images/1_time_line_sketch.png" alt="Computer History Timeline Image Created with Balsamiq" width="200"></a></td>
-        <td><a href="assets/images/2_Tech_event_1.png" target="_blank">
-            <img src="assets/images/2_Tech_event_1.png" width="200" alt="Tech Event 1 Created Using Balsamiq" width="40"></a></td>
-        <td><a href="assets/images/3_Tech_Event_2.png" target="_blank">
-            <img src="assets/images/3_Tech_Event_2.png" alt="Tech Event 2" width="200" style="float: right;"></a></td>
-        <td><a href="assets/images/4_Tech_Event_3.png" target="_blank">
-            <img src="assets/images/4_Tech_Event_3.png" alt="Tech Event 3" width="200"></a></td>
-        <td><a href="assets/images/5_User_Survey_Form.png" target="_blank">
-            <img src="assets/images/5_User_Survey_Form.png" alt="User Survey Form" width="200"></a></td>
+        <td><a href="assets/images/time_line_sketch.png" target="_blank">
+            <img src="assets/images/time_line_sketch.png" alt="Computer History Timeline Image Created with Balsamiq" width="200"></a></td>
+        <td><a href="assets/images/pre_and_first_generation.png" target="_blank">
+            <img src="assets/images/pre_and_first_generation.png" width="200" alt="Tech Event 1 Created Using Balsamiq" width="40"></a></td>
+        <td><a href="assets/images/second_generation.png" target="_blank">
+            <img src="assets/images/second_generation.png" alt="Tech Event 2" width="200" style="float: right;"></a></td>
+        <td><a href="assets/images/third_and_fourth_generation.png" target="_blank">
+            <img src="assets/images/third_and_fourth_generation.png" alt="Tech Event 3" width="200"></a></td>
+        <td><a href="assets/images/User_Survey_Form.png" target="_blank">
+            <img src="assets/images/User_Survey_Form.png" alt="User Survey Form" width="200"></a></td>
     </tr>
     <tr>
         <td><center>Computer History Timeline Image Created with Balsamiq</center></td>
@@ -59,8 +59,8 @@ How the project achieves this
 #### Second Table  of Wireframe Rough Plan made using Balsamiq: Videos ideas for tech event 1, 2 and 3
 <table>
     <tr>
-        <td><a href="assets/images/14_wireframe_for_videos.png" target="_blank">
-            <img src="assets/images/14_wireframe_for_videos.png" alt="Image Created with Balsamiq of wireframe for videos proposed for webpages named tech event 1 2 and 3" width="700"></a></td>
+        <td><a href="assets/images/wireframe_for_videos.png" target="_blank">
+            <img src="assets/images/wireframe_for_videos.png" alt="Image Created with Balsamiq of wireframe for videos proposed for webpages named tech event 1 2 and 3" width="700"></a></td>
     </tr>
     <tr>
         <td><center>Image Created with Balsamiq of wireframe for videos proposed for webpages named tech event 1 2 and 3</center></td>
@@ -70,8 +70,8 @@ How the project achieves this
 #### Third Table of Wireframe Updated Plan made using Balsamiq: Content and video ideas for tech event 1, 2 and 3
 <table>
     <tr>
-        <td><a href="assets/images/15_wireframe_for_content.png" target="_blank">
-            <img src="assets/images/15_wireframe_for_content.png" alt="Image Created with Balsamiq of wireframe for content and videos proposed for webpages named tech event 1 2 and 3" width="700"></a></td>
+        <td><a href="assets/images/wireframe_for_content.png" target="_blank">
+            <img src="assets/images/wireframe_for_content.png" alt="Image Created with Balsamiq of wireframe for content and videos proposed for webpages named tech event 1 2 and 3" width="700"></a></td>
     </tr>
     <tr>
         <td><center>Image Created with Balsamiq of wireframe for content and videos proposed for webpages named tech event 1 2 and 3</center></td>
@@ -104,7 +104,7 @@ The love-running guided website building project was used as a template.
     - Featured on all five pages.
     - Responsive element.
 
-![nav bar](assets/images/16_nav_bar_image.JPG)
+![nav bar](assets/images/nav_bar_image.JPG)
 
 ![Footer]()
 
@@ -196,25 +196,25 @@ High Contrast
 ## Color Scheme
 - Matrix Green on Black has a contrast ratio of 10.33:1, which exceeds the 7:1 ratio specification for [W3C Web Accessibility Initiative (WAI).](https://www.w3.org/WAI/)
 
-![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 10.33:1 for green font on black background](assets/images/6_color_contrast_check_matrix.png) 
+![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 10.33:1 for green font on black background](assets/images/color_contrast_check_matrix.png) 
 #### Figure above shows results of color accessibility check for high contrast green font on black background color combination
 
-![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 8.59:1 for Blue on White](assets/images/7_blue_white_color_combination.jpg)
+![Results of color accessibility check. Screenshot from WebAIM website showing contrast ratio results of 8.59:1 for Blue on White](assets/images/blue_white_color_combination.jpg)
 #### Figure above shows results of color accessibility check for high contrast blue font on white background color combination
 
-![Green black Blue and white colors on Adobe Color wheel](assets/images/8_green_black_blue_white_colors.jpg)
+![Green black Blue and white colors on Adobe Color wheel](assets/images/green_black_blue_white_colors.jpg)
 #### Figure above shows green, black, blue and white colors on Adobe Color wheel
 
-![Color code for green used in Matrix color theme](assets/images/9_hex_to_rgb_hash3af568.JPG)
+![Color code for green used in Matrix color theme](assets/images/hex_to_rgb_hash3af568.JPG)
 #### Figure above shows green used in Matrix color theme
 
-![Color code for black used in Matrix color theme](assets/images/10_hex_to_rgb_hash2b2527.JPG)
+![Color code for black used in Matrix color theme](assets/images/hex_to_rgb_hash2b2527.JPG)
 #### Figure above shows black used in Matrix color theme
 
-![Color code for blue used in project](assets/images/11_hex_to_rgb_hash0000FF.jpg)
+![Color code for blue used in project](assets/images/hex_to_rgb_hash0000FF.jpg)
 #### Figure above shows blue used in Secondary color theme
 
-![Color code for white used in project](assets/images/12_hex_to_rgb_hashFFFFFF.jpg)
+![Color code for white used in project](assets/images/hex_to_rgb_hashFFFFFF.jpg)
 #### Figure above shows white used in Secondary color theme
 
 ## Bugs
@@ -337,7 +337,7 @@ Resolution:
 
 #### minor Bugs Fixed
 ##### Right align text in left column Bug (Resolved)
-- Scenario: Adding and merging vertical timeline and two columns with each other and 02_tech_event_1.html.
+- Scenario: Adding and merging vertical timeline and two columns with each other and pre_and_first_generation.html.
     - Trying to right align text in left column
 - Problem: Text aligning half way across left column not towards right of column.
 - Why was this a problem: Verticaly timeline runs down the center of the page and years (on the left) need to be close to this line (to the right of the left column).
@@ -358,7 +358,7 @@ Resolution:
 #### minor Bugs Unfixed Using Workaround
 
 ##### Multiple section tags in vertical list merged with two columns Bug
-- Scenario: Wrapping section opening and closing tags around merged vertical timeline with two columns in 02_tech_event_1.html 
+- Scenario: Wrapping section opening and closing tags around merged vertical timeline with two columns in pre_and_first_generation.html 
 - Problem: Content of second time point aligns left when merged vertical timeline with two columns is wrapped in section tags.
 - Workaround: Left merged vertical timeline with two columns without section tag wrapping.
 - Potential Cause: Enclosing section tags within each other may be problematic if not nested correctly.
@@ -375,9 +375,9 @@ Resolution:
 - Problem:
     - Detection: The following images were not displaying in README
                  in "First Table of Wireframe Rough Plan Sketch made in using Balsamiq:"
-            2_Tech_Event_1.png
-            3_Tech_Event_2.png
-            4_Tech_Event_3.png
+            pre_and_first_generation.png
+            second_generation.png
+            third_and_fourth_generation.png
     - Cause:
         - files not found for given href and src values
       - Root Cause:
@@ -389,12 +389,12 @@ Resolution:
 
 ##### File Extension Name Bug
 
-###### Images 9, 10 and 16 are named with capitalised .JPG endings.
+###### Some images are named with capitalised .JPG endings.
 - To try and address this, the ending was amended to lowercase, .jpg in keeping with the rest of the .jpg files.
 - However, when the links were updated to .jpg they did not work.
 - It emerged that even though the file was renamed to .jpg, the system stil refered to them as .jpg
 - In the interest of simplicity, the files were reverted to the orignal .JPG extension.
-    - Note: Full names for Images 9, 10 and 16 are 9_hex_to_rgb_hash3af568.JPG 10_hex_to_rgb_hash2b2527.JPG and 16_nav_bar_image.JPG
+    - Note: Images are hex_to_rgb_hash3af568.JPG hex_to_rgb_hash2b2527.JPG and nav_bar_image.JPG
 
 ##### Potential Cause for File Extension Name Bug and File name in file path unchangeable Bug
 - Potentially, changing the file names or file paths through the Windows system does not change the Linux file paths in the same way.
@@ -418,23 +418,23 @@ Live Link:
     - images online
         - [The Matrix](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SmUcZE7l8Du70D59UMg1_wHaGo%26pid%3DApi&f=1)
     - images in assets>images
-        - 1_time_line_sketch.png
-        - 2_Tech_event_1.png
-        - 3_Tech_Event_2.png
-        - 4_Tech_Event_3.png
-        - 5_User_Survey_Form.png
-        - 6_color_contrast_check_matrix.png
-        - 7_blue_white_color_combination.jpg
-        - 8_green_black_blue_white_colors.jpg
-        - 9_hex_to rgb_hash3af568.JPG
-        - 10_hex_to_rgb_hash2b2527.JPG
-        - 11_hex_to_rgb_hash0000FF.jpg
-        - 12_hex_to_rgb_hasFFFFFF.jpg
-        - 13_matrix_image.jpg
-        - 14_wireframe_for_videos.png
-        - 15_wireframe_for_content.png
-        - 16_nav_bar_image.JPG
-        - 17_QR_Code_for_Further_Reading_First_Generation.png
+        - time_line_sketch.png
+        - pre_and_first_generation.png
+        - second_generation.png
+        - third_and_fourth_generation.png
+        - User_Survey_Form.png
+        - color_contrast_check_matrix.png
+        - blue_white_color_combination.jpg
+        - green_black_blue_white_colors.jpg
+        - hex_to rgb_hash3af568.JPG
+        - hex_to_rgb_hash2b2527.JPG
+        - hex_to_rgb_hash0000FF.jpg
+        - hex_to_rgb_hasFFFFFF.jpg
+        - matrix_image.jpg
+        - wireframe_for_videos.png
+        - wireframe_for_content.png
+        - nav_bar_image.JPG
+        - QR_Code_for_Further_Reading_First_Generation.png
         - final_project.JPG
 
 
@@ -889,7 +889,7 @@ Used section elements as containers to allow for multiple grids on home page.
 #### Historical data sources
 - Historical data source [History of computing hardware (1960s–present)](https://en.wikipedia.org/wiki/History_of_computing_hardware_(1960s%E2%80%93present)#Third_generation)
 
-- [Computer - First Generation <img src="assets/images/17_QR_Code_for_Further_Reading_First_Generation.png" alt="HTML5" width="200">](https://www.tutorialspoint.com/computer_fundamentals/computer_first_generation.htm)
+- [Computer - First Generation <img src="assets/images/QR_Code_for_Further_Reading_First_Generation.png" alt="HTML5" width="200">](https://www.tutorialspoint.com/computer_fundamentals/computer_first_generation.htm)
 
 - [History of the transistor](https://en.wikipedia.org/wiki/History_of_the_transistor)
 

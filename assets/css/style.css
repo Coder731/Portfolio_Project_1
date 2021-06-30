@@ -952,3 +952,26 @@ main {
     min-height: calc(100vh - 51px)
     }
     
+    /* style h2 in index.html */
+    h2.hozizontal-timeline-heading {
+        /* text-align:center; */
+        /* padding: 1rem 0rem 1rem 0rem; */
+
+        text-decoration: none;
+        color: var(--color-brite);
+        font-size: 1.5rem;
+        font-weight: 900;
+        cursor: pointer;
+        padding: 0.04em 0.4em;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+
+        font-size: 1.5rem;
+        margin-block-start: 1.7rem;
+        margin-block-end: 1.7rem;
+    }
+

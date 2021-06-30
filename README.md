@@ -99,7 +99,7 @@ How the project achieves this
 The love-running guided website building project was used as a template.
 
 - Button
-
+![Button](assets/images/button_image.png)
 - Matrix Color Scheme
 
 - __Navigation Bar__

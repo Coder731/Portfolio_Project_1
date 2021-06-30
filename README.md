@@ -418,24 +418,24 @@ Live Link:
     - images online
         - [The Matrix](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SmUcZE7l8Du70D59UMg1_wHaGo%26pid%3DApi&f=1)
     - images in assets>images
-        - time_line_sketch.png
+        - blue_white_color_combination.jpg
+        - color_contrast_check_matrix.png
+        - final_project.JPG
+        - green_black_blue_white_colors.jpg
+        - hex_to_rgb_hash0000FF.jpg
+        - hex_to_rgb_hash2b2527.JPG
+        - hex_to rgb_hash3af568.JPG
+        - hex_to_rgb_hashFFFFFF.jpg
+        - matrix_image.jpg
+        - nav_bar_image.JPG
         - pre_and_first_generation.png
+        - QR_Code_for_Further_Reading_First_Generation.png
         - second_generation.png
         - third_and_fourth_generation.png
+        - time_line_sketch.png
         - User_Survey_Form.png
-        - color_contrast_check_matrix.png
-        - blue_white_color_combination.jpg
-        - green_black_blue_white_colors.jpg
-        - hex_to rgb_hash3af568.JPG
-        - hex_to_rgb_hash2b2527.JPG
-        - hex_to_rgb_hash0000FF.jpg
-        - hex_to_rgb_hasFFFFFF.jpg
-        - matrix_image.jpg
-        - wireframe_for_videos.png
         - wireframe_for_content.png
-        - nav_bar_image.JPG
-        - QR_Code_for_Further_Reading_First_Generation.png
-        - final_project.JPG
+        - wireframe_for_videos.png
 
 
 ## Reference Sources

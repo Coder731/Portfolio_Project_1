@@ -707,7 +707,7 @@ horizontal scroll slider*/
 }
 
 /* add rules to style text in home page timeline:*/
-section.time-line-box>div>div>div span {
+div.time-line-box>div>div>div span {
   font-size: 1.4rem;
 }
 
